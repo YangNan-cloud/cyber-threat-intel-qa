@@ -1,0 +1,3311 @@
+{
+  "entities": {
+    "CVE-2026-82078": "Vulnerability",
+    "Unsafe Reflection": "VulnerabilityClass",
+    "PaperCut": "Vendor",
+    "NG/MF": "Product",
+    "CVE-2026-81578": "Vulnerability",
+    "Missing Authentication For Critical Function": "VulnerabilityClass",
+    "CVE-2023-49105": "Vulnerability",
+    "Improper Authentication": "VulnerabilityClass",
+    "ownCloud": "Product",
+    "CVE-2026-53362": "Vulnerability",
+    "Unspecified": "VulnerabilityClass",
+    "Linux": "Vendor",
+    "Kernel": "Product",
+    "CVE-2026-66384": "Vulnerability",
+    "Improper Limitation Of A Pathname To A Restricted Directory": "VulnerabilityClass",
+    "JFrog": "Vendor",
+    "Artifactory": "Product",
+    "CVE-2021-23758": "Vulnerability",
+    "Deserialization Of Untrusted Data": "VulnerabilityClass",
+    "Ajax.NET Professional": "Product",
+    "CVE-2015-3246": "Vulnerability",
+    "Race Condition": "VulnerabilityClass",
+    "Red Hat": "Vendor",
+    "Libuser": "Product",
+    "CVE-2015-5287": "Vulnerability",
+    "Privilege Escalation": "VulnerabilityClass",
+    "Automatic Bug Reporting Tool": "Product",
+    "CVE-2022-0995": "Vulnerability",
+    "Out-Of-Bounds Memory Write": "VulnerabilityClass",
+    "CVE-2026-8452": "Vulnerability",
+    "Improper Restriction Of Operations Within The Bounds Of A Memory Buffer": "VulnerabilityClass",
+    "Citrix": "Vendor",
+    "NetScaler ADC and NetScaler Gateway": "Product",
+    "CVE-2019-1068": "Vulnerability",
+    "Remote Code Execution": "VulnerabilityClass",
+    "Microsoft": "Vendor",
+    "SQL Server": "Product",
+    "CVE-2026-60004": "Vulnerability",
+    "Code Injection": "VulnerabilityClass",
+    "Gitea": "Product",
+    "CVE-2026-21962": "Vulnerability",
+    "Improper Access Control": "VulnerabilityClass",
+    "Oracle": "Vendor",
+    "HTTP Server and Oracle Weblogic Server Proxy Plug-in": "Product",
+    "CVE-2026-73570": "Vulnerability",
+    "OS Command Injection": "VulnerabilityClass",
+    "Synacor": "Vendor",
+    "Zimbra Collaboration Suite (ZCS)": "Product",
+    "CVE-2026-72530": "Vulnerability",
+    "TrueConf": "Vendor",
+    "Server": "Product",
+    "CVE-2026-72529": "Vulnerability",
+    "CVE-2026-64849": "Vulnerability",
+    "Server-Side Request Forgery": "VulnerabilityClass",
+    "MLflow": "Product",
+    "CVE-2026-33824": "Vulnerability",
+    "Double Free": "VulnerabilityClass",
+    "Internet Key Exchange (IKE) Service Extensions": "Product",
+    "CVE-2026-59310": "Vulnerability",
+    "Path Traversal": "VulnerabilityClass",
+    "Broadcom": "Vendor",
+    "VMware vCenter": "Product",
+    "CVE-2026-55040": "Vulnerability",
+    "Weak Authentication": "VulnerabilityClass",
+    "SharePoint": "Product",
+    "CVE-2026-65400": "Vulnerability",
+    "Apple": "Vendor",
+    "macOS": "Product",
+    "CVE-2025-62593": "Vulnerability",
+    "Ray-Project": "Vendor",
+    "Ray": "Product",
+    "CVE-2026-20349": "Vulnerability",
+    "Heap Inspection": "VulnerabilityClass",
+    "Cisco": "Vendor",
+    "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)": "Product",
+    "CVE-2026-68820": "Vulnerability",
+    "Use-After-Free": "VulnerabilityClass",
+    "Windows Ancillary Function Driver for WinSock": "Product",
+    "CVE-2026-72898": "Vulnerability",
+    "SQL Injection": "VulnerabilityClass",
+    "Metabase": "Product",
+    "CVE-2026-8037": "Vulnerability",
+    "Command Injection": "VulnerabilityClass",
+    "Progress": "Vendor",
+    "LoadMaster": "Product",
+    "CVE-2026-63077": "Vulnerability",
+    "JetBrains": "Vendor",
+    "TeamCity": "Product",
+    "CVE-2026-18556": "Vulnerability",
+    "Authentication Bypass Using An Alternate Path Or Channel": "VulnerabilityClass",
+    "N-able": "Vendor",
+    "N-central": "Product",
+    "CVE-2026-34486": "Vulnerability",
+    "Missing Encryption Of Sensitive Data": "VulnerabilityClass",
+    "Apache": "Vendor",
+    "Tomcat": "Product",
+    "CVE-2025-24813": "Vulnerability",
+    "CVE-2026-9198": "Vulnerability",
+    "IBM": "Vendor",
+    "Langflow": "Product",
+    "CVE-2026-18577": "Vulnerability",
+    "CVE-2026-20316": "Vulnerability",
+    "Use Of Hard-Coded Password": "VulnerabilityClass",
+    "Secure Firewall Management Center (FMC)": "Product",
+    "CVE-2025-68686": "Vulnerability",
+    "Exposure Of Sensitive Information To An Unauthorized Actor": "VulnerabilityClass",
+    "Fortinet": "Vendor",
+    "FortiOS": "Product",
+    "CVE-2026-16812": "Vulnerability",
+    "Arista": "Vendor",
+    "VeloCloud Orchestrator": "Product",
+    "CVE-2026-16232": "Vulnerability",
+    "Check Point": "Vendor",
+    "SmartConsole": "Product",
+    "CVE-2026-50522": "Vulnerability",
+    "CVE-2026-60137": "Vulnerability",
+    "WordPress": "Vendor",
+    "Core": "Product",
+    "CVE-2026-63030": "Vulnerability",
+    "Interpretation Conflict": "VulnerabilityClass",
+    "CVE-2026-0770": "Vulnerability",
+    "Inclusion Of Functionality From Untrusted Control Sphere": "VulnerabilityClass",
+    "CVE-2021-27137": "Vulnerability",
+    "Stack-Based Buffer Overflow": "VulnerabilityClass",
+    "DD-WRT": "Product",
+    "CVE-2026-58644": "Vulnerability",
+    "CVE-2026-25089": "Vulnerability",
+    "FortiSandbox": "Product",
+    "CVE-2026-39808": "Vulnerability",
+    "CVE-2026-46817": "Vulnerability",
+    "Improper Privilege Management": "VulnerabilityClass",
+    "E-Business Suite": "Product",
+    "CVE-2023-4346": "Vulnerability",
+    "Overly Restrictive Account Lockout Mechanism": "VulnerabilityClass",
+    "KNX Association": "Vendor",
+    "KNX Protocol Connection Authorization Option 1": "Product",
+    "CVE-2026-56155": "Vulnerability",
+    "Insufficient Granularity Of Access Control": "VulnerabilityClass",
+    "Active Directory Federation Services": "Product",
+    "CVE-2026-56164": "Vulnerability",
+    "SharePoint Server": "Product",
+    "CVE-2026-15409": "Vulnerability",
+    "SonicWall": "Vendor",
+    "SMA1000 Appliances": "Product",
+    "CVE-2026-15410": "Vulnerability",
+    "CVE-2008-4128": "Vulnerability",
+    "Cross-Site Request Forgery": "VulnerabilityClass",
+    "IOS": "Product",
+    "CVE-2026-56291": "Vulnerability",
+    "Unrestricted Upload Of File With Dangerous Type": "VulnerabilityClass",
+    "Balbooa": "Vendor",
+    "Forms": "Product",
+    "CVE-2026-48939": "Vulnerability",
+    "iCagenda": "Product",
+    "CVE-2026-48908": "Vulnerability",
+    "JoomShaper": "Vendor",
+    "SP Page Builder": "Product",
+    "CVE-2026-55255": "Vulnerability",
+    "Authorization Bypass Through User-Controlled Key": "VulnerabilityClass",
+    "CVE-2026-56290": "Vulnerability",
+    "Joomlack": "Vendor",
+    "Page Builder": "Product",
+    "CVE-2026-48282": "Vulnerability",
+    "Adobe": "Vendor",
+    "ColdFusion": "Product",
+    "CVE-2026-45659": "Vulnerability",
+    "CVE-2026-48558": "Vulnerability",
+    "Authentication Bypass": "VulnerabilityClass",
+    "SimpleHelp": "Product",
+    "CVE-2026-12569": "Vulnerability",
+    "Improper Input Validation": "VulnerabilityClass",
+    "PTC": "Vendor",
+    "Windchill and FlexPLM": "Product",
+    "CVE-2026-20230": "Vulnerability",
+    "Server-Side Request Forgery (SSRF)": "VulnerabilityClass",
+    "Unified Communications Manager": "Product",
+    "CVE-2025-67038": "Vulnerability",
+    "Lantronix": "Vendor",
+    "EDS5000": "Product",
+    "CVE-2026-34910": "Vulnerability",
+    "Ubiquiti": "Vendor",
+    "UniFi OS": "Product",
+    "CVE-2026-34909": "Vulnerability",
+    "CVE-2026-34908": "Vulnerability",
+    "CVE-2026-20253": "Vulnerability",
+    "Splunk": "Vendor",
+    "Enterprise": "Product",
+    "CVE-2026-48907": "Vulnerability",
+    "Widget Factory": "Vendor",
+    "Joomla Content Editor": "Product",
+    "CVE-2026-54420": "Vulnerability",
+    "UNIX Symbolic Link (Symlink) Following": "VulnerabilityClass",
+    "LiteSpeed": "Vendor",
+    "cPanel Plugin": "Product",
+    "CVE-2026-20262": "Vulnerability",
+    "Directory Or Path Traversal": "VulnerabilityClass",
+    "Catalyst SD-WAN Manager": "Product",
+    "CVE-2026-35273": "Vulnerability",
+    "PeopleSoft Enterprise PeopleTools": "Product",
+    "CVE-2026-10520": "Vulnerability",
+    "Ivanti": "Vendor",
+    "Sentry": "Product",
+    "APT38": "ThreatActor",
+    "North Korea": "Country",
+    "Financial": "Sector",
+    "Hospitality": "Sector",
+    "Indrik Spider": "ThreatActor",
+    "Dridex": "Software",
+    "BitPaymer": "Software",
+    "WastedLocker": "Software",
+    "Russia": "Country",
+    "NEODYMIUM": "ThreatActor",
+    "PROMETHIUM": "ThreatActor",
+    "BlackOasis": "ThreatActor",
+    "Türkiye": "Country",
+    "BlackByte": "ThreatActor",
+    "BlackByte Ransomware": "Software",
+    "BlackByte 2.0 Ransomware": "Software",
+    "Elderwood": "ThreatActor",
+    "China": "Country",
+    "Defense": "Sector",
+    "Government": "Sector",
+    "Manufacturing": "Sector",
+    "NGO": "Sector",
+    "Technology": "Sector",
+    "Operation Aurora": "Campaign",
+    "SideCopy": "ThreatActor",
+    "Sidewinder": "ThreatActor",
+    "Pakistan": "Country",
+    "Afghanistan": "Country",
+    "India": "Country",
+    "GALLIUM": "ThreatActor",
+    "Australia": "Country",
+    "Belgium": "Country",
+    "Cambodia": "Country",
+    "Malaysia": "Country",
+    "Mozambique": "Country",
+    "Philippines": "Country",
+    "Vietnam": "Country",
+    "Telecommunications": "Sector",
+    "Operation Soft Cell": "Campaign",
+    "APT17": "ThreatActor",
+    "United States": "Country",
+    "Legal": "Sector",
+    "Mining": "Sector",
+    "APT3": "ThreatActor",
+    "Hong Kong": "Country",
+    "Operation Clandestine Fox": "Campaign",
+    "Operation Clandestine Wolf": "Campaign",
+    "Operation Double Tap": "Campaign",
+    "Mustard Tempest": "ThreatActor",
+    "SocGholish": "Software",
+    "GCMAN": "ThreatActor",
+    "Kimsuky": "ThreatActor",
+    "South Korea": "Country",
+    "Diplomacy": "Sector",
+    "EXOTIC LILY": "ThreatActor",
+    "Wizard Spider": "ThreatActor",
+    "Conti": "Software",
+    "Diavol": "Software",
+    "Healthcare": "Sector",
+    "TA577": "ThreatActor",
+    "QakBot": "Software",
+    "Pikabot": "Software",
+    "Latrodectus": "Software",
+    "AppleJeus": "ThreatActor",
+    "Lazarus Group": "ThreatActor",
+    "admin@338": "ThreatActor",
+    "PoisonIvy": "Software",
+    "Media": "Sector",
+    "Volt Typhoon": "ThreatActor",
+    "Guam": "Country",
+    "Critical Infrastructure": "Sector",
+    "Patchwork": "ThreatActor",
+    "APT41": "ThreatActor",
+    "Education": "Sector",
+    "Gaming": "Sector",
+    "Retail": "Sector",
+    "Salt Typhoon": "ThreatActor",
+    "Dragonfly": "ThreatActor",
+    "Aviation": "Sector",
+    "Evilnum": "ThreatActor",
+    "Gorgon Group": "ThreatActor",
+    "Spain": "Country",
+    "United Kingdom": "Country",
+    "menuPass": "ThreatActor",
+    "Aerospace": "Sector",
+    "Transportation": "Sector",
+    "Night Dragon": "ThreatActor",
+    "APT32": "ThreatActor",
+    "Laos": "Country",
+    "HAFNIUM": "ThreatActor",
+    "Cloud Services": "Sector",
+    "MuddyWater": "ThreatActor",
+    "Iran": "Country",
+    "Africa": "Country",
+    "Asia": "Country",
+    "Europe": "Country",
+    "Middle East": "Country",
+    "North America": "Country",
+    "Saudi Arabia": "Country",
+    "United Arab Emirates": "Country",
+    "Energy": "Sector",
+    "Strider": "ThreatActor",
+    "Rwanda": "Country",
+    "Sweden": "Country",
+    "Operation Wocao": "ThreatActor",
+    "France": "Country",
+    "Germany": "Country",
+    "Managed Service Providers": "Sector",
+    "Naikon": "ThreatActor",
+    "Southeast Asia": "Country",
+    "FIN6": "ThreatActor",
+    "RedEcho": "ThreatActor",
+    "ShadowPad": "Software",
+    "Gamaredon Group": "ThreatActor",
+    "Ukraine": "Country",
+    "Moafee": "ThreatActor",
+    "DragonOK": "ThreatActor",
+    "Gallmaker": "ThreatActor",
+    "Storm-1811": "ThreatActor",
+    "Black Basta": "Software",
+    "Leafminer": "ThreatActor",
+    "TeamTNT": "ThreatActor",
+    "FIN7": "ThreatActor",
+    "Consulting": "Sector",
+    "Food and Beverage": "Sector",
+    "Pharmaceutical": "Sector",
+    "Sandworm Team": "ThreatActor",
+    "Machete": "ThreatActor",
+    "Latin America": "Country",
+    "Venezuela": "Country",
+    "APT18": "ThreatActor",
+    "Andariel": "ThreatActor",
+    "Operation Black Mine": "Campaign",
+    "Operation GoldenAxe": "Campaign",
+    "CURIUM": "ThreatActor",
+    "Nepal": "Country",
+    "Mustang Panda": "ThreatActor",
+    "Mongolia": "Country",
+    "Religious Institutions": "Sector",
+    "Research": "Sector",
+    "ZIRCONIUM": "ThreatActor",
+    "Rocke": "ThreatActor",
+    "Scattered Spider": "ThreatActor",
+    "Business Process Outsourcing": "Sector",
+    "Customer Relationship Management": "Sector",
+    "APT39": "ThreatActor",
+    "Travel": "Sector",
+    "UNC3886": "ThreatActor",
+    "Asia-Pacific": "Country",
+    "Japan": "Country",
+    "Contagious Interview": "ThreatActor",
+    "TA2541": "ThreatActor",
+    "Operation Layover": "Campaign",
+    "Akira": "ThreatActor",
+    "APT37": "ThreatActor",
+    "Kuwait": "Country",
+    "Romania": "Country",
+    "Operation Daybreak": "Campaign",
+    "Operation Erebus": "Campaign",
+    "Moses Staff": "ThreatActor",
+    "Israel": "Country",
+    "OilRig": "ThreatActor",
+    "Windigo": "ThreatActor",
+    "Ebury": "Software",
+    "Higaisa": "ThreatActor",
+    "Poland": "Country",
+    "Carbanak": "Software",
+    "Cobalt Group": "ThreatActor",
+    "Tropic Trooper": "ThreatActor",
+    "Taiwan": "Country",
+    "Orangeworm": "ThreatActor",
+    "Kwampirs": "Software",
+    "Shamoon": "Software",
+    "Sea Turtle": "ThreatActor",
+    "Taidoor": "ThreatActor",
+    "Suckfly": "ThreatActor",
+    "Putter Panda": "ThreatActor",
+    "Sharpshooter": "ThreatActor",
+    "Operation Sharpshooter": "Campaign",
+    "POLONIUM": "ThreatActor",
+    "Lebanon": "Country",
+    "TA459": "ThreatActor",
+    "Belarus": "Country"
+  },
+  "relations": [
+    {
+      "head": "CVE-2026-82078",
+      "rel": "has_class",
+      "tail": "Unsafe Reflection"
+    },
+    {
+      "head": "CVE-2026-82078",
+      "rel": "affects",
+      "tail": "NG/MF"
+    },
+    {
+      "head": "NG/MF",
+      "rel": "developed_by",
+      "tail": "PaperCut"
+    },
+    {
+      "head": "CVE-2026-82078",
+      "rel": "chained_with",
+      "tail": "CVE-2026-81578"
+    },
+    {
+      "head": "CVE-2026-81578",
+      "rel": "has_class",
+      "tail": "Missing Authentication For Critical Function"
+    },
+    {
+      "head": "CVE-2026-81578",
+      "rel": "affects",
+      "tail": "NG/MF"
+    },
+    {
+      "head": "NG/MF",
+      "rel": "developed_by",
+      "tail": "PaperCut"
+    },
+    {
+      "head": "CVE-2026-81578",
+      "rel": "chained_with",
+      "tail": "CVE-2026-82078"
+    },
+    {
+      "head": "CVE-2023-49105",
+      "rel": "has_class",
+      "tail": "Improper Authentication"
+    },
+    {
+      "head": "CVE-2023-49105",
+      "rel": "affects",
+      "tail": "ownCloud"
+    },
+    {
+      "head": "ownCloud",
+      "rel": "developed_by",
+      "tail": "ownCloud"
+    },
+    {
+      "head": "CVE-2026-53362",
+      "rel": "has_class",
+      "tail": "Unspecified"
+    },
+    {
+      "head": "CVE-2026-53362",
+      "rel": "affects",
+      "tail": "Kernel"
+    },
+    {
+      "head": "Kernel",
+      "rel": "developed_by",
+      "tail": "Linux"
+    },
+    {
+      "head": "CVE-2026-66384",
+      "rel": "has_class",
+      "tail": "Improper Limitation Of A Pathname To A Restricted Directory"
+    },
+    {
+      "head": "CVE-2026-66384",
+      "rel": "affects",
+      "tail": "Artifactory"
+    },
+    {
+      "head": "Artifactory",
+      "rel": "developed_by",
+      "tail": "JFrog"
+    },
+    {
+      "head": "CVE-2021-23758",
+      "rel": "has_class",
+      "tail": "Deserialization Of Untrusted Data"
+    },
+    {
+      "head": "CVE-2021-23758",
+      "rel": "affects",
+      "tail": "Ajax.NET Professional"
+    },
+    {
+      "head": "Ajax.NET Professional",
+      "rel": "developed_by",
+      "tail": "Ajax.NET Professional"
+    },
+    {
+      "head": "CVE-2015-3246",
+      "rel": "has_class",
+      "tail": "Race Condition"
+    },
+    {
+      "head": "CVE-2015-3246",
+      "rel": "affects",
+      "tail": "Libuser"
+    },
+    {
+      "head": "Libuser",
+      "rel": "developed_by",
+      "tail": "Red Hat"
+    },
+    {
+      "head": "CVE-2015-5287",
+      "rel": "has_class",
+      "tail": "Privilege Escalation"
+    },
+    {
+      "head": "CVE-2015-5287",
+      "rel": "affects",
+      "tail": "Automatic Bug Reporting Tool"
+    },
+    {
+      "head": "Automatic Bug Reporting Tool",
+      "rel": "developed_by",
+      "tail": "Red Hat"
+    },
+    {
+      "head": "CVE-2022-0995",
+      "rel": "has_class",
+      "tail": "Out-Of-Bounds Memory Write"
+    },
+    {
+      "head": "CVE-2022-0995",
+      "rel": "affects",
+      "tail": "Kernel"
+    },
+    {
+      "head": "Kernel",
+      "rel": "developed_by",
+      "tail": "Linux"
+    },
+    {
+      "head": "CVE-2026-8452",
+      "rel": "has_class",
+      "tail": "Improper Restriction Of Operations Within The Bounds Of A Memory Buffer"
+    },
+    {
+      "head": "CVE-2026-8452",
+      "rel": "affects",
+      "tail": "NetScaler ADC and NetScaler Gateway"
+    },
+    {
+      "head": "NetScaler ADC and NetScaler Gateway",
+      "rel": "developed_by",
+      "tail": "Citrix"
+    },
+    {
+      "head": "CVE-2019-1068",
+      "rel": "has_class",
+      "tail": "Remote Code Execution"
+    },
+    {
+      "head": "CVE-2019-1068",
+      "rel": "affects",
+      "tail": "SQL Server"
+    },
+    {
+      "head": "SQL Server",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-60004",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2026-60004",
+      "rel": "affects",
+      "tail": "Gitea"
+    },
+    {
+      "head": "Gitea",
+      "rel": "developed_by",
+      "tail": "Gitea"
+    },
+    {
+      "head": "CVE-2026-21962",
+      "rel": "has_class",
+      "tail": "Improper Access Control"
+    },
+    {
+      "head": "CVE-2026-21962",
+      "rel": "affects",
+      "tail": "HTTP Server and Oracle Weblogic Server Proxy Plug-in"
+    },
+    {
+      "head": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
+      "rel": "developed_by",
+      "tail": "Oracle"
+    },
+    {
+      "head": "CVE-2026-73570",
+      "rel": "has_class",
+      "tail": "OS Command Injection"
+    },
+    {
+      "head": "CVE-2026-73570",
+      "rel": "affects",
+      "tail": "Zimbra Collaboration Suite (ZCS)"
+    },
+    {
+      "head": "Zimbra Collaboration Suite (ZCS)",
+      "rel": "developed_by",
+      "tail": "Synacor"
+    },
+    {
+      "head": "CVE-2026-72530",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2026-72530",
+      "rel": "affects",
+      "tail": "Server"
+    },
+    {
+      "head": "Server",
+      "rel": "developed_by",
+      "tail": "TrueConf"
+    },
+    {
+      "head": "CVE-2026-72529",
+      "rel": "has_class",
+      "tail": "Missing Authentication For Critical Function"
+    },
+    {
+      "head": "CVE-2026-72529",
+      "rel": "affects",
+      "tail": "Server"
+    },
+    {
+      "head": "Server",
+      "rel": "developed_by",
+      "tail": "TrueConf"
+    },
+    {
+      "head": "CVE-2026-64849",
+      "rel": "has_class",
+      "tail": "Server-Side Request Forgery"
+    },
+    {
+      "head": "CVE-2026-64849",
+      "rel": "affects",
+      "tail": "MLflow"
+    },
+    {
+      "head": "MLflow",
+      "rel": "developed_by",
+      "tail": "MLflow"
+    },
+    {
+      "head": "CVE-2026-33824",
+      "rel": "has_class",
+      "tail": "Double Free"
+    },
+    {
+      "head": "CVE-2026-33824",
+      "rel": "affects",
+      "tail": "Internet Key Exchange (IKE) Service Extensions"
+    },
+    {
+      "head": "Internet Key Exchange (IKE) Service Extensions",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-59310",
+      "rel": "has_class",
+      "tail": "Path Traversal"
+    },
+    {
+      "head": "CVE-2026-59310",
+      "rel": "affects",
+      "tail": "VMware vCenter"
+    },
+    {
+      "head": "VMware vCenter",
+      "rel": "developed_by",
+      "tail": "Broadcom"
+    },
+    {
+      "head": "CVE-2026-55040",
+      "rel": "has_class",
+      "tail": "Weak Authentication"
+    },
+    {
+      "head": "CVE-2026-55040",
+      "rel": "affects",
+      "tail": "SharePoint"
+    },
+    {
+      "head": "SharePoint",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-65400",
+      "rel": "has_class",
+      "tail": "Improper Authentication"
+    },
+    {
+      "head": "CVE-2026-65400",
+      "rel": "affects",
+      "tail": "macOS"
+    },
+    {
+      "head": "macOS",
+      "rel": "developed_by",
+      "tail": "Apple"
+    },
+    {
+      "head": "CVE-2025-62593",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2025-62593",
+      "rel": "affects",
+      "tail": "Ray"
+    },
+    {
+      "head": "Ray",
+      "rel": "developed_by",
+      "tail": "Ray-Project"
+    },
+    {
+      "head": "CVE-2026-20349",
+      "rel": "has_class",
+      "tail": "Heap Inspection"
+    },
+    {
+      "head": "CVE-2026-20349",
+      "rel": "affects",
+      "tail": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)"
+    },
+    {
+      "head": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
+      "rel": "developed_by",
+      "tail": "Cisco"
+    },
+    {
+      "head": "CVE-2026-68820",
+      "rel": "has_class",
+      "tail": "Use-After-Free"
+    },
+    {
+      "head": "CVE-2026-68820",
+      "rel": "affects",
+      "tail": "Windows Ancillary Function Driver for WinSock"
+    },
+    {
+      "head": "Windows Ancillary Function Driver for WinSock",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-72898",
+      "rel": "has_class",
+      "tail": "SQL Injection"
+    },
+    {
+      "head": "CVE-2026-72898",
+      "rel": "affects",
+      "tail": "Metabase"
+    },
+    {
+      "head": "Metabase",
+      "rel": "developed_by",
+      "tail": "Metabase"
+    },
+    {
+      "head": "CVE-2026-8037",
+      "rel": "has_class",
+      "tail": "Command Injection"
+    },
+    {
+      "head": "CVE-2026-8037",
+      "rel": "affects",
+      "tail": "LoadMaster"
+    },
+    {
+      "head": "LoadMaster",
+      "rel": "developed_by",
+      "tail": "Progress"
+    },
+    {
+      "head": "CVE-2026-63077",
+      "rel": "has_class",
+      "tail": "Deserialization Of Untrusted Data"
+    },
+    {
+      "head": "CVE-2026-63077",
+      "rel": "affects",
+      "tail": "TeamCity"
+    },
+    {
+      "head": "TeamCity",
+      "rel": "developed_by",
+      "tail": "JetBrains"
+    },
+    {
+      "head": "CVE-2026-18556",
+      "rel": "has_class",
+      "tail": "Authentication Bypass Using An Alternate Path Or Channel"
+    },
+    {
+      "head": "CVE-2026-18556",
+      "rel": "affects",
+      "tail": "N-central"
+    },
+    {
+      "head": "N-central",
+      "rel": "developed_by",
+      "tail": "N-able"
+    },
+    {
+      "head": "CVE-2026-34486",
+      "rel": "has_class",
+      "tail": "Missing Encryption Of Sensitive Data"
+    },
+    {
+      "head": "CVE-2026-34486",
+      "rel": "affects",
+      "tail": "Tomcat"
+    },
+    {
+      "head": "Tomcat",
+      "rel": "developed_by",
+      "tail": "Apache"
+    },
+    {
+      "head": "CVE-2026-34486",
+      "rel": "chained_with",
+      "tail": "CVE-2025-24813"
+    },
+    {
+      "head": "CVE-2026-9198",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2026-9198",
+      "rel": "affects",
+      "tail": "Langflow"
+    },
+    {
+      "head": "Langflow",
+      "rel": "developed_by",
+      "tail": "IBM"
+    },
+    {
+      "head": "CVE-2026-18577",
+      "rel": "has_class",
+      "tail": "Authentication Bypass Using An Alternate Path Or Channel"
+    },
+    {
+      "head": "CVE-2026-18577",
+      "rel": "affects",
+      "tail": "N-central"
+    },
+    {
+      "head": "N-central",
+      "rel": "developed_by",
+      "tail": "N-able"
+    },
+    {
+      "head": "CVE-2026-18577",
+      "rel": "incomplete_patch_of",
+      "tail": "CVE-2026-18556"
+    },
+    {
+      "head": "CVE-2026-20316",
+      "rel": "has_class",
+      "tail": "Use Of Hard-Coded Password"
+    },
+    {
+      "head": "CVE-2026-20316",
+      "rel": "affects",
+      "tail": "Secure Firewall Management Center (FMC)"
+    },
+    {
+      "head": "Secure Firewall Management Center (FMC)",
+      "rel": "developed_by",
+      "tail": "Cisco"
+    },
+    {
+      "head": "CVE-2025-68686",
+      "rel": "has_class",
+      "tail": "Exposure Of Sensitive Information To An Unauthorized Actor"
+    },
+    {
+      "head": "CVE-2025-68686",
+      "rel": "affects",
+      "tail": "FortiOS"
+    },
+    {
+      "head": "FortiOS",
+      "rel": "developed_by",
+      "tail": "Fortinet"
+    },
+    {
+      "head": "CVE-2026-16812",
+      "rel": "has_class",
+      "tail": "OS Command Injection"
+    },
+    {
+      "head": "CVE-2026-16812",
+      "rel": "affects",
+      "tail": "VeloCloud Orchestrator"
+    },
+    {
+      "head": "VeloCloud Orchestrator",
+      "rel": "developed_by",
+      "tail": "Arista"
+    },
+    {
+      "head": "CVE-2026-16232",
+      "rel": "has_class",
+      "tail": "Improper Authentication"
+    },
+    {
+      "head": "CVE-2026-16232",
+      "rel": "affects",
+      "tail": "SmartConsole"
+    },
+    {
+      "head": "SmartConsole",
+      "rel": "developed_by",
+      "tail": "Check Point"
+    },
+    {
+      "head": "CVE-2026-50522",
+      "rel": "has_class",
+      "tail": "Deserialization Of Untrusted Data"
+    },
+    {
+      "head": "CVE-2026-50522",
+      "rel": "affects",
+      "tail": "SharePoint"
+    },
+    {
+      "head": "SharePoint",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-60137",
+      "rel": "has_class",
+      "tail": "SQL Injection"
+    },
+    {
+      "head": "CVE-2026-60137",
+      "rel": "affects",
+      "tail": "Core"
+    },
+    {
+      "head": "Core",
+      "rel": "developed_by",
+      "tail": "WordPress"
+    },
+    {
+      "head": "CVE-2026-60137",
+      "rel": "chained_with",
+      "tail": "CVE-2026-63030"
+    },
+    {
+      "head": "CVE-2026-63030",
+      "rel": "has_class",
+      "tail": "Interpretation Conflict"
+    },
+    {
+      "head": "CVE-2026-63030",
+      "rel": "affects",
+      "tail": "Core"
+    },
+    {
+      "head": "Core",
+      "rel": "developed_by",
+      "tail": "WordPress"
+    },
+    {
+      "head": "CVE-2026-63030",
+      "rel": "chained_with",
+      "tail": "CVE-2026-60137"
+    },
+    {
+      "head": "CVE-2026-0770",
+      "rel": "has_class",
+      "tail": "Inclusion Of Functionality From Untrusted Control Sphere"
+    },
+    {
+      "head": "CVE-2026-0770",
+      "rel": "affects",
+      "tail": "Langflow"
+    },
+    {
+      "head": "Langflow",
+      "rel": "developed_by",
+      "tail": "Langflow"
+    },
+    {
+      "head": "CVE-2021-27137",
+      "rel": "has_class",
+      "tail": "Stack-Based Buffer Overflow"
+    },
+    {
+      "head": "CVE-2021-27137",
+      "rel": "affects",
+      "tail": "DD-WRT"
+    },
+    {
+      "head": "DD-WRT",
+      "rel": "developed_by",
+      "tail": "DD-WRT"
+    },
+    {
+      "head": "CVE-2026-58644",
+      "rel": "has_class",
+      "tail": "Deserialization Of Untrusted Data"
+    },
+    {
+      "head": "CVE-2026-58644",
+      "rel": "affects",
+      "tail": "SharePoint"
+    },
+    {
+      "head": "SharePoint",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-25089",
+      "rel": "has_class",
+      "tail": "OS Command Injection"
+    },
+    {
+      "head": "CVE-2026-25089",
+      "rel": "affects",
+      "tail": "FortiSandbox"
+    },
+    {
+      "head": "FortiSandbox",
+      "rel": "developed_by",
+      "tail": "Fortinet"
+    },
+    {
+      "head": "CVE-2026-39808",
+      "rel": "has_class",
+      "tail": "OS Command Injection"
+    },
+    {
+      "head": "CVE-2026-39808",
+      "rel": "affects",
+      "tail": "FortiSandbox"
+    },
+    {
+      "head": "FortiSandbox",
+      "rel": "developed_by",
+      "tail": "Fortinet"
+    },
+    {
+      "head": "CVE-2026-46817",
+      "rel": "has_class",
+      "tail": "Improper Privilege Management"
+    },
+    {
+      "head": "CVE-2026-46817",
+      "rel": "affects",
+      "tail": "E-Business Suite"
+    },
+    {
+      "head": "E-Business Suite",
+      "rel": "developed_by",
+      "tail": "Oracle"
+    },
+    {
+      "head": "CVE-2023-4346",
+      "rel": "has_class",
+      "tail": "Overly Restrictive Account Lockout Mechanism"
+    },
+    {
+      "head": "CVE-2023-4346",
+      "rel": "affects",
+      "tail": "KNX Protocol Connection Authorization Option 1"
+    },
+    {
+      "head": "KNX Protocol Connection Authorization Option 1",
+      "rel": "developed_by",
+      "tail": "KNX Association"
+    },
+    {
+      "head": "CVE-2026-56155",
+      "rel": "has_class",
+      "tail": "Insufficient Granularity Of Access Control"
+    },
+    {
+      "head": "CVE-2026-56155",
+      "rel": "affects",
+      "tail": "Active Directory Federation Services"
+    },
+    {
+      "head": "Active Directory Federation Services",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-56164",
+      "rel": "has_class",
+      "tail": "Missing Authentication For Critical Function"
+    },
+    {
+      "head": "CVE-2026-56164",
+      "rel": "affects",
+      "tail": "SharePoint Server"
+    },
+    {
+      "head": "SharePoint Server",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-15409",
+      "rel": "has_class",
+      "tail": "Server-Side Request Forgery"
+    },
+    {
+      "head": "CVE-2026-15409",
+      "rel": "affects",
+      "tail": "SMA1000 Appliances"
+    },
+    {
+      "head": "SMA1000 Appliances",
+      "rel": "developed_by",
+      "tail": "SonicWall"
+    },
+    {
+      "head": "CVE-2026-15410",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2026-15410",
+      "rel": "affects",
+      "tail": "SMA1000 Appliances"
+    },
+    {
+      "head": "SMA1000 Appliances",
+      "rel": "developed_by",
+      "tail": "SonicWall"
+    },
+    {
+      "head": "CVE-2008-4128",
+      "rel": "has_class",
+      "tail": "Cross-Site Request Forgery"
+    },
+    {
+      "head": "CVE-2008-4128",
+      "rel": "affects",
+      "tail": "IOS"
+    },
+    {
+      "head": "IOS",
+      "rel": "developed_by",
+      "tail": "Cisco"
+    },
+    {
+      "head": "CVE-2026-56291",
+      "rel": "has_class",
+      "tail": "Unrestricted Upload Of File With Dangerous Type"
+    },
+    {
+      "head": "CVE-2026-56291",
+      "rel": "affects",
+      "tail": "Forms"
+    },
+    {
+      "head": "Forms",
+      "rel": "developed_by",
+      "tail": "Balbooa"
+    },
+    {
+      "head": "CVE-2026-48939",
+      "rel": "has_class",
+      "tail": "Unrestricted Upload Of File With Dangerous Type"
+    },
+    {
+      "head": "CVE-2026-48939",
+      "rel": "affects",
+      "tail": "iCagenda"
+    },
+    {
+      "head": "iCagenda",
+      "rel": "developed_by",
+      "tail": "iCagenda"
+    },
+    {
+      "head": "CVE-2026-48908",
+      "rel": "has_class",
+      "tail": "Unrestricted Upload Of File With Dangerous Type"
+    },
+    {
+      "head": "CVE-2026-48908",
+      "rel": "affects",
+      "tail": "SP Page Builder"
+    },
+    {
+      "head": "SP Page Builder",
+      "rel": "developed_by",
+      "tail": "JoomShaper"
+    },
+    {
+      "head": "CVE-2026-55255",
+      "rel": "has_class",
+      "tail": "Authorization Bypass Through User-Controlled Key"
+    },
+    {
+      "head": "CVE-2026-55255",
+      "rel": "affects",
+      "tail": "Langflow"
+    },
+    {
+      "head": "Langflow",
+      "rel": "developed_by",
+      "tail": "Langflow"
+    },
+    {
+      "head": "CVE-2026-56290",
+      "rel": "has_class",
+      "tail": "Improper Access Control"
+    },
+    {
+      "head": "CVE-2026-56290",
+      "rel": "affects",
+      "tail": "Page Builder"
+    },
+    {
+      "head": "Page Builder",
+      "rel": "developed_by",
+      "tail": "Joomlack"
+    },
+    {
+      "head": "CVE-2026-48282",
+      "rel": "has_class",
+      "tail": "Path Traversal"
+    },
+    {
+      "head": "CVE-2026-48282",
+      "rel": "affects",
+      "tail": "ColdFusion"
+    },
+    {
+      "head": "ColdFusion",
+      "rel": "developed_by",
+      "tail": "Adobe"
+    },
+    {
+      "head": "CVE-2026-45659",
+      "rel": "has_class",
+      "tail": "Deserialization Of Untrusted Data"
+    },
+    {
+      "head": "CVE-2026-45659",
+      "rel": "affects",
+      "tail": "SharePoint Server"
+    },
+    {
+      "head": "SharePoint Server",
+      "rel": "developed_by",
+      "tail": "Microsoft"
+    },
+    {
+      "head": "CVE-2026-48558",
+      "rel": "has_class",
+      "tail": "Authentication Bypass"
+    },
+    {
+      "head": "CVE-2026-48558",
+      "rel": "affects",
+      "tail": "SimpleHelp"
+    },
+    {
+      "head": "SimpleHelp",
+      "rel": "developed_by",
+      "tail": "SimpleHelp"
+    },
+    {
+      "head": "CVE-2026-12569",
+      "rel": "has_class",
+      "tail": "Improper Input Validation"
+    },
+    {
+      "head": "CVE-2026-12569",
+      "rel": "affects",
+      "tail": "Windchill and FlexPLM"
+    },
+    {
+      "head": "Windchill and FlexPLM",
+      "rel": "developed_by",
+      "tail": "PTC"
+    },
+    {
+      "head": "CVE-2026-20230",
+      "rel": "has_class",
+      "tail": "Server-Side Request Forgery (SSRF)"
+    },
+    {
+      "head": "CVE-2026-20230",
+      "rel": "affects",
+      "tail": "Unified Communications Manager"
+    },
+    {
+      "head": "Unified Communications Manager",
+      "rel": "developed_by",
+      "tail": "Cisco"
+    },
+    {
+      "head": "CVE-2025-67038",
+      "rel": "has_class",
+      "tail": "Code Injection"
+    },
+    {
+      "head": "CVE-2025-67038",
+      "rel": "affects",
+      "tail": "EDS5000"
+    },
+    {
+      "head": "EDS5000",
+      "rel": "developed_by",
+      "tail": "Lantronix"
+    },
+    {
+      "head": "CVE-2026-34910",
+      "rel": "has_class",
+      "tail": "Improper Input Validation"
+    },
+    {
+      "head": "CVE-2026-34910",
+      "rel": "affects",
+      "tail": "UniFi OS"
+    },
+    {
+      "head": "UniFi OS",
+      "rel": "developed_by",
+      "tail": "Ubiquiti"
+    },
+    {
+      "head": "CVE-2026-34909",
+      "rel": "has_class",
+      "tail": "Path Traversal"
+    },
+    {
+      "head": "CVE-2026-34909",
+      "rel": "affects",
+      "tail": "UniFi OS"
+    },
+    {
+      "head": "UniFi OS",
+      "rel": "developed_by",
+      "tail": "Ubiquiti"
+    },
+    {
+      "head": "CVE-2026-34908",
+      "rel": "has_class",
+      "tail": "Improper Access Control"
+    },
+    {
+      "head": "CVE-2026-34908",
+      "rel": "affects",
+      "tail": "UniFi OS"
+    },
+    {
+      "head": "UniFi OS",
+      "rel": "developed_by",
+      "tail": "Ubiquiti"
+    },
+    {
+      "head": "CVE-2026-20253",
+      "rel": "has_class",
+      "tail": "Missing Authentication For Critical Function"
+    },
+    {
+      "head": "CVE-2026-20253",
+      "rel": "affects",
+      "tail": "Enterprise"
+    },
+    {
+      "head": "Enterprise",
+      "rel": "developed_by",
+      "tail": "Splunk"
+    },
+    {
+      "head": "CVE-2026-48907",
+      "rel": "has_class",
+      "tail": "Improper Access Control"
+    },
+    {
+      "head": "CVE-2026-48907",
+      "rel": "affects",
+      "tail": "Joomla Content Editor"
+    },
+    {
+      "head": "Joomla Content Editor",
+      "rel": "developed_by",
+      "tail": "Widget Factory"
+    },
+    {
+      "head": "CVE-2026-54420",
+      "rel": "has_class",
+      "tail": "UNIX Symbolic Link (Symlink) Following"
+    },
+    {
+      "head": "CVE-2026-54420",
+      "rel": "affects",
+      "tail": "cPanel Plugin"
+    },
+    {
+      "head": "cPanel Plugin",
+      "rel": "developed_by",
+      "tail": "LiteSpeed"
+    },
+    {
+      "head": "CVE-2026-20262",
+      "rel": "has_class",
+      "tail": "Directory Or Path Traversal"
+    },
+    {
+      "head": "CVE-2026-20262",
+      "rel": "affects",
+      "tail": "Catalyst SD-WAN Manager"
+    },
+    {
+      "head": "Catalyst SD-WAN Manager",
+      "rel": "developed_by",
+      "tail": "Cisco"
+    },
+    {
+      "head": "CVE-2026-35273",
+      "rel": "has_class",
+      "tail": "Missing Authentication For Critical Function"
+    },
+    {
+      "head": "CVE-2026-35273",
+      "rel": "affects",
+      "tail": "PeopleSoft Enterprise PeopleTools"
+    },
+    {
+      "head": "PeopleSoft Enterprise PeopleTools",
+      "rel": "developed_by",
+      "tail": "Oracle"
+    },
+    {
+      "head": "CVE-2026-10520",
+      "rel": "has_class",
+      "tail": "OS Command Injection"
+    },
+    {
+      "head": "CVE-2026-10520",
+      "rel": "affects",
+      "tail": "Sentry"
+    },
+    {
+      "head": "Sentry",
+      "rel": "developed_by",
+      "tail": "Ivanti"
+    },
+    {
+      "head": "APT38",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "APT38",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "APT38",
+      "rel": "targets",
+      "tail": "Hospitality"
+    },
+    {
+      "head": "Indrik Spider",
+      "rel": "uses",
+      "tail": "Dridex"
+    },
+    {
+      "head": "Indrik Spider",
+      "rel": "uses",
+      "tail": "BitPaymer"
+    },
+    {
+      "head": "Indrik Spider",
+      "rel": "uses",
+      "tail": "WastedLocker"
+    },
+    {
+      "head": "Dridex",
+      "rel": "related_to",
+      "tail": "BitPaymer"
+    },
+    {
+      "head": "Dridex",
+      "rel": "related_to",
+      "tail": "WastedLocker"
+    },
+    {
+      "head": "BitPaymer",
+      "rel": "related_to",
+      "tail": "WastedLocker"
+    },
+    {
+      "head": "Indrik Spider",
+      "rel": "attributed_to",
+      "tail": "Russia"
+    },
+    {
+      "head": "NEODYMIUM",
+      "rel": "related_to",
+      "tail": "PROMETHIUM"
+    },
+    {
+      "head": "NEODYMIUM",
+      "rel": "related_to",
+      "tail": "BlackOasis"
+    },
+    {
+      "head": "NEODYMIUM",
+      "rel": "targets",
+      "tail": "Türkiye"
+    },
+    {
+      "head": "BlackByte",
+      "rel": "uses",
+      "tail": "BlackByte Ransomware"
+    },
+    {
+      "head": "BlackByte",
+      "rel": "uses",
+      "tail": "BlackByte 2.0 Ransomware"
+    },
+    {
+      "head": "BlackByte Ransomware",
+      "rel": "related_to",
+      "tail": "BlackByte 2.0 Ransomware"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "targets",
+      "tail": "Manufacturing"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Elderwood",
+      "rel": "associated_with",
+      "tail": "Operation Aurora"
+    },
+    {
+      "head": "SideCopy",
+      "rel": "related_to",
+      "tail": "Sidewinder"
+    },
+    {
+      "head": "SideCopy",
+      "rel": "attributed_to",
+      "tail": "Pakistan"
+    },
+    {
+      "head": "SideCopy",
+      "rel": "targets",
+      "tail": "Afghanistan"
+    },
+    {
+      "head": "SideCopy",
+      "rel": "targets",
+      "tail": "India"
+    },
+    {
+      "head": "SideCopy",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Afghanistan"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Australia"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Belgium"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Cambodia"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Malaysia"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Mozambique"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Philippines"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Vietnam"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "GALLIUM",
+      "rel": "associated_with",
+      "tail": "Operation Soft Cell"
+    },
+    {
+      "head": "APT17",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "Legal"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "Mining"
+    },
+    {
+      "head": "APT17",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "APT3",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "APT3",
+      "rel": "targets",
+      "tail": "Hong Kong"
+    },
+    {
+      "head": "APT3",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "APT3",
+      "rel": "associated_with",
+      "tail": "Operation Clandestine Fox"
+    },
+    {
+      "head": "APT3",
+      "rel": "associated_with",
+      "tail": "Operation Clandestine Wolf"
+    },
+    {
+      "head": "APT3",
+      "rel": "associated_with",
+      "tail": "Operation Double Tap"
+    },
+    {
+      "head": "Mustard Tempest",
+      "rel": "related_to",
+      "tail": "Indrik Spider"
+    },
+    {
+      "head": "Mustard Tempest",
+      "rel": "uses",
+      "tail": "SocGholish"
+    },
+    {
+      "head": "Mustard Tempest",
+      "rel": "uses",
+      "tail": "WastedLocker"
+    },
+    {
+      "head": "SocGholish",
+      "rel": "related_to",
+      "tail": "WastedLocker"
+    },
+    {
+      "head": "GCMAN",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Kimsuky",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "Kimsuky",
+      "rel": "targets",
+      "tail": "South Korea"
+    },
+    {
+      "head": "Kimsuky",
+      "rel": "targets",
+      "tail": "Diplomacy"
+    },
+    {
+      "head": "Kimsuky",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Kimsuky",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "related_to",
+      "tail": "Wizard Spider"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "uses",
+      "tail": "Conti"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "uses",
+      "tail": "Diavol"
+    },
+    {
+      "head": "Conti",
+      "rel": "related_to",
+      "tail": "Diavol"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "EXOTIC LILY",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "TA577",
+      "rel": "uses",
+      "tail": "QakBot"
+    },
+    {
+      "head": "TA577",
+      "rel": "uses",
+      "tail": "Pikabot"
+    },
+    {
+      "head": "TA577",
+      "rel": "uses",
+      "tail": "Latrodectus"
+    },
+    {
+      "head": "QakBot",
+      "rel": "related_to",
+      "tail": "Pikabot"
+    },
+    {
+      "head": "QakBot",
+      "rel": "related_to",
+      "tail": "Latrodectus"
+    },
+    {
+      "head": "Pikabot",
+      "rel": "related_to",
+      "tail": "Latrodectus"
+    },
+    {
+      "head": "AppleJeus",
+      "rel": "related_to",
+      "tail": "Lazarus Group"
+    },
+    {
+      "head": "AppleJeus",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "admin@338",
+      "rel": "uses",
+      "tail": "PoisonIvy"
+    },
+    {
+      "head": "admin@338",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "admin@338",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "admin@338",
+      "rel": "targets",
+      "tail": "Media"
+    },
+    {
+      "head": "Volt Typhoon",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Volt Typhoon",
+      "rel": "targets",
+      "tail": "Guam"
+    },
+    {
+      "head": "Volt Typhoon",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Volt Typhoon",
+      "rel": "targets",
+      "tail": "Critical Infrastructure"
+    },
+    {
+      "head": "Volt Typhoon",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Patchwork",
+      "rel": "attributed_to",
+      "tail": "India"
+    },
+    {
+      "head": "Patchwork",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Patchwork",
+      "rel": "targets",
+      "tail": "Diplomacy"
+    },
+    {
+      "head": "Patchwork",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Patchwork",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "APT41",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Education"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Gaming"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Retail"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "APT41",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "Salt Typhoon",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Salt Typhoon",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Salt Typhoon",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "Dragonfly",
+      "rel": "attributed_to",
+      "tail": "Russia"
+    },
+    {
+      "head": "Dragonfly",
+      "rel": "targets",
+      "tail": "Aviation"
+    },
+    {
+      "head": "Dragonfly",
+      "rel": "targets",
+      "tail": "Critical Infrastructure"
+    },
+    {
+      "head": "Dragonfly",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Dragonfly",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "attributed_to",
+      "tail": "Pakistan"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "targets",
+      "tail": "Spain"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "targets",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Gorgon Group",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "menuPass",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "menuPass",
+      "rel": "targets",
+      "tail": "Aerospace"
+    },
+    {
+      "head": "menuPass",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "menuPass",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "menuPass",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "menuPass",
+      "rel": "targets",
+      "tail": "Transportation"
+    },
+    {
+      "head": "Night Dragon",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "APT32",
+      "rel": "attributed_to",
+      "tail": "Vietnam"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Cambodia"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Laos"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Philippines"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Vietnam"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "APT32",
+      "rel": "targets",
+      "tail": "Media"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Cloud Services"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Education"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Legal"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "HAFNIUM",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Africa"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Middle East"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "North America"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Saudi Arabia"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "United Arab Emirates"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "MuddyWater",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "Belgium"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "China"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "Iran"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "Rwanda"
+    },
+    {
+      "head": "Strider",
+      "rel": "targets",
+      "tail": "Sweden"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "China"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "France"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Germany"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "United Kingdom"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Managed Service Providers"
+    },
+    {
+      "head": "Operation Wocao",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Naikon",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Naikon",
+      "rel": "targets",
+      "tail": "Southeast Asia"
+    },
+    {
+      "head": "Naikon",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Naikon",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "FIN6",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "FIN6",
+      "rel": "targets",
+      "tail": "Hospitality"
+    },
+    {
+      "head": "FIN6",
+      "rel": "targets",
+      "tail": "Retail"
+    },
+    {
+      "head": "RedEcho",
+      "rel": "related_to",
+      "tail": "APT41"
+    },
+    {
+      "head": "RedEcho",
+      "rel": "uses",
+      "tail": "ShadowPad"
+    },
+    {
+      "head": "RedEcho",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "RedEcho",
+      "rel": "targets",
+      "tail": "India"
+    },
+    {
+      "head": "RedEcho",
+      "rel": "targets",
+      "tail": "Critical Infrastructure"
+    },
+    {
+      "head": "Gamaredon Group",
+      "rel": "attributed_to",
+      "tail": "Russia"
+    },
+    {
+      "head": "Gamaredon Group",
+      "rel": "targets",
+      "tail": "Ukraine"
+    },
+    {
+      "head": "Gamaredon Group",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Gamaredon Group",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Gamaredon Group",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "Moafee",
+      "rel": "related_to",
+      "tail": "DragonOK"
+    },
+    {
+      "head": "Moafee",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Gallmaker",
+      "rel": "targets",
+      "tail": "Middle East"
+    },
+    {
+      "head": "Gallmaker",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Gallmaker",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Storm-1811",
+      "rel": "uses",
+      "tail": "Black Basta"
+    },
+    {
+      "head": "Leafminer",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "Leafminer",
+      "rel": "targets",
+      "tail": "Middle East"
+    },
+    {
+      "head": "Leafminer",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "TeamTNT",
+      "rel": "targets",
+      "tail": "Cloud Services"
+    },
+    {
+      "head": "TeamTNT",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Cloud Services"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Consulting"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Food and Beverage"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Hospitality"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Media"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Pharmaceutical"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Retail"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "FIN7",
+      "rel": "targets",
+      "tail": "Transportation"
+    },
+    {
+      "head": "Sandworm Team",
+      "rel": "attributed_to",
+      "tail": "Russia"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Latin America"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Venezuela"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Machete",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "APT18",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "APT18",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "APT18",
+      "rel": "targets",
+      "tail": "Manufacturing"
+    },
+    {
+      "head": "APT18",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "APT18",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Andariel",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "Andariel",
+      "rel": "targets",
+      "tail": "South Korea"
+    },
+    {
+      "head": "Andariel",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Andariel",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Andariel",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Andariel",
+      "rel": "associated_with",
+      "tail": "Operation Black Mine"
+    },
+    {
+      "head": "Andariel",
+      "rel": "associated_with",
+      "tail": "Operation GoldenAxe"
+    },
+    {
+      "head": "CURIUM",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "CURIUM",
+      "rel": "targets",
+      "tail": "Middle East"
+    },
+    {
+      "head": "CURIUM",
+      "rel": "targets",
+      "tail": "Media"
+    },
+    {
+      "head": "CURIUM",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "attributed_to",
+      "tail": "India"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Afghanistan"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "China"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Nepal"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Pakistan"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Sidewinder",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Mongolia"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Diplomacy"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "NGO"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Religious Institutions"
+    },
+    {
+      "head": "Mustang Panda",
+      "rel": "targets",
+      "tail": "Research"
+    },
+    {
+      "head": "ZIRCONIUM",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "ZIRCONIUM",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Rocke",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Rocke",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Rocke",
+      "rel": "targets",
+      "tail": "Mining"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Business Process Outsourcing"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Customer Relationship Management"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Gaming"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Hospitality"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Managed Service Providers"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Manufacturing"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Retail"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "Scattered Spider",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "APT39",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Africa"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Iran"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "North America"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Education"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Hospitality"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "APT39",
+      "rel": "targets",
+      "tail": "Travel"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "Asia-Pacific"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "Japan"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "UNC3886",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "Contagious Interview",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "Contagious Interview",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Contagious Interview",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "TA2541",
+      "rel": "targets",
+      "tail": "Aerospace"
+    },
+    {
+      "head": "TA2541",
+      "rel": "targets",
+      "tail": "Aviation"
+    },
+    {
+      "head": "TA2541",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "TA2541",
+      "rel": "targets",
+      "tail": "Manufacturing"
+    },
+    {
+      "head": "TA2541",
+      "rel": "targets",
+      "tail": "Transportation"
+    },
+    {
+      "head": "TA2541",
+      "rel": "associated_with",
+      "tail": "Operation Layover"
+    },
+    {
+      "head": "APT37",
+      "rel": "attributed_to",
+      "tail": "North Korea"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "China"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "India"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Japan"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Kuwait"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Middle East"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Nepal"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Romania"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "South Korea"
+    },
+    {
+      "head": "APT37",
+      "rel": "targets",
+      "tail": "Vietnam"
+    },
+    {
+      "head": "APT37",
+      "rel": "associated_with",
+      "tail": "Operation Daybreak"
+    },
+    {
+      "head": "APT37",
+      "rel": "associated_with",
+      "tail": "Operation Erebus"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "targets",
+      "tail": "Israel"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Moses Staff",
+      "rel": "targets",
+      "tail": "Travel"
+    },
+    {
+      "head": "OilRig",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "OilRig",
+      "rel": "targets",
+      "tail": "Iran"
+    },
+    {
+      "head": "OilRig",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "OilRig",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "OilRig",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "OilRig",
+      "rel": "targets",
+      "tail": "Telecommunications"
+    },
+    {
+      "head": "Windigo",
+      "rel": "uses",
+      "tail": "Ebury"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "attributed_to",
+      "tail": "South Korea"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "China"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "Japan"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "North Korea"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "Poland"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "Russia"
+    },
+    {
+      "head": "Higaisa",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Carbanak",
+      "rel": "related_to",
+      "tail": "Cobalt Group"
+    },
+    {
+      "head": "Carbanak",
+      "rel": "related_to",
+      "tail": "FIN7"
+    },
+    {
+      "head": "Carbanak",
+      "rel": "uses",
+      "tail": "Carbanak"
+    },
+    {
+      "head": "Carbanak",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Hong Kong"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Philippines"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Taiwan"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Government"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "Tropic Trooper",
+      "rel": "targets",
+      "tail": "Transportation"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "uses",
+      "tail": "Kwampirs"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "uses",
+      "tail": "Shamoon"
+    },
+    {
+      "head": "Kwampirs",
+      "rel": "related_to",
+      "tail": "Shamoon"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "targets",
+      "tail": "United States"
+    },
+    {
+      "head": "Orangeworm",
+      "rel": "targets",
+      "tail": "Healthcare"
+    },
+    {
+      "head": "Sea Turtle",
+      "rel": "attributed_to",
+      "tail": "Türkiye"
+    },
+    {
+      "head": "Sea Turtle",
+      "rel": "targets",
+      "tail": "Asia"
+    },
+    {
+      "head": "Sea Turtle",
+      "rel": "targets",
+      "tail": "Europe"
+    },
+    {
+      "head": "Sea Turtle",
+      "rel": "targets",
+      "tail": "North America"
+    },
+    {
+      "head": "Suckfly",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Putter Panda",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "Sharpshooter",
+      "rel": "related_to",
+      "tail": "Lazarus Group"
+    },
+    {
+      "head": "Sharpshooter",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "Sharpshooter",
+      "rel": "targets",
+      "tail": "Energy"
+    },
+    {
+      "head": "Sharpshooter",
+      "rel": "targets",
+      "tail": "Financial"
+    },
+    {
+      "head": "Sharpshooter",
+      "rel": "associated_with",
+      "tail": "Operation Sharpshooter"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "attributed_to",
+      "tail": "Iran"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "attributed_to",
+      "tail": "Lebanon"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "targets",
+      "tail": "Israel"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "targets",
+      "tail": "Defense"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "targets",
+      "tail": "Manufacturing"
+    },
+    {
+      "head": "POLONIUM",
+      "rel": "targets",
+      "tail": "Technology"
+    },
+    {
+      "head": "TA459",
+      "rel": "attributed_to",
+      "tail": "China"
+    },
+    {
+      "head": "TA459",
+      "rel": "targets",
+      "tail": "Belarus"
+    },
+    {
+      "head": "TA459",
+      "rel": "targets",
+      "tail": "Mongolia"
+    },
+    {
+      "head": "TA459",
+      "rel": "targets",
+      "tail": "Russia"
+    }
+  ]
+}
