@@ -1,0 +1,572 @@
+source,relation,target,method,record_ids
+CVE:CVE-2026-82078,has_class,VULNERABILITYCLASS:unsafe reflection,template,1
+CVE:CVE-2026-82078,affects,PRODUCT:ng/mf,template,1
+PRODUCT:ng/mf,developed_by,VENDOR:papercut,template,1 2
+CVE:CVE-2026-82078,chained_with,CVE:CVE-2026-81578,explicit,1
+CVE:CVE-2026-81578,has_class,VULNERABILITYCLASS:missing authentication for critical function,template,2
+CVE:CVE-2026-81578,affects,PRODUCT:ng/mf,template,2
+CVE:CVE-2026-81578,chained_with,CVE:CVE-2026-82078,explicit,2
+CVE:CVE-2023-49105,has_class,VULNERABILITYCLASS:improper authentication,template,3
+CVE:CVE-2023-49105,affects,PRODUCT:owncloud,template,3
+PRODUCT:owncloud,developed_by,VENDOR:owncloud,template,3
+CVE:CVE-2026-53362,has_class,VULNERABILITYCLASS:unspecified,template,4
+CVE:CVE-2026-53362,affects,PRODUCT:kernel,template,4
+PRODUCT:kernel,developed_by,VENDOR:linux,template,4 9
+CVE:CVE-2026-66384,has_class,VULNERABILITYCLASS:improper limitation of a pathname to a restricted directory,template,5
+CVE:CVE-2026-66384,affects,PRODUCT:artifactory,template,5
+PRODUCT:artifactory,developed_by,VENDOR:jfrog,template,5
+CVE:CVE-2021-23758,has_class,VULNERABILITYCLASS:deserialization of untrusted data,template,6
+CVE:CVE-2021-23758,affects,PRODUCT:ajax.net professional,template,6
+PRODUCT:ajax.net professional,developed_by,VENDOR:ajax.net professional,template,6
+CVE:CVE-2015-3246,has_class,VULNERABILITYCLASS:race condition,template,7
+CVE:CVE-2015-3246,affects,PRODUCT:libuser,template,7
+PRODUCT:libuser,developed_by,VENDOR:red hat,template,7
+CVE:CVE-2015-5287,has_class,VULNERABILITYCLASS:privilege escalation,template,8
+CVE:CVE-2015-5287,affects,PRODUCT:automatic bug reporting tool,template,8
+PRODUCT:automatic bug reporting tool,developed_by,VENDOR:red hat,template,8
+CVE:CVE-2022-0995,has_class,VULNERABILITYCLASS:out-of-bounds memory write,template,9
+CVE:CVE-2022-0995,affects,PRODUCT:kernel,template,9
+CVE:CVE-2026-8452,has_class,VULNERABILITYCLASS:improper restriction of operations within the bounds of a memory buffer,template,10
+CVE:CVE-2026-8452,affects,PRODUCT:netscaler adc and netscaler gateway,template,10
+PRODUCT:netscaler adc and netscaler gateway,developed_by,VENDOR:citrix,template,10
+CVE:CVE-2019-1068,has_class,VULNERABILITYCLASS:remote code execution,template,11
+CVE:CVE-2019-1068,affects,PRODUCT:sql server,template,11
+PRODUCT:sql server,developed_by,VENDOR:microsoft,template,11
+CVE:CVE-2026-60004,has_class,VULNERABILITYCLASS:code injection,template,12
+CVE:CVE-2026-60004,affects,PRODUCT:gitea,template,12
+PRODUCT:gitea,developed_by,VENDOR:gitea,template,12
+CVE:CVE-2026-21962,has_class,VULNERABILITYCLASS:improper access control,template,13
+CVE:CVE-2026-21962,affects,PRODUCT:http server and oracle weblogic server proxy plug-in,template,13
+PRODUCT:http server and oracle weblogic server proxy plug-in,developed_by,VENDOR:oracle,template,13
+CVE:CVE-2026-73570,has_class,VULNERABILITYCLASS:os command injection,template,14
+CVE:CVE-2026-73570,affects,PRODUCT:zimbra collaboration suite (zcs),template,14
+PRODUCT:zimbra collaboration suite (zcs),developed_by,VENDOR:synacor,template,14
+CVE:CVE-2026-72530,has_class,VULNERABILITYCLASS:code injection,template,15
+CVE:CVE-2026-72530,affects,PRODUCT:server,template,15
+PRODUCT:server,developed_by,VENDOR:trueconf,template,15 16
+CVE:CVE-2026-72529,has_class,VULNERABILITYCLASS:missing authentication for critical function,template,16
+CVE:CVE-2026-72529,affects,PRODUCT:server,template,16
+CVE:CVE-2026-64849,has_class,VULNERABILITYCLASS:server-side request forgery,template,17
+CVE:CVE-2026-64849,affects,PRODUCT:mlflow,template,17
+PRODUCT:mlflow,developed_by,VENDOR:mlflow,template,17
+CVE:CVE-2026-33824,has_class,VULNERABILITYCLASS:double free,template,18
+CVE:CVE-2026-33824,affects,PRODUCT:internet key exchange (ike) service extensions,template,18
+PRODUCT:internet key exchange (ike) service extensions,developed_by,VENDOR:microsoft,template,18
+CVE:CVE-2026-59310,has_class,VULNERABILITYCLASS:path traversal,template,19
+CVE:CVE-2026-59310,affects,PRODUCT:vmware vcenter,template,19
+PRODUCT:vmware vcenter,developed_by,VENDOR:broadcom,template,19
+CVE:CVE-2026-55040,has_class,VULNERABILITYCLASS:weak authentication,template,20
+CVE:CVE-2026-55040,affects,PRODUCT:sharepoint,template,20
+PRODUCT:sharepoint,developed_by,VENDOR:microsoft,template,20 36 41
+CVE:CVE-2026-65400,has_class,VULNERABILITYCLASS:improper authentication,template,21
+CVE:CVE-2026-65400,affects,PRODUCT:macos,template,21
+PRODUCT:macos,developed_by,VENDOR:apple,template,21
+CVE:CVE-2025-62593,has_class,VULNERABILITYCLASS:code injection,template,22
+CVE:CVE-2025-62593,affects,PRODUCT:ray,template,22
+PRODUCT:ray,developed_by,VENDOR:ray-project,template,22
+CVE:CVE-2026-20349,has_class,VULNERABILITYCLASS:heap inspection,template,23
+CVE:CVE-2026-20349,affects,PRODUCT:secure firewall adaptive security appliance (asa) and secure firewall threat defense (ftd),template,23
+PRODUCT:secure firewall adaptive security appliance (asa) and secure firewall threat defense (ftd),developed_by,VENDOR:cisco,template,23
+CVE:CVE-2026-68820,has_class,VULNERABILITYCLASS:use-after-free,template,24
+CVE:CVE-2026-68820,affects,PRODUCT:windows ancillary function driver for winsock,template,24
+PRODUCT:windows ancillary function driver for winsock,developed_by,VENDOR:microsoft,template,24
+CVE:CVE-2026-72898,has_class,VULNERABILITYCLASS:sql injection,template,25
+CVE:CVE-2026-72898,affects,PRODUCT:metabase,template,25
+PRODUCT:metabase,developed_by,VENDOR:metabase,template,25
+CVE:CVE-2026-8037,has_class,VULNERABILITYCLASS:command injection,template,26
+CVE:CVE-2026-8037,affects,PRODUCT:loadmaster,template,26
+PRODUCT:loadmaster,developed_by,VENDOR:progress,template,26
+CVE:CVE-2026-63077,has_class,VULNERABILITYCLASS:deserialization of untrusted data,template,27
+CVE:CVE-2026-63077,affects,PRODUCT:teamcity,template,27
+PRODUCT:teamcity,developed_by,VENDOR:jetbrains,template,27
+CVE:CVE-2026-18556,has_class,VULNERABILITYCLASS:authentication bypass using an alternate path or channel,template,28
+CVE:CVE-2026-18556,affects,PRODUCT:n-central,template,28
+PRODUCT:n-central,developed_by,VENDOR:n-able,template,28 31
+CVE:CVE-2026-34486,has_class,VULNERABILITYCLASS:missing encryption of sensitive data,template,29
+CVE:CVE-2026-34486,affects,PRODUCT:tomcat,template,29
+PRODUCT:tomcat,developed_by,VENDOR:apache,template,29
+CVE:CVE-2026-34486,chained_with,CVE:CVE-2025-24813,explicit,29
+CVE:CVE-2026-9198,has_class,VULNERABILITYCLASS:code injection,template,30
+CVE:CVE-2026-9198,affects,PRODUCT:langflow,template,30
+PRODUCT:langflow,developed_by,VENDOR:ibm,template,30
+CVE:CVE-2026-18577,has_class,VULNERABILITYCLASS:authentication bypass using an alternate path or channel,template,31
+CVE:CVE-2026-18577,affects,PRODUCT:n-central,template,31
+CVE:CVE-2026-18577,incomplete_patch_of,CVE:CVE-2026-18556,explicit,31
+CVE:CVE-2026-20316,has_class,VULNERABILITYCLASS:use of hard-coded password,template,32
+CVE:CVE-2026-20316,affects,PRODUCT:secure firewall management center (fmc),template,32
+PRODUCT:secure firewall management center (fmc),developed_by,VENDOR:cisco,template,32
+CVE:CVE-2025-68686,has_class,VULNERABILITYCLASS:exposure of sensitive information to an unauthorized actor,template,33
+CVE:CVE-2025-68686,affects,PRODUCT:fortios,template,33
+PRODUCT:fortios,developed_by,VENDOR:fortinet,template,33
+CVE:CVE-2026-16812,has_class,VULNERABILITYCLASS:os command injection,template,34
+CVE:CVE-2026-16812,affects,PRODUCT:velocloud orchestrator,template,34
+PRODUCT:velocloud orchestrator,developed_by,VENDOR:arista,template,34
+CVE:CVE-2026-16232,has_class,VULNERABILITYCLASS:improper authentication,template,35
+CVE:CVE-2026-16232,affects,PRODUCT:smartconsole,template,35
+PRODUCT:smartconsole,developed_by,VENDOR:check point,template,35
+CVE:CVE-2026-50522,has_class,VULNERABILITYCLASS:deserialization of untrusted data,template,36
+CVE:CVE-2026-50522,affects,PRODUCT:sharepoint,template,36
+CVE:CVE-2026-60137,has_class,VULNERABILITYCLASS:sql injection,template,37
+CVE:CVE-2026-60137,affects,PRODUCT:core,template,37
+PRODUCT:core,developed_by,VENDOR:wordpress,template,37 38
+CVE:CVE-2026-60137,chained_with,CVE:CVE-2026-63030,explicit,37
+CVE:CVE-2026-63030,has_class,VULNERABILITYCLASS:interpretation conflict,template,38
+CVE:CVE-2026-63030,affects,PRODUCT:core,template,38
+CVE:CVE-2026-63030,chained_with,CVE:CVE-2026-60137,explicit,38
+CVE:CVE-2026-0770,has_class,VULNERABILITYCLASS:inclusion of functionality from untrusted control sphere,template,39
+CVE:CVE-2026-0770,affects,PRODUCT:langflow,template,39
+PRODUCT:langflow,developed_by,VENDOR:langflow,template,39 54
+CVE:CVE-2021-27137,has_class,VULNERABILITYCLASS:stack-based buffer overflow,template,40
+CVE:CVE-2021-27137,affects,PRODUCT:dd-wrt,template,40
+PRODUCT:dd-wrt,developed_by,VENDOR:dd-wrt,template,40
+CVE:CVE-2026-58644,has_class,VULNERABILITYCLASS:deserialization of untrusted data,template,41
+CVE:CVE-2026-58644,affects,PRODUCT:sharepoint,template,41
+CVE:CVE-2026-25089,has_class,VULNERABILITYCLASS:os command injection,template,42
+CVE:CVE-2026-25089,affects,PRODUCT:fortisandbox,template,42
+PRODUCT:fortisandbox,developed_by,VENDOR:fortinet,template,42 43
+CVE:CVE-2026-39808,has_class,VULNERABILITYCLASS:os command injection,template,43
+CVE:CVE-2026-39808,affects,PRODUCT:fortisandbox,template,43
+CVE:CVE-2026-46817,has_class,VULNERABILITYCLASS:improper privilege management,template,44
+CVE:CVE-2026-46817,affects,PRODUCT:e-business suite,template,44
+PRODUCT:e-business suite,developed_by,VENDOR:oracle,template,44
+CVE:CVE-2023-4346,has_class,VULNERABILITYCLASS:overly restrictive account lockout mechanism,template,45
+CVE:CVE-2023-4346,affects,PRODUCT:knx protocol connection authorization option 1,template,45
+PRODUCT:knx protocol connection authorization option 1,developed_by,VENDOR:knx association,template,45
+CVE:CVE-2026-56155,has_class,VULNERABILITYCLASS:insufficient granularity of access control,template,46
+CVE:CVE-2026-56155,affects,PRODUCT:active directory federation services,template,46
+PRODUCT:active directory federation services,developed_by,VENDOR:microsoft,template,46
+CVE:CVE-2026-56164,has_class,VULNERABILITYCLASS:missing authentication for critical function,template,47
+CVE:CVE-2026-56164,affects,PRODUCT:sharepoint server,template,47
+PRODUCT:sharepoint server,developed_by,VENDOR:microsoft,template,47 57
+CVE:CVE-2026-15409,has_class,VULNERABILITYCLASS:server-side request forgery,template,48
+CVE:CVE-2026-15409,affects,PRODUCT:sma1000 appliances,template,48
+PRODUCT:sma1000 appliances,developed_by,VENDOR:sonicwall,template,48 49
+CVE:CVE-2026-15410,has_class,VULNERABILITYCLASS:code injection,template,49
+CVE:CVE-2026-15410,affects,PRODUCT:sma1000 appliances,template,49
+CVE:CVE-2008-4128,has_class,VULNERABILITYCLASS:cross-site request forgery,template,50
+CVE:CVE-2008-4128,affects,PRODUCT:ios,template,50
+PRODUCT:ios,developed_by,VENDOR:cisco,template,50
+CVE:CVE-2026-56291,has_class,VULNERABILITYCLASS:unrestricted upload of file with dangerous type,template,51
+CVE:CVE-2026-56291,affects,PRODUCT:forms,template,51
+PRODUCT:forms,developed_by,VENDOR:balbooa,template,51
+CVE:CVE-2026-48939,has_class,VULNERABILITYCLASS:unrestricted upload of file with dangerous type,template,52
+CVE:CVE-2026-48939,affects,PRODUCT:icagenda,template,52
+PRODUCT:icagenda,developed_by,VENDOR:icagenda,template,52
+CVE:CVE-2026-48908,has_class,VULNERABILITYCLASS:unrestricted upload of file with dangerous type,template,53
+CVE:CVE-2026-48908,affects,PRODUCT:sp page builder,template,53
+PRODUCT:sp page builder,developed_by,VENDOR:joomshaper,template,53
+CVE:CVE-2026-55255,has_class,VULNERABILITYCLASS:authorization bypass through user-controlled key,template,54
+CVE:CVE-2026-55255,affects,PRODUCT:langflow,template,54
+CVE:CVE-2026-56290,has_class,VULNERABILITYCLASS:improper access control,template,55
+CVE:CVE-2026-56290,affects,PRODUCT:page builder,template,55
+PRODUCT:page builder,developed_by,VENDOR:joomlack,template,55
+CVE:CVE-2026-48282,has_class,VULNERABILITYCLASS:path traversal,template,56
+CVE:CVE-2026-48282,affects,PRODUCT:coldfusion,template,56
+PRODUCT:coldfusion,developed_by,VENDOR:adobe,template,56
+CVE:CVE-2026-45659,has_class,VULNERABILITYCLASS:deserialization of untrusted data,template,57
+CVE:CVE-2026-45659,affects,PRODUCT:sharepoint server,template,57
+CVE:CVE-2026-48558,has_class,VULNERABILITYCLASS:authentication bypass,template,58
+CVE:CVE-2026-48558,affects,PRODUCT:simplehelp,template,58
+PRODUCT:simplehelp,developed_by,VENDOR:simplehelp,template,58
+CVE:CVE-2026-12569,has_class,VULNERABILITYCLASS:improper input validation,template,59
+CVE:CVE-2026-12569,affects,PRODUCT:windchill and flexplm,template,59
+PRODUCT:windchill and flexplm,developed_by,VENDOR:ptc,template,59
+CVE:CVE-2026-20230,has_class,VULNERABILITYCLASS:server-side request forgery (ssrf),template,60
+CVE:CVE-2026-20230,affects,PRODUCT:unified communications manager,template,60
+PRODUCT:unified communications manager,developed_by,VENDOR:cisco,template,60
+CVE:CVE-2025-67038,has_class,VULNERABILITYCLASS:code injection,template,61
+CVE:CVE-2025-67038,affects,PRODUCT:eds5000,template,61
+PRODUCT:eds5000,developed_by,VENDOR:lantronix,template,61
+CVE:CVE-2026-34910,has_class,VULNERABILITYCLASS:improper input validation,template,62
+CVE:CVE-2026-34910,affects,PRODUCT:unifi os,template,62
+PRODUCT:unifi os,developed_by,VENDOR:ubiquiti,template,62 63 64
+CVE:CVE-2026-34909,has_class,VULNERABILITYCLASS:path traversal,template,63
+CVE:CVE-2026-34909,affects,PRODUCT:unifi os,template,63
+CVE:CVE-2026-34908,has_class,VULNERABILITYCLASS:improper access control,template,64
+CVE:CVE-2026-34908,affects,PRODUCT:unifi os,template,64
+CVE:CVE-2026-20253,has_class,VULNERABILITYCLASS:missing authentication for critical function,template,65
+CVE:CVE-2026-20253,affects,PRODUCT:enterprise,template,65
+PRODUCT:enterprise,developed_by,VENDOR:splunk,template,65
+CVE:CVE-2026-48907,has_class,VULNERABILITYCLASS:improper access control,template,66
+CVE:CVE-2026-48907,affects,PRODUCT:joomla content editor,template,66
+PRODUCT:joomla content editor,developed_by,VENDOR:widget factory,template,66
+CVE:CVE-2026-54420,has_class,VULNERABILITYCLASS:unix symbolic link (symlink) following,template,67
+CVE:CVE-2026-54420,affects,PRODUCT:cpanel plugin,template,67
+PRODUCT:cpanel plugin,developed_by,VENDOR:litespeed,template,67
+CVE:CVE-2026-20262,has_class,VULNERABILITYCLASS:directory or path traversal,template,68
+CVE:CVE-2026-20262,affects,PRODUCT:catalyst sd-wan manager,template,68
+PRODUCT:catalyst sd-wan manager,developed_by,VENDOR:cisco,template,68
+CVE:CVE-2026-35273,has_class,VULNERABILITYCLASS:missing authentication for critical function,template,69
+CVE:CVE-2026-35273,affects,PRODUCT:peoplesoft enterprise peopletools,template,69
+PRODUCT:peoplesoft enterprise peopletools,developed_by,VENDOR:oracle,template,69
+CVE:CVE-2026-10520,has_class,VULNERABILITYCLASS:os command injection,template,70
+CVE:CVE-2026-10520,affects,PRODUCT:sentry,template,70
+PRODUCT:sentry,developed_by,VENDOR:ivanti,template,70
+ATT&CK:G0082,attributed_to,COUNTRY:north korea,attribution_pattern,71
+ATT&CK:G0082,targets,SECTOR:financial,co-occurrence,71
+ATT&CK:G0082,targets,SECTOR:hospitality,co-occurrence,71
+ATT&CK:G0119,uses,ATT&CK:S0384,co-occurrence,72
+ATT&CK:G0119,uses,ATT&CK:S0570,co-occurrence,72
+ATT&CK:G0119,uses,ATT&CK:S0612,co-occurrence,72
+ATT&CK:S0384,related_to,ATT&CK:S0570,co-occurrence,72
+ATT&CK:S0384,related_to,ATT&CK:S0612,co-occurrence,72
+ATT&CK:S0570,related_to,ATT&CK:S0612,co-occurrence,72
+ATT&CK:G0119,attributed_to,COUNTRY:russia,attribution_pattern,72
+ATT&CK:G0055,related_to,ATT&CK:G0056,co-occurrence,73
+ATT&CK:G0055,related_to,ATT&CK:G0063,co-occurrence,73
+ATT&CK:G0055,targets,COUNTRY:türkiye,co-occurrence,73
+ATT&CK:G1043,uses,ATT&CK:S1180,co-occurrence,74
+ATT&CK:G1043,uses,ATT&CK:S1181,co-occurrence,74
+ATT&CK:S1180,related_to,ATT&CK:S1181,co-occurrence,74
+ATT&CK:G0066,attributed_to,COUNTRY:china,attribution_pattern,75
+ATT&CK:G0066,targets,SECTOR:defense,co-occurrence,75
+ATT&CK:G0066,targets,SECTOR:government,co-occurrence,75
+ATT&CK:G0066,targets,SECTOR:manufacturing,co-occurrence,75
+ATT&CK:G0066,targets,SECTOR:ngo,co-occurrence,75
+ATT&CK:G0066,targets,SECTOR:technology,co-occurrence,75
+ATT&CK:G0066,associated_with,CAMPAIGN:operation aurora,explicit,75
+ATT&CK:G1008,related_to,ATT&CK:G0121,co-occurrence,76
+ATT&CK:G1008,attributed_to,COUNTRY:pakistan,attribution_pattern,76
+ATT&CK:G1008,targets,COUNTRY:afghanistan,co-occurrence,76
+ATT&CK:G1008,targets,COUNTRY:india,co-occurrence,76
+ATT&CK:G1008,targets,SECTOR:government,co-occurrence,76
+ATT&CK:G0093,attributed_to,COUNTRY:china,attribution_pattern,77
+ATT&CK:G0093,targets,COUNTRY:afghanistan,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:australia,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:belgium,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:cambodia,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:malaysia,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:mozambique,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:philippines,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:russia,co-occurrence,77
+ATT&CK:G0093,targets,COUNTRY:vietnam,co-occurrence,77
+ATT&CK:G0093,targets,SECTOR:financial,co-occurrence,77
+ATT&CK:G0093,targets,SECTOR:government,co-occurrence,77
+ATT&CK:G0093,targets,SECTOR:telecommunications,co-occurrence,77
+ATT&CK:G0093,associated_with,CAMPAIGN:operation soft cell,explicit,77
+ATT&CK:G0025,attributed_to,COUNTRY:china,attribution_pattern,78
+ATT&CK:G0025,targets,COUNTRY:united states,co-occurrence,78
+ATT&CK:G0025,targets,SECTOR:defense,co-occurrence,78
+ATT&CK:G0025,targets,SECTOR:government,co-occurrence,78
+ATT&CK:G0025,targets,SECTOR:legal,co-occurrence,78
+ATT&CK:G0025,targets,SECTOR:mining,co-occurrence,78
+ATT&CK:G0025,targets,SECTOR:technology,co-occurrence,78
+ATT&CK:G0022,attributed_to,COUNTRY:china,attribution_pattern,79
+ATT&CK:G0022,targets,COUNTRY:hong kong,co-occurrence,79
+ATT&CK:G0022,targets,COUNTRY:united states,co-occurrence,79
+ATT&CK:G0022,associated_with,CAMPAIGN:operation clandestine fox,explicit,79
+ATT&CK:G0022,associated_with,CAMPAIGN:operation clandestine wolf,explicit,79
+ATT&CK:G0022,associated_with,CAMPAIGN:operation double tap,explicit,79
+ATT&CK:G1020,related_to,ATT&CK:G0119,co-occurrence,80
+ATT&CK:G1020,uses,ATT&CK:S1124,co-occurrence,80
+ATT&CK:G1020,uses,ATT&CK:S0612,co-occurrence,80
+ATT&CK:S1124,related_to,ATT&CK:S0612,co-occurrence,80
+ATT&CK:G0036,targets,SECTOR:financial,co-occurrence,81
+ATT&CK:G0094,attributed_to,COUNTRY:north korea,attribution_pattern,82
+ATT&CK:G0094,targets,COUNTRY:south korea,co-occurrence,82
+ATT&CK:G0094,targets,SECTOR:diplomacy,co-occurrence,82
+ATT&CK:G0094,targets,SECTOR:government,co-occurrence,82
+ATT&CK:G0094,targets,SECTOR:ngo,co-occurrence,82
+ATT&CK:G1011,related_to,ATT&CK:G0102,co-occurrence,83
+ATT&CK:G1011,uses,ATT&CK:S0575,co-occurrence,83
+ATT&CK:G1011,uses,ATT&CK:S0659,co-occurrence,83
+ATT&CK:S0575,related_to,ATT&CK:S0659,co-occurrence,83
+ATT&CK:G1011,targets,SECTOR:financial,co-occurrence,83
+ATT&CK:G1011,targets,SECTOR:healthcare,co-occurrence,83
+ATT&CK:G1011,targets,SECTOR:technology,co-occurrence,83
+ATT&CK:G1037,uses,ATT&CK:S0650,co-occurrence,84
+ATT&CK:G1037,uses,ATT&CK:S1145,co-occurrence,84
+ATT&CK:G1037,uses,ATT&CK:S1160,co-occurrence,84
+ATT&CK:S0650,related_to,ATT&CK:S1145,co-occurrence,84
+ATT&CK:S0650,related_to,ATT&CK:S1160,co-occurrence,84
+ATT&CK:S1145,related_to,ATT&CK:S1160,co-occurrence,84
+ATT&CK:G1049,related_to,ATT&CK:G0032,co-occurrence,85
+ATT&CK:G1049,attributed_to,COUNTRY:north korea,attribution_pattern,85
+ATT&CK:G0018,uses,ATT&CK:S0012,co-occurrence,86
+ATT&CK:G0018,attributed_to,COUNTRY:china,attribution_pattern,86
+ATT&CK:G0018,targets,SECTOR:financial,co-occurrence,86
+ATT&CK:G0018,targets,SECTOR:media,co-occurrence,86
+ATT&CK:G1017,attributed_to,COUNTRY:china,attribution_pattern,87
+ATT&CK:G1017,targets,COUNTRY:guam,co-occurrence,87
+ATT&CK:G1017,targets,COUNTRY:united states,co-occurrence,87
+ATT&CK:G1017,targets,SECTOR:critical infrastructure,co-occurrence,87
+ATT&CK:G1017,targets,SECTOR:technology,co-occurrence,87
+ATT&CK:G0040,attributed_to,COUNTRY:india,attribution_pattern,88
+ATT&CK:G0040,targets,COUNTRY:united states,co-occurrence,88
+ATT&CK:G0040,targets,SECTOR:diplomacy,co-occurrence,88
+ATT&CK:G0040,targets,SECTOR:government,co-occurrence,88
+ATT&CK:G0040,targets,SECTOR:ngo,co-occurrence,88
+ATT&CK:G0096,attributed_to,COUNTRY:china,attribution_pattern,89
+ATT&CK:G0096,targets,SECTOR:education,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:financial,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:gaming,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:healthcare,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:retail,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:technology,co-occurrence,89
+ATT&CK:G0096,targets,SECTOR:telecommunications,co-occurrence,89
+ATT&CK:G1045,attributed_to,COUNTRY:china,attribution_pattern,90
+ATT&CK:G1045,targets,COUNTRY:united states,co-occurrence,90
+ATT&CK:G1045,targets,SECTOR:telecommunications,co-occurrence,90
+ATT&CK:G0035,attributed_to,COUNTRY:russia,attribution_pattern,91
+ATT&CK:G0035,targets,SECTOR:aviation,co-occurrence,91
+ATT&CK:G0035,targets,SECTOR:critical infrastructure,co-occurrence,91
+ATT&CK:G0035,targets,SECTOR:defense,co-occurrence,91
+ATT&CK:G0035,targets,SECTOR:government,co-occurrence,91
+ATT&CK:G0078,attributed_to,COUNTRY:pakistan,attribution_pattern,93
+ATT&CK:G0078,targets,COUNTRY:russia,co-occurrence,93
+ATT&CK:G0078,targets,COUNTRY:spain,co-occurrence,93
+ATT&CK:G0078,targets,COUNTRY:united kingdom,co-occurrence,93
+ATT&CK:G0078,targets,COUNTRY:united states,co-occurrence,93
+ATT&CK:G0078,targets,SECTOR:government,co-occurrence,93
+ATT&CK:G0045,attributed_to,COUNTRY:china,attribution_pattern,94
+ATT&CK:G0045,targets,SECTOR:aerospace,co-occurrence,94
+ATT&CK:G0045,targets,SECTOR:defense,co-occurrence,94
+ATT&CK:G0045,targets,SECTOR:financial,co-occurrence,94
+ATT&CK:G0045,targets,SECTOR:healthcare,co-occurrence,94
+ATT&CK:G0045,targets,SECTOR:transportation,co-occurrence,94
+ATT&CK:G0014,attributed_to,COUNTRY:china,attribution_pattern,95
+ATT&CK:G0050,attributed_to,COUNTRY:vietnam,attribution_pattern,96
+ATT&CK:G0050,targets,COUNTRY:cambodia,co-occurrence,96
+ATT&CK:G0050,targets,COUNTRY:laos,co-occurrence,96
+ATT&CK:G0050,targets,COUNTRY:philippines,co-occurrence,96
+ATT&CK:G0050,targets,COUNTRY:vietnam,co-occurrence,96
+ATT&CK:G0050,targets,SECTOR:government,co-occurrence,96
+ATT&CK:G0050,targets,SECTOR:media,co-occurrence,96
+ATT&CK:G0125,attributed_to,COUNTRY:china,attribution_pattern,97
+ATT&CK:G0125,targets,COUNTRY:united states,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:cloud services,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:defense,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:education,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:healthcare,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:legal,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:ngo,co-occurrence,97
+ATT&CK:G0125,targets,SECTOR:technology,co-occurrence,97
+ATT&CK:G0069,attributed_to,COUNTRY:iran,attribution_pattern,98
+ATT&CK:G0069,targets,COUNTRY:africa,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:asia,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:europe,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:middle east,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:north america,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:saudi arabia,co-occurrence,98
+ATT&CK:G0069,targets,COUNTRY:united arab emirates,co-occurrence,98
+ATT&CK:G0069,targets,SECTOR:defense,co-occurrence,98
+ATT&CK:G0069,targets,SECTOR:energy,co-occurrence,98
+ATT&CK:G0069,targets,SECTOR:financial,co-occurrence,98
+ATT&CK:G0069,targets,SECTOR:government,co-occurrence,98
+ATT&CK:G0069,targets,SECTOR:telecommunications,co-occurrence,98
+ATT&CK:G0041,targets,COUNTRY:belgium,co-occurrence,99
+ATT&CK:G0041,targets,COUNTRY:china,co-occurrence,99
+ATT&CK:G0041,targets,COUNTRY:iran,co-occurrence,99
+ATT&CK:G0041,targets,COUNTRY:russia,co-occurrence,99
+ATT&CK:G0041,targets,COUNTRY:rwanda,co-occurrence,99
+ATT&CK:G0041,targets,COUNTRY:sweden,co-occurrence,99
+ATT&CK:G0116,attributed_to,COUNTRY:china,attribution_pattern,100
+ATT&CK:G0116,targets,COUNTRY:china,co-occurrence,100
+ATT&CK:G0116,targets,COUNTRY:france,co-occurrence,100
+ATT&CK:G0116,targets,COUNTRY:germany,co-occurrence,100
+ATT&CK:G0116,targets,COUNTRY:united kingdom,co-occurrence,100
+ATT&CK:G0116,targets,COUNTRY:united states,co-occurrence,100
+ATT&CK:G0116,targets,SECTOR:energy,co-occurrence,100
+ATT&CK:G0116,targets,SECTOR:government,co-occurrence,100
+ATT&CK:G0116,targets,SECTOR:healthcare,co-occurrence,100
+ATT&CK:G0116,targets,SECTOR:managed service providers,co-occurrence,100
+ATT&CK:G0116,targets,SECTOR:technology,co-occurrence,100
+ATT&CK:G0019,attributed_to,COUNTRY:china,attribution_pattern,101
+ATT&CK:G0019,targets,COUNTRY:southeast asia,co-occurrence,101
+ATT&CK:G0019,targets,SECTOR:defense,co-occurrence,101
+ATT&CK:G0019,targets,SECTOR:government,co-occurrence,101
+ATT&CK:G0037,targets,SECTOR:financial,co-occurrence,102
+ATT&CK:G0037,targets,SECTOR:hospitality,co-occurrence,102
+ATT&CK:G0037,targets,SECTOR:retail,co-occurrence,102
+ATT&CK:G1042,related_to,ATT&CK:G0096,co-occurrence,103
+ATT&CK:G1042,uses,ATT&CK:S0596,co-occurrence,103
+ATT&CK:G1042,attributed_to,COUNTRY:china,attribution_pattern,103
+ATT&CK:G1042,targets,COUNTRY:india,co-occurrence,103
+ATT&CK:G1042,targets,SECTOR:critical infrastructure,co-occurrence,103
+ATT&CK:G0047,attributed_to,COUNTRY:russia,attribution_pattern,104
+ATT&CK:G0047,targets,COUNTRY:ukraine,co-occurrence,104
+ATT&CK:G0047,targets,SECTOR:defense,co-occurrence,104
+ATT&CK:G0047,targets,SECTOR:government,co-occurrence,104
+ATT&CK:G0047,targets,SECTOR:ngo,co-occurrence,104
+ATT&CK:G0002,related_to,ATT&CK:G0017,co-occurrence,105
+ATT&CK:G0002,attributed_to,COUNTRY:china,attribution_pattern,105
+ATT&CK:G0084,targets,COUNTRY:middle east,co-occurrence,106
+ATT&CK:G0084,targets,SECTOR:defense,co-occurrence,106
+ATT&CK:G0084,targets,SECTOR:government,co-occurrence,106
+ATT&CK:G1046,uses,ATT&CK:S1070,co-occurrence,107
+ATT&CK:G0077,attributed_to,COUNTRY:iran,attribution_pattern,108
+ATT&CK:G0077,targets,COUNTRY:middle east,co-occurrence,108
+ATT&CK:G0077,targets,SECTOR:government,co-occurrence,108
+ATT&CK:G0139,targets,SECTOR:cloud services,co-occurrence,109
+ATT&CK:G0139,targets,SECTOR:financial,co-occurrence,109
+ATT&CK:G0046,targets,COUNTRY:united states,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:cloud services,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:consulting,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:energy,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:financial,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:food and beverage,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:healthcare,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:hospitality,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:media,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:pharmaceutical,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:retail,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:technology,co-occurrence,110
+ATT&CK:G0046,targets,SECTOR:transportation,co-occurrence,110
+ATT&CK:G0034,attributed_to,COUNTRY:russia,attribution_pattern,111
+ATT&CK:G0095,targets,COUNTRY:asia,co-occurrence,112
+ATT&CK:G0095,targets,COUNTRY:europe,co-occurrence,112
+ATT&CK:G0095,targets,COUNTRY:latin america,co-occurrence,112
+ATT&CK:G0095,targets,COUNTRY:russia,co-occurrence,112
+ATT&CK:G0095,targets,COUNTRY:united states,co-occurrence,112
+ATT&CK:G0095,targets,COUNTRY:venezuela,co-occurrence,112
+ATT&CK:G0095,targets,SECTOR:defense,co-occurrence,112
+ATT&CK:G0095,targets,SECTOR:energy,co-occurrence,112
+ATT&CK:G0095,targets,SECTOR:government,co-occurrence,112
+ATT&CK:G0095,targets,SECTOR:telecommunications,co-occurrence,112
+ATT&CK:G0026,targets,SECTOR:government,co-occurrence,113
+ATT&CK:G0026,targets,SECTOR:healthcare,co-occurrence,113
+ATT&CK:G0026,targets,SECTOR:manufacturing,co-occurrence,113
+ATT&CK:G0026,targets,SECTOR:ngo,co-occurrence,113
+ATT&CK:G0026,targets,SECTOR:technology,co-occurrence,113
+ATT&CK:G0138,attributed_to,COUNTRY:north korea,attribution_pattern,114
+ATT&CK:G0138,targets,COUNTRY:south korea,co-occurrence,114
+ATT&CK:G0138,targets,SECTOR:defense,co-occurrence,114
+ATT&CK:G0138,targets,SECTOR:financial,co-occurrence,114
+ATT&CK:G0138,targets,SECTOR:government,co-occurrence,114
+ATT&CK:G0138,associated_with,CAMPAIGN:operation black mine,explicit,114
+ATT&CK:G0138,associated_with,CAMPAIGN:operation goldenaxe,explicit,114
+ATT&CK:G1012,attributed_to,COUNTRY:iran,attribution_pattern,115
+ATT&CK:G1012,targets,COUNTRY:middle east,co-occurrence,115
+ATT&CK:G1012,targets,SECTOR:media,co-occurrence,115
+ATT&CK:G1012,targets,SECTOR:technology,co-occurrence,115
+ATT&CK:G0121,attributed_to,COUNTRY:india,attribution_pattern,116
+ATT&CK:G0121,targets,COUNTRY:afghanistan,co-occurrence,116
+ATT&CK:G0121,targets,COUNTRY:asia,co-occurrence,116
+ATT&CK:G0121,targets,COUNTRY:china,co-occurrence,116
+ATT&CK:G0121,targets,COUNTRY:nepal,co-occurrence,116
+ATT&CK:G0121,targets,COUNTRY:pakistan,co-occurrence,116
+ATT&CK:G0121,targets,SECTOR:defense,co-occurrence,116
+ATT&CK:G0121,targets,SECTOR:government,co-occurrence,116
+ATT&CK:G0129,attributed_to,COUNTRY:china,attribution_pattern,117
+ATT&CK:G0129,targets,COUNTRY:asia,co-occurrence,117
+ATT&CK:G0129,targets,COUNTRY:europe,co-occurrence,117
+ATT&CK:G0129,targets,COUNTRY:mongolia,co-occurrence,117
+ATT&CK:G0129,targets,COUNTRY:russia,co-occurrence,117
+ATT&CK:G0129,targets,COUNTRY:united states,co-occurrence,117
+ATT&CK:G0129,targets,SECTOR:diplomacy,co-occurrence,117
+ATT&CK:G0129,targets,SECTOR:government,co-occurrence,117
+ATT&CK:G0129,targets,SECTOR:ngo,co-occurrence,117
+ATT&CK:G0129,targets,SECTOR:religious institutions,co-occurrence,117
+ATT&CK:G0129,targets,SECTOR:research,co-occurrence,117
+ATT&CK:G0128,attributed_to,COUNTRY:china,attribution_pattern,118
+ATT&CK:G0128,targets,COUNTRY:united states,co-occurrence,118
+ATT&CK:G0106,attributed_to,COUNTRY:china,attribution_pattern,119
+ATT&CK:G0106,targets,SECTOR:financial,co-occurrence,119
+ATT&CK:G0106,targets,SECTOR:mining,co-occurrence,119
+ATT&CK:G1015,targets,SECTOR:business process outsourcing,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:customer relationship management,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:financial,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:gaming,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:hospitality,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:managed service providers,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:manufacturing,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:retail,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:technology,co-occurrence,120
+ATT&CK:G1015,targets,SECTOR:telecommunications,co-occurrence,120
+ATT&CK:G0087,attributed_to,COUNTRY:iran,attribution_pattern,121
+ATT&CK:G0087,targets,COUNTRY:africa,co-occurrence,121
+ATT&CK:G0087,targets,COUNTRY:asia,co-occurrence,121
+ATT&CK:G0087,targets,COUNTRY:europe,co-occurrence,121
+ATT&CK:G0087,targets,COUNTRY:iran,co-occurrence,121
+ATT&CK:G0087,targets,COUNTRY:north america,co-occurrence,121
+ATT&CK:G0087,targets,SECTOR:education,co-occurrence,121
+ATT&CK:G0087,targets,SECTOR:hospitality,co-occurrence,121
+ATT&CK:G0087,targets,SECTOR:telecommunications,co-occurrence,121
+ATT&CK:G0087,targets,SECTOR:travel,co-occurrence,121
+ATT&CK:G1048,attributed_to,COUNTRY:china,attribution_pattern,122
+ATT&CK:G1048,targets,COUNTRY:asia-pacific,co-occurrence,122
+ATT&CK:G1048,targets,COUNTRY:japan,co-occurrence,122
+ATT&CK:G1048,targets,COUNTRY:united states,co-occurrence,122
+ATT&CK:G1048,targets,SECTOR:defense,co-occurrence,122
+ATT&CK:G1048,targets,SECTOR:technology,co-occurrence,122
+ATT&CK:G1048,targets,SECTOR:telecommunications,co-occurrence,122
+ATT&CK:G1052,attributed_to,COUNTRY:north korea,attribution_pattern,123
+ATT&CK:G1052,targets,SECTOR:financial,co-occurrence,123
+ATT&CK:G1052,targets,SECTOR:technology,co-occurrence,123
+ATT&CK:G1018,targets,SECTOR:aerospace,co-occurrence,124
+ATT&CK:G1018,targets,SECTOR:aviation,co-occurrence,124
+ATT&CK:G1018,targets,SECTOR:defense,co-occurrence,124
+ATT&CK:G1018,targets,SECTOR:manufacturing,co-occurrence,124
+ATT&CK:G1018,targets,SECTOR:transportation,co-occurrence,124
+ATT&CK:G1018,associated_with,CAMPAIGN:operation layover,explicit,124
+ATT&CK:G0067,attributed_to,COUNTRY:north korea,attribution_pattern,126
+ATT&CK:G0067,targets,COUNTRY:china,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:india,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:japan,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:kuwait,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:middle east,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:nepal,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:romania,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:russia,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:south korea,co-occurrence,126
+ATT&CK:G0067,targets,COUNTRY:vietnam,co-occurrence,126
+ATT&CK:G0067,associated_with,CAMPAIGN:operation daybreak,explicit,126
+ATT&CK:G0067,associated_with,CAMPAIGN:operation erebus,explicit,126
+ATT&CK:G1009,attributed_to,COUNTRY:iran,attribution_pattern,127
+ATT&CK:G1009,targets,COUNTRY:israel,co-occurrence,127
+ATT&CK:G1009,targets,SECTOR:energy,co-occurrence,127
+ATT&CK:G1009,targets,SECTOR:financial,co-occurrence,127
+ATT&CK:G1009,targets,SECTOR:government,co-occurrence,127
+ATT&CK:G1009,targets,SECTOR:travel,co-occurrence,127
+ATT&CK:G0049,attributed_to,COUNTRY:iran,attribution_pattern,128
+ATT&CK:G0049,targets,COUNTRY:iran,co-occurrence,128
+ATT&CK:G0049,targets,SECTOR:energy,co-occurrence,128
+ATT&CK:G0049,targets,SECTOR:financial,co-occurrence,128
+ATT&CK:G0049,targets,SECTOR:government,co-occurrence,128
+ATT&CK:G0049,targets,SECTOR:telecommunications,co-occurrence,128
+ATT&CK:G0124,uses,ATT&CK:S0377,co-occurrence,129
+ATT&CK:G0126,attributed_to,COUNTRY:south korea,attribution_pattern,130
+ATT&CK:G0126,targets,COUNTRY:china,co-occurrence,130
+ATT&CK:G0126,targets,COUNTRY:japan,co-occurrence,130
+ATT&CK:G0126,targets,COUNTRY:north korea,co-occurrence,130
+ATT&CK:G0126,targets,COUNTRY:poland,co-occurrence,130
+ATT&CK:G0126,targets,COUNTRY:russia,co-occurrence,130
+ATT&CK:G0126,targets,SECTOR:government,co-occurrence,130
+ATT&CK:G0008,related_to,ATT&CK:G0080,co-occurrence,131
+ATT&CK:G0008,related_to,ATT&CK:G0046,co-occurrence,131
+ATT&CK:G0008,uses,ATT&CK:S0030,co-occurrence,131
+ATT&CK:G0008,targets,SECTOR:financial,co-occurrence,131
+ATT&CK:G0081,targets,COUNTRY:hong kong,co-occurrence,132
+ATT&CK:G0081,targets,COUNTRY:philippines,co-occurrence,132
+ATT&CK:G0081,targets,COUNTRY:taiwan,co-occurrence,132
+ATT&CK:G0081,targets,SECTOR:government,co-occurrence,132
+ATT&CK:G0081,targets,SECTOR:healthcare,co-occurrence,132
+ATT&CK:G0081,targets,SECTOR:transportation,co-occurrence,132
+ATT&CK:G0071,uses,ATT&CK:S0236,co-occurrence,133
+ATT&CK:G0071,uses,ATT&CK:S0140,co-occurrence,133
+ATT&CK:S0236,related_to,ATT&CK:S0140,co-occurrence,133
+ATT&CK:G0071,targets,COUNTRY:asia,co-occurrence,133
+ATT&CK:G0071,targets,COUNTRY:europe,co-occurrence,133
+ATT&CK:G0071,targets,COUNTRY:united states,co-occurrence,133
+ATT&CK:G0071,targets,SECTOR:healthcare,co-occurrence,133
+ATT&CK:G1041,attributed_to,COUNTRY:türkiye,attribution_pattern,134
+ATT&CK:G1041,targets,COUNTRY:asia,co-occurrence,134
+ATT&CK:G1041,targets,COUNTRY:europe,co-occurrence,134
+ATT&CK:G1041,targets,COUNTRY:north america,co-occurrence,134
+ATT&CK:G0039,attributed_to,COUNTRY:china,attribution_pattern,136
+ATT&CK:G0024,attributed_to,COUNTRY:china,attribution_pattern,137
+ATT&CK:G0104,related_to,ATT&CK:G0032,co-occurrence,138
+ATT&CK:G0104,targets,SECTOR:defense,co-occurrence,138
+ATT&CK:G0104,targets,SECTOR:energy,co-occurrence,138
+ATT&CK:G0104,targets,SECTOR:financial,co-occurrence,138
+ATT&CK:G0104,associated_with,CAMPAIGN:operation sharpshooter,explicit,138
+ATT&CK:G1005,attributed_to,COUNTRY:iran,attribution_pattern,139
+ATT&CK:G1005,attributed_to,COUNTRY:lebanon,attribution_pattern,139
+ATT&CK:G1005,targets,COUNTRY:israel,co-occurrence,139
+ATT&CK:G1005,targets,SECTOR:defense,co-occurrence,139
+ATT&CK:G1005,targets,SECTOR:manufacturing,co-occurrence,139
+ATT&CK:G1005,targets,SECTOR:technology,co-occurrence,139
+ATT&CK:G0062,attributed_to,COUNTRY:china,attribution_pattern,140
+ATT&CK:G0062,targets,COUNTRY:belarus,co-occurrence,140
+ATT&CK:G0062,targets,COUNTRY:mongolia,co-occurrence,140
+ATT&CK:G0062,targets,COUNTRY:russia,co-occurrence,140
