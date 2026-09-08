@@ -216,3 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dataset annotation artifacts
+dataset/llm_cache.json
+dataset/correct_pre_labeled.jsonl
+
+# opencode internal state
+.omo/
