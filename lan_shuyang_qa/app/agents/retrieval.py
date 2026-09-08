@@ -10,7 +10,23 @@ from app.schemas import Evidence
 
 class RetrievalAgent:
     def __init__(self, endpoint: str | None = None) -> None:
-        self.endpoint = endpoint or os.getenv("RETRIEVAL_URL", "http://localhost:8001/search")
+        default = "http://localhost:8001/api/retrieval"
+        env_endpoint = os.getenv("RETRIEVAL_URL")
+        candidates = []
+        if endpoint:
+            candidates.append(endpoint.rstrip("/"))
+        if env_endpoint:
+            candidates.append(env_endpoint.rstrip("/"))
+        candidates.extend([
+            default,
+            "http://localhost:8001/search",
+        ])
+        deduped = []
+        for value in candidates:
+            if value not in deduped:
+                deduped.append(value)
+        self.endpoints = deduped
+        self.endpoint = self.endpoints[0]
 
     async def search(self, query: str, top_k: int = 6) -> list[Evidence]:
         """Accept either {results: [...]} or a bare list from the retrieval service.
@@ -18,12 +34,18 @@ class RetrievalAgent:
         Expected result fields: id, text/chunk, source, url, score, entities, graph_paths.
         Unknown fields are ignored, so the retrieval module can evolve independently.
         """
-        try:
-            async with httpx.AsyncClient(timeout=8) as client:
-                response = await client.post(self.endpoint, json={"query": query, "top_k": top_k})
-                response.raise_for_status()
-                body: Any = response.json()
-        except (httpx.HTTPError, ValueError):
+        last_error: Exception | None = None
+        for endpoint in self.endpoints:
+            try:
+                async with httpx.AsyncClient(timeout=8) as client:
+                    response = await client.post(endpoint, json={"query": query, "top_k": top_k})
+                    response.raise_for_status()
+                    body: Any = response.json()
+                break
+            except (httpx.HTTPError, ValueError) as exc:
+                last_error = exc
+                continue
+        else:
             return []
         rows = body.get("results", body) if isinstance(body, dict) else body
         if not isinstance(rows, list):

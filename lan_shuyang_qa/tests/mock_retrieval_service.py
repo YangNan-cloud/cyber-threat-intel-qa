@@ -7,7 +7,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 class Handler(BaseHTTPRequestHandler):
     def do_POST(self) -> None:
-        if self.path != "/search":
+        if self.path not in {"/search", "/api/retrieval"}:
             self.send_error(404)
             return
         length = int(self.headers.get("Content-Length", 0))

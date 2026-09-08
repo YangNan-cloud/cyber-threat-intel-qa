@@ -1,0 +1,396 @@
+node_id,label,name,attrs,record_ids
+CVE:CVE-2026-82078,Vulnerability,CVE-2026-82078,"{""cve_id"": ""CVE-2026-82078"", ""year"": 2026, ""cve_name"": ""PaperCut NG/MF Unsafe Reflection Vulnerability"", ""impacts"": [""Remote Code Execution"", ""Unauthorized Access""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",1 2
+VULNERABILITYCLASS:unsafe reflection,VulnerabilityClass,Unsafe Reflection,"{""cwe_id"": ""CWE-470""}",1
+VENDOR:papercut,Vendor,PaperCut,{},1 2
+PRODUCT:ng/mf,Product,NG/MF,{},1 2
+CVE:CVE-2026-81578,Vulnerability,CVE-2026-81578,"{""cve_id"": ""CVE-2026-81578"", ""year"": 2026, ""cve_name"": ""PaperCut NG/MF Missing Authentication for Critical Function Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",1 2
+VULNERABILITYCLASS:missing authentication for critical function,VulnerabilityClass,Missing Authentication For Critical Function,"{""cwe_id"": ""CWE-306""}",2 16 47 65 69
+CVE:CVE-2023-49105,Vulnerability,CVE-2023-49105,"{""cve_id"": ""CVE-2023-49105"", ""year"": 2023, ""cve_name"": ""ownCloud Improper Authentication Vulnerability"", ""impacts"": [""Arbitrary File Manipulation"", ""Authentication Bypass""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",3
+VULNERABILITYCLASS:improper authentication,VulnerabilityClass,Improper Authentication,"{""cwe_id"": ""CWE-287""}",3 21 35
+VENDOR:owncloud,Vendor,ownCloud,{},3
+PRODUCT:owncloud,Product,ownCloud,{},3
+CVE:CVE-2026-53362,Vulnerability,CVE-2026-53362,"{""cve_id"": ""CVE-2026-53362"", ""year"": 2026, ""cve_name"": ""Linux Kernel Unspecified Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [""network""], ""end_of_life"": false, ""mentioned_only"": false}",4
+VULNERABILITYCLASS:unspecified,VulnerabilityClass,Unspecified,{},4
+VENDOR:linux,Vendor,Linux,{},4 9
+PRODUCT:kernel,Product,Kernel,{},4 9
+CVE:CVE-2026-66384,Vulnerability,CVE-2026-66384,"{""cve_id"": ""CVE-2026-66384"", ""year"": 2026, ""cve_name"": ""JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability"", ""impacts"": [""Arbitrary File Manipulation""], ""attack_position"": [""authenticated""], ""end_of_life"": false, ""mentioned_only"": false}",5
+VULNERABILITYCLASS:improper limitation of a pathname to a restricted directory,VulnerabilityClass,Improper Limitation Of A Pathname To A Restricted Directory,"{""cwe_id"": ""CWE-22""}",5
+VENDOR:jfrog,Vendor,JFrog,{},5
+PRODUCT:artifactory,Product,Artifactory,{},5
+CVE:CVE-2021-23758,Vulnerability,CVE-2021-23758,"{""cve_id"": ""CVE-2021-23758"", ""year"": 2021, ""cve_name"": ""Ajax.NET Professional Deserialization of Untrusted Data Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": true, ""mentioned_only"": false}",6
+VULNERABILITYCLASS:deserialization of untrusted data,VulnerabilityClass,Deserialization Of Untrusted Data,"{""cwe_id"": ""CWE-502""}",6 27 36 41 57
+VENDOR:ajax.net professional,Vendor,Ajax.NET Professional,{},6
+PRODUCT:ajax.net professional,Product,Ajax.NET Professional,{},6
+CVE:CVE-2015-3246,Vulnerability,CVE-2015-3246,"{""cve_id"": ""CVE-2015-3246"", ""year"": 2015, ""cve_name"": ""Red Hat Libuser Race Condition Vulnerability"", ""impacts"": [""Arbitrary File Manipulation"", ""Denial of Service"", ""Privilege Escalation""], ""attack_position"": [""authenticated"", ""local""], ""end_of_life"": false, ""mentioned_only"": false}",7
+VULNERABILITYCLASS:race condition,VulnerabilityClass,Race Condition,"{""cwe_id"": ""CWE-362""}",7
+VENDOR:red hat,Vendor,Red Hat,{},7 8
+PRODUCT:libuser,Product,Libuser,{},7
+CVE:CVE-2015-5287,Vulnerability,CVE-2015-5287,"{""cve_id"": ""CVE-2015-5287"", ""year"": 2015, ""cve_name"": ""Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [""authenticated"", ""local""], ""end_of_life"": true, ""mentioned_only"": false}",8
+VULNERABILITYCLASS:privilege escalation,VulnerabilityClass,Privilege Escalation,"{""cwe_id"": ""CWE-269""}",8
+PRODUCT:automatic bug reporting tool,Product,Automatic Bug Reporting Tool,{},8
+CVE:CVE-2022-0995,Vulnerability,CVE-2022-0995,"{""cve_id"": ""CVE-2022-0995"", ""year"": 2022, ""cve_name"": ""Linux Kernel Out-of-Bounds Write Vulnerability"", ""impacts"": [""Denial of Service"", ""Privilege Escalation""], ""attack_position"": [""local""], ""end_of_life"": false, ""mentioned_only"": false}",9
+VULNERABILITYCLASS:out-of-bounds memory write,VulnerabilityClass,Out-Of-Bounds Memory Write,"{""cwe_id"": ""CWE-787""}",9
+CVE:CVE-2026-8452,Vulnerability,CVE-2026-8452,"{""cve_id"": ""CVE-2026-8452"", ""year"": 2026, ""cve_name"": ""Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability"", ""impacts"": [""Denial of Service""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",10
+VULNERABILITYCLASS:improper restriction of operations within the bounds of a memory buffer,VulnerabilityClass,Improper Restriction Of Operations Within The Bounds Of A Memory Buffer,"{""cwe_id"": ""CWE-119""}",10
+VENDOR:citrix,Vendor,Citrix,{},10
+PRODUCT:netscaler adc and netscaler gateway,Product,NetScaler ADC and NetScaler Gateway,{},10
+CVE:CVE-2019-1068,Vulnerability,CVE-2019-1068,"{""cve_id"": ""CVE-2019-1068"", ""year"": 2019, ""cve_name"": ""Microsoft SQL Server Remote Code Execution Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",11
+VULNERABILITYCLASS:remote code execution,VulnerabilityClass,Remote Code Execution,{},11
+VENDOR:microsoft,Vendor,Microsoft,{},11 18 20 24 36 41 46 47 57
+PRODUCT:sql server,Product,SQL Server,{},11
+CVE:CVE-2026-60004,Vulnerability,CVE-2026-60004,"{""cve_id"": ""CVE-2026-60004"", ""year"": 2026, ""cve_name"": ""Gitea Code Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""authenticated""], ""end_of_life"": false, ""mentioned_only"": false}",12
+VULNERABILITYCLASS:code injection,VulnerabilityClass,Code Injection,"{""cwe_id"": ""CWE-94""}",12 15 22 30 49 61
+VENDOR:gitea,Vendor,Gitea,{},12
+PRODUCT:gitea,Product,Gitea,{},12
+CVE:CVE-2026-21962,Vulnerability,CVE-2026-21962,"{""cve_id"": ""CVE-2026-21962"", ""year"": 2026, ""cve_name"": ""Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",13
+VULNERABILITYCLASS:improper access control,VulnerabilityClass,Improper Access Control,"{""cwe_id"": ""CWE-284""}",13 55 64 66
+VENDOR:oracle,Vendor,Oracle,{},13 44 69
+PRODUCT:http server and oracle weblogic server proxy plug-in,Product,HTTP Server and Oracle Weblogic Server Proxy Plug-in,{},13
+CVE:CVE-2026-73570,Vulnerability,CVE-2026-73570,"{""cve_id"": ""CVE-2026-73570"", ""year"": 2026, ""cve_name"": ""Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",14
+VULNERABILITYCLASS:os command injection,VulnerabilityClass,OS Command Injection,"{""cwe_id"": ""CWE-78""}",14 34 42 43 70
+VENDOR:synacor,Vendor,Synacor,{},14
+PRODUCT:zimbra collaboration suite (zcs),Product,Zimbra Collaboration Suite (ZCS),{},14
+CVE:CVE-2026-72530,Vulnerability,CVE-2026-72530,"{""cve_id"": ""CVE-2026-72530"", ""year"": 2026, ""cve_name"": ""TrueConf Server Code Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network"", ""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",15
+VENDOR:trueconf,Vendor,TrueConf,{},15 16
+PRODUCT:server,Product,Server,{},15 16
+CVE:CVE-2026-72529,Vulnerability,CVE-2026-72529,"{""cve_id"": ""CVE-2026-72529"", ""year"": 2026, ""cve_name"": ""TrueConf Server Missing Authentication for Critical Function Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network"", ""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",16
+CVE:CVE-2026-64849,Vulnerability,CVE-2026-64849,"{""cve_id"": ""CVE-2026-64849"", ""year"": 2026, ""cve_name"": ""MLflow Server-Side Request Forgery Vulnerability"", ""impacts"": [""Information Disclosure"", ""Server-Side Request Forgery""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",17
+VULNERABILITYCLASS:server-side request forgery,VulnerabilityClass,Server-Side Request Forgery,"{""cwe_id"": ""CWE-918""}",17 48
+VENDOR:mlflow,Vendor,MLflow,{},17
+PRODUCT:mlflow,Product,MLflow,{},17
+CVE:CVE-2026-33824,Vulnerability,CVE-2026-33824,"{""cve_id"": ""CVE-2026-33824"", ""year"": 2026, ""cve_name"": ""Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",18
+VULNERABILITYCLASS:double free,VulnerabilityClass,Double Free,"{""cwe_id"": ""CWE-415""}",18
+PRODUCT:internet key exchange (ike) service extensions,Product,Internet Key Exchange (IKE) Service Extensions,{},18
+CVE:CVE-2026-59310,Vulnerability,CVE-2026-59310,"{""cve_id"": ""CVE-2026-59310"", ""year"": 2026, ""cve_name"": ""Broadcom VMware vCenter Path Traversal Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network""], ""end_of_life"": false, ""mentioned_only"": false}",19
+VULNERABILITYCLASS:path traversal,VulnerabilityClass,Path Traversal,"{""cwe_id"": ""CWE-22""}",19 56 63
+VENDOR:broadcom,Vendor,Broadcom,{},19
+PRODUCT:vmware vcenter,Product,VMware vCenter,{},19
+CVE:CVE-2026-55040,Vulnerability,CVE-2026-55040,"{""cve_id"": ""CVE-2026-55040"", ""year"": 2026, ""cve_name"": ""Microsoft SharePoint Weak Authentication Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",20
+VULNERABILITYCLASS:weak authentication,VulnerabilityClass,Weak Authentication,"{""cwe_id"": ""CWE-1390""}",20
+PRODUCT:sharepoint,Product,SharePoint,{},20 36 41
+CVE:CVE-2026-65400,Vulnerability,CVE-2026-65400,"{""cve_id"": ""CVE-2026-65400"", ""year"": 2026, ""cve_name"": ""Apple macOS Improper Authentication Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",21
+VENDOR:apple,Vendor,Apple,{},21
+PRODUCT:macos,Product,macOS,{},21
+CVE:CVE-2025-62593,Vulnerability,CVE-2025-62593,"{""cve_id"": ""CVE-2025-62593"", ""year"": 2025, ""cve_name"": ""Ray-Project Ray Code Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",22
+VENDOR:ray-project,Vendor,Ray-Project,{},22
+PRODUCT:ray,Product,Ray,{},22
+CVE:CVE-2026-20349,Vulnerability,CVE-2026-20349,"{""cve_id"": ""CVE-2026-20349"", ""year"": 2026, ""cve_name"": ""Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability"", ""impacts"": [""Denial of Service""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",23
+VULNERABILITYCLASS:heap inspection,VulnerabilityClass,Heap Inspection,{},23
+VENDOR:cisco,Vendor,Cisco,{},23 32 50 60 68
+PRODUCT:secure firewall adaptive security appliance (asa) and secure firewall threat defense (ftd),Product,Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD),{},23
+CVE:CVE-2026-68820,Vulnerability,CVE-2026-68820,"{""cve_id"": ""CVE-2026-68820"", ""year"": 2026, ""cve_name"": ""Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [""authenticated"", ""local""], ""end_of_life"": false, ""mentioned_only"": false}",24
+VULNERABILITYCLASS:use-after-free,VulnerabilityClass,Use-After-Free,"{""cwe_id"": ""CWE-416""}",24
+PRODUCT:windows ancillary function driver for winsock,Product,Windows Ancillary Function Driver for WinSock,{},24
+CVE:CVE-2026-72898,Vulnerability,CVE-2026-72898,"{""cve_id"": ""CVE-2026-72898"", ""year"": 2026, ""cve_name"": ""Metabase SQL Injection Vulnerability"", ""impacts"": [""Information Disclosure"", ""Unauthorized Access""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",25
+VULNERABILITYCLASS:sql injection,VulnerabilityClass,SQL Injection,"{""cwe_id"": ""CWE-89""}",25 37
+VENDOR:metabase,Vendor,Metabase,{},25
+PRODUCT:metabase,Product,Metabase,{},25
+CVE:CVE-2026-8037,Vulnerability,CVE-2026-8037,"{""cve_id"": ""CVE-2026-8037"", ""year"": 2026, ""cve_name"": ""Progress LoadMaster Command Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",26
+VULNERABILITYCLASS:command injection,VulnerabilityClass,Command Injection,"{""cwe_id"": ""CWE-77""}",26
+VENDOR:progress,Vendor,Progress,{},26
+PRODUCT:loadmaster,Product,LoadMaster,{},26
+CVE:CVE-2026-63077,Vulnerability,CVE-2026-63077,"{""cve_id"": ""CVE-2026-63077"", ""year"": 2026, ""cve_name"": ""JetBrains TeamCity Deserialization of Untrusted Data Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",27
+VENDOR:jetbrains,Vendor,JetBrains,{},27
+PRODUCT:teamcity,Product,TeamCity,{},27
+CVE:CVE-2026-18556,Vulnerability,CVE-2026-18556,"{""cve_id"": ""CVE-2026-18556"", ""year"": 2026, ""cve_name"": ""N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",28 31
+VULNERABILITYCLASS:authentication bypass using an alternate path or channel,VulnerabilityClass,Authentication Bypass Using An Alternate Path Or Channel,"{""cwe_id"": ""CWE-288""}",28 31
+VENDOR:n-able,Vendor,N-able,{},28 31
+PRODUCT:n-central,Product,N-central,{},28 31
+CVE:CVE-2026-34486,Vulnerability,CVE-2026-34486,"{""cve_id"": ""CVE-2026-34486"", ""year"": 2026, ""cve_name"": ""Apache Tomcat Missing Encryption of Sensitive Data Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",29
+VULNERABILITYCLASS:missing encryption of sensitive data,VulnerabilityClass,Missing Encryption Of Sensitive Data,"{""cwe_id"": ""CWE-311""}",29
+VENDOR:apache,Vendor,Apache,{},29
+PRODUCT:tomcat,Product,Tomcat,{},29
+CVE:CVE-2025-24813,Vulnerability,CVE-2025-24813,"{""cve_id"": ""CVE-2025-24813"", ""year"": 2025, ""mentioned_only"": true}",29
+CVE:CVE-2026-9198,Vulnerability,CVE-2026-9198,"{""cve_id"": ""CVE-2026-9198"", ""year"": 2026, ""cve_name"": ""IBM Langflow Code Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",30
+VENDOR:ibm,Vendor,IBM,{},30
+PRODUCT:langflow,Product,Langflow,{},30 39 54
+CVE:CVE-2026-18577,Vulnerability,CVE-2026-18577,"{""cve_id"": ""CVE-2026-18577"", ""year"": 2026, ""cve_name"": ""N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability"", ""impacts"": [""Authentication Bypass"", ""Unauthorized Access""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",31
+CVE:CVE-2026-20316,Vulnerability,CVE-2026-20316,"{""cve_id"": ""CVE-2026-20316"", ""year"": 2026, ""cve_name"": ""Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability"", ""impacts"": [""Information Disclosure"", ""Unauthorized Access""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",32
+VULNERABILITYCLASS:use of hard-coded password,VulnerabilityClass,Use Of Hard-Coded Password,"{""cwe_id"": ""CWE-798""}",32
+PRODUCT:secure firewall management center (fmc),Product,Secure Firewall Management Center (FMC),{},32
+CVE:CVE-2025-68686,Vulnerability,CVE-2025-68686,"{""cve_id"": ""CVE-2025-68686"", ""year"": 2025, ""cve_name"": ""Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability"", ""impacts"": [""Authentication Bypass"", ""Information Disclosure""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",33
+VULNERABILITYCLASS:exposure of sensitive information to an unauthorized actor,VulnerabilityClass,Exposure Of Sensitive Information To An Unauthorized Actor,"{""cwe_id"": ""CWE-200""}",33
+VENDOR:fortinet,Vendor,Fortinet,{},33 42 43
+PRODUCT:fortios,Product,FortiOS,{},33
+CVE:CVE-2026-16812,Vulnerability,CVE-2026-16812,"{""cve_id"": ""CVE-2026-16812"", ""year"": 2026, ""cve_name"": ""Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",34
+VENDOR:arista,Vendor,Arista,{},34
+PRODUCT:velocloud orchestrator,Product,VeloCloud Orchestrator,{},34
+CVE:CVE-2026-16232,Vulnerability,CVE-2026-16232,"{""cve_id"": ""CVE-2026-16232"", ""year"": 2026, ""cve_name"": ""Check Point SmartConsole Improper Authentication Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",35
+VENDOR:check point,Vendor,Check Point,{},35
+PRODUCT:smartconsole,Product,SmartConsole,{},35
+CVE:CVE-2026-50522,Vulnerability,CVE-2026-50522,"{""cve_id"": ""CVE-2026-50522"", ""year"": 2026, ""cve_name"": ""Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",36
+CVE:CVE-2026-60137,Vulnerability,CVE-2026-60137,"{""cve_id"": ""CVE-2026-60137"", ""year"": 2026, ""cve_name"": ""WordPress Core SQL Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",37 38
+VENDOR:wordpress,Vendor,WordPress,{},37 38
+PRODUCT:core,Product,Core,{},37 38
+CVE:CVE-2026-63030,Vulnerability,CVE-2026-63030,"{""cve_id"": ""CVE-2026-63030"", ""year"": 2026, ""cve_name"": ""WordPress Core Interpretation Conflict Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",37 38
+VULNERABILITYCLASS:interpretation conflict,VulnerabilityClass,Interpretation Conflict,"{""cwe_id"": ""CWE-436""}",38
+CVE:CVE-2026-0770,Vulnerability,CVE-2026-0770,"{""cve_id"": ""CVE-2026-0770"", ""year"": 2026, ""cve_name"": ""Langflow Inclusion of Functionality from Untrusted Control Sphere Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",39
+VULNERABILITYCLASS:inclusion of functionality from untrusted control sphere,VulnerabilityClass,Inclusion Of Functionality From Untrusted Control Sphere,"{""cwe_id"": ""CWE-829""}",39
+VENDOR:langflow,Vendor,Langflow,{},39 54
+CVE:CVE-2021-27137,Vulnerability,CVE-2021-27137,"{""cve_id"": ""CVE-2021-27137"", ""year"": 2021, ""cve_name"": ""DD-WRT Stack-Based Buffer Overflow Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",40
+VULNERABILITYCLASS:stack-based buffer overflow,VulnerabilityClass,Stack-Based Buffer Overflow,"{""cwe_id"": ""CWE-121""}",40
+VENDOR:dd-wrt,Vendor,DD-WRT,{},40
+PRODUCT:dd-wrt,Product,DD-WRT,{},40
+CVE:CVE-2026-58644,Vulnerability,CVE-2026-58644,"{""cve_id"": ""CVE-2026-58644"", ""year"": 2026, ""cve_name"": ""Microsoft SharePoint Deserialization of Untrusted Data Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",41
+CVE:CVE-2026-25089,Vulnerability,CVE-2026-25089,"{""cve_id"": ""CVE-2026-25089"", ""year"": 2026, ""cve_name"": ""Fortinet FortiSandbox OS Command Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",42
+PRODUCT:fortisandbox,Product,FortiSandbox,{},42 43
+CVE:CVE-2026-39808,Vulnerability,CVE-2026-39808,"{""cve_id"": ""CVE-2026-39808"", ""year"": 2026, ""cve_name"": ""Fortinet FortiSandbox OS Command Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",43
+CVE:CVE-2026-46817,Vulnerability,CVE-2026-46817,"{""cve_id"": ""CVE-2026-46817"", ""year"": 2026, ""cve_name"": ""Oracle E-Business Suite Improper Privilege Management Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",44
+VULNERABILITYCLASS:improper privilege management,VulnerabilityClass,Improper Privilege Management,"{""cwe_id"": ""CWE-269""}",44
+PRODUCT:e-business suite,Product,E-Business Suite,{},44
+CVE:CVE-2023-4346,Vulnerability,CVE-2023-4346,"{""cve_id"": ""CVE-2023-4346"", ""year"": 2023, ""cve_name"": ""KNX Association KNX Protocol Connection Authorization Option 1 Overly Restrictive Account Lockout Mechanism Vulnerability"", ""impacts"": [""Arbitrary File Manipulation"", ""Unauthorized Access""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",45
+VULNERABILITYCLASS:overly restrictive account lockout mechanism,VulnerabilityClass,Overly Restrictive Account Lockout Mechanism,"{""cwe_id"": ""CWE-645""}",45
+VENDOR:knx association,Vendor,KNX Association,{},45
+PRODUCT:knx protocol connection authorization option 1,Product,KNX Protocol Connection Authorization Option 1,{},45
+CVE:CVE-2026-56155,Vulnerability,CVE-2026-56155,"{""cve_id"": ""CVE-2026-56155"", ""year"": 2026, ""cve_name"": ""Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [""authenticated"", ""local""], ""end_of_life"": false, ""mentioned_only"": false}",46
+VULNERABILITYCLASS:insufficient granularity of access control,VulnerabilityClass,Insufficient Granularity Of Access Control,"{""cwe_id"": ""CWE-1220""}",46
+PRODUCT:active directory federation services,Product,Active Directory Federation Services,{},46
+CVE:CVE-2026-56164,Vulnerability,CVE-2026-56164,"{""cve_id"": ""CVE-2026-56164"", ""year"": 2026, ""cve_name"": ""Microsoft SharePoint Server Missing Authentication for Critical Function Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [""network"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",47
+PRODUCT:sharepoint server,Product,SharePoint Server,{},47 57
+CVE:CVE-2026-15409,Vulnerability,CVE-2026-15409,"{""cve_id"": ""CVE-2026-15409"", ""year"": 2026, ""cve_name"": ""SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability"", ""impacts"": [""Server-Side Request Forgery""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",48
+VENDOR:sonicwall,Vendor,SonicWall,{},48 49
+PRODUCT:sma1000 appliances,Product,SMA1000 Appliances,{},48 49
+CVE:CVE-2026-15410,Vulnerability,CVE-2026-15410,"{""cve_id"": ""CVE-2026-15410"", ""year"": 2026, ""cve_name"": ""SonicWall SMA1000 Appliances Code Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""authenticated"", ""remote""], ""end_of_life"": false, ""mentioned_only"": false}",49
+CVE:CVE-2008-4128,Vulnerability,CVE-2008-4128,"{""cve_id"": ""CVE-2008-4128"", ""year"": 2008, ""cve_name"": ""Cisco IOS Cross-Site Request Forgery Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote""], ""end_of_life"": false, ""mentioned_only"": false}",50
+VULNERABILITYCLASS:cross-site request forgery,VulnerabilityClass,Cross-Site Request Forgery,"{""cwe_id"": ""CWE-352""}",50
+PRODUCT:ios,Product,IOS,{},50
+CVE:CVE-2026-56291,Vulnerability,CVE-2026-56291,"{""cve_id"": ""CVE-2026-56291"", ""year"": 2026, ""cve_name"": ""Balbooa Forms Unrestricted Upload of File with Dangerous Type Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",51
+VULNERABILITYCLASS:unrestricted upload of file with dangerous type,VulnerabilityClass,Unrestricted Upload Of File With Dangerous Type,"{""cwe_id"": ""CWE-434""}",51 52 53
+VENDOR:balbooa,Vendor,Balbooa,{},51
+PRODUCT:forms,Product,Forms,{},51
+CVE:CVE-2026-48939,Vulnerability,CVE-2026-48939,"{""cve_id"": ""CVE-2026-48939"", ""year"": 2026, ""cve_name"": ""iCagenda Unrestricted Upload of File with Dangerous Type Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",52
+VENDOR:icagenda,Vendor,iCagenda,{},52
+PRODUCT:icagenda,Product,iCagenda,{},52
+CVE:CVE-2026-48908,Vulnerability,CVE-2026-48908,"{""cve_id"": ""CVE-2026-48908"", ""year"": 2026, ""cve_name"": ""JoomShaper SP Page Builder Unrestricted Upload of File with Dangerous Type Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",53
+VENDOR:joomshaper,Vendor,JoomShaper,{},53
+PRODUCT:sp page builder,Product,SP Page Builder,{},53
+CVE:CVE-2026-55255,Vulnerability,CVE-2026-55255,"{""cve_id"": ""CVE-2026-55255"", ""year"": 2026, ""cve_name"": ""Langflow Authorization Bypass Through User-Controlled Key Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""authenticated""], ""end_of_life"": false, ""mentioned_only"": false}",54
+VULNERABILITYCLASS:authorization bypass through user-controlled key,VulnerabilityClass,Authorization Bypass Through User-Controlled Key,"{""cwe_id"": ""CWE-639""}",54
+CVE:CVE-2026-56290,Vulnerability,CVE-2026-56290,"{""cve_id"": ""CVE-2026-56290"", ""year"": 2026, ""cve_name"": ""Joomlack Page Builder Improper Access Control Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",55
+VENDOR:joomlack,Vendor,Joomlack,{},55
+PRODUCT:page builder,Product,Page Builder,{},55
+CVE:CVE-2026-48282,Vulnerability,CVE-2026-48282,"{""cve_id"": ""CVE-2026-48282"", ""year"": 2026, ""cve_name"": ""Adobe ColdFusion Path Traversal Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",56
+VENDOR:adobe,Vendor,Adobe,{},56
+PRODUCT:coldfusion,Product,ColdFusion,{},56
+CVE:CVE-2026-45659,Vulnerability,CVE-2026-45659,"{""cve_id"": ""CVE-2026-45659"", ""year"": 2026, ""cve_name"": ""Microsoft SharePoint Server Deserialization of Untrusted Data Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""authenticated"", ""network""], ""end_of_life"": false, ""mentioned_only"": false}",57
+CVE:CVE-2026-48558,Vulnerability,CVE-2026-48558,"{""cve_id"": ""CVE-2026-48558"", ""year"": 2026, ""cve_name"": ""SimpleHelp Authentication Bypass Vulnerability"", ""impacts"": [""Authentication Bypass""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",58
+VULNERABILITYCLASS:authentication bypass,VulnerabilityClass,Authentication Bypass,"{""cwe_id"": ""CWE-287""}",58
+VENDOR:simplehelp,Vendor,SimpleHelp,{},58
+PRODUCT:simplehelp,Product,SimpleHelp,{},58
+CVE:CVE-2026-12569,Vulnerability,CVE-2026-12569,"{""cve_id"": ""CVE-2026-12569"", ""year"": 2026, ""cve_name"": ""PTC Windchill and FlexPLM Improper Input Validation Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network"", ""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",59
+VULNERABILITYCLASS:improper input validation,VulnerabilityClass,Improper Input Validation,"{""cwe_id"": ""CWE-20""}",59 62
+VENDOR:ptc,Vendor,PTC,{},59
+PRODUCT:windchill and flexplm,Product,Windchill and FlexPLM,{},59
+CVE:CVE-2026-20230,Vulnerability,CVE-2026-20230,"{""cve_id"": ""CVE-2026-20230"", ""year"": 2026, ""cve_name"": ""Cisco Unified Communications Manager Server-Side Request Forgery (SSRF) Vulnerability"", ""impacts"": [""Arbitrary File Manipulation"", ""Privilege Escalation"", ""Server-Side Request Forgery""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",60
+VULNERABILITYCLASS:server-side request forgery (ssrf),VulnerabilityClass,Server-Side Request Forgery (SSRF),{},60
+PRODUCT:unified communications manager,Product,Unified Communications Manager,{},60
+CVE:CVE-2025-67038,Vulnerability,CVE-2025-67038,"{""cve_id"": ""CVE-2025-67038"", ""year"": 2025, ""cve_name"": ""Lantronix EDS5000 Code Injection Vulnerability"", ""impacts"": [""Privilege Escalation""], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",61
+VENDOR:lantronix,Vendor,Lantronix,{},61
+PRODUCT:eds5000,Product,EDS5000,{},61
+CVE:CVE-2026-34910,Vulnerability,CVE-2026-34910,"{""cve_id"": ""CVE-2026-34910"", ""year"": 2026, ""cve_name"": ""Ubiquiti UniFi OS Improper Input Validation Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""network""], ""end_of_life"": false, ""mentioned_only"": false}",62
+VENDOR:ubiquiti,Vendor,Ubiquiti,{},62 63 64
+PRODUCT:unifi os,Product,UniFi OS,{},62 63 64
+CVE:CVE-2026-34909,Vulnerability,CVE-2026-34909,"{""cve_id"": ""CVE-2026-34909"", ""year"": 2026, ""cve_name"": ""Ubiquiti UniFi OS Path Traversal Vulnerability"", ""impacts"": [""Arbitrary File Manipulation""], ""attack_position"": [""network""], ""end_of_life"": false, ""mentioned_only"": false}",63
+CVE:CVE-2026-34908,Vulnerability,CVE-2026-34908,"{""cve_id"": ""CVE-2026-34908"", ""year"": 2026, ""cve_name"": ""Ubiquiti UniFi OS Improper Access Control Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""network""], ""end_of_life"": false, ""mentioned_only"": false}",64
+CVE:CVE-2026-20253,Vulnerability,CVE-2026-20253,"{""cve_id"": ""CVE-2026-20253"", ""year"": 2026, ""cve_name"": ""Splunk Enterprise Missing Authentication for Critical Function Vulnerability"", ""impacts"": [""Arbitrary File Manipulation""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",65
+VENDOR:splunk,Vendor,Splunk,{},65
+PRODUCT:enterprise,Product,Enterprise,{},65
+CVE:CVE-2026-48907,Vulnerability,CVE-2026-48907,"{""cve_id"": ""CVE-2026-48907"", ""year"": 2026, ""cve_name"": ""Widget Factory Joomla Content Editor Improper Access Control Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",66
+VENDOR:widget factory,Vendor,Widget Factory,{},66
+PRODUCT:joomla content editor,Product,Joomla Content Editor,{},66
+CVE:CVE-2026-54420,Vulnerability,CVE-2026-54420,"{""cve_id"": ""CVE-2026-54420"", ""year"": 2026, ""cve_name"": ""LiteSpeed cPanel Plugin UNIX Symbolic Link (Symlink) Following Vulnerability"", ""impacts"": [], ""attack_position"": [], ""end_of_life"": false, ""mentioned_only"": false}",67
+VULNERABILITYCLASS:unix symbolic link (symlink) following,VulnerabilityClass,UNIX Symbolic Link (Symlink) Following,"{""cwe_id"": ""CWE-61""}",67
+VENDOR:litespeed,Vendor,LiteSpeed,{},67
+PRODUCT:cpanel plugin,Product,cPanel Plugin,{},67
+CVE:CVE-2026-20262,Vulnerability,CVE-2026-20262,"{""cve_id"": ""CVE-2026-20262"", ""year"": 2026, ""cve_name"": ""Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability"", ""impacts"": [""Arbitrary File Manipulation""], ""attack_position"": [""authenticated"", ""remote""], ""end_of_life"": false, ""mentioned_only"": false}",68
+VULNERABILITYCLASS:directory or path traversal,VulnerabilityClass,Directory Or Path Traversal,"{""cwe_id"": ""CWE-22""}",68
+PRODUCT:catalyst sd-wan manager,Product,Catalyst SD-WAN Manager,{},68
+CVE:CVE-2026-35273,Vulnerability,CVE-2026-35273,"{""cve_id"": ""CVE-2026-35273"", ""year"": 2026, ""cve_name"": ""Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability"", ""impacts"": [""Unauthorized Access""], ""attack_position"": [""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",69
+PRODUCT:peoplesoft enterprise peopletools,Product,PeopleSoft Enterprise PeopleTools,{},69
+CVE:CVE-2026-10520,Vulnerability,CVE-2026-10520,"{""cve_id"": ""CVE-2026-10520"", ""year"": 2026, ""cve_name"": ""Ivanti Sentry OS Command Injection Vulnerability"", ""impacts"": [""Remote Code Execution""], ""attack_position"": [""remote"", ""unauthenticated""], ""end_of_life"": false, ""mentioned_only"": false}",70
+VENDOR:ivanti,Vendor,Ivanti,{},70
+PRODUCT:sentry,Product,Sentry,{},70
+ATT&CK:G0082,ThreatActor,APT38,"{""attck_id"": ""G0082"", ""first_seen"": 2014, ""motivations"": [""financial""], ""attribution_details"": [""north korean"", ""reconnaissance general bureau""]}",71
+COUNTRY:north korea,Country,North Korea,{},71 82 85 114 123 126 130
+SECTOR:financial,Sector,Financial,{},71 77 81 83 86 89 94 98 102 109 110 114 119 120 123 127 128 131 138
+SECTOR:hospitality,Sector,Hospitality,{},71 102 110 120 121
+ATT&CK:G0119,ThreatActor,Indrik Spider,"{""attck_id"": ""G0119"", ""first_seen"": 2014, ""motivations"": [""financial""], ""attribution_details"": [""russia-based""]}",72 80
+ATT&CK:S0384,Software,Dridex,"{""attck_id"": ""S0384""}",72
+ATT&CK:S0570,Software,BitPaymer,"{""attck_id"": ""S0570""}",72
+ATT&CK:S0612,Software,WastedLocker,"{""attck_id"": ""S0612""}",72 80
+COUNTRY:russia,Country,Russia,{},72 77 91 93 99 104 111 112 117 126 130 140
+ATT&CK:G0055,ThreatActor,NEODYMIUM,"{""attck_id"": ""G0055"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",73
+ATT&CK:G0056,ThreatActor,PROMETHIUM,"{""attck_id"": ""G0056""}",73
+ATT&CK:G0063,ThreatActor,BlackOasis,"{""attck_id"": ""G0063""}",73
+COUNTRY:türkiye,Country,Türkiye,{},73 134
+ATT&CK:G1043,ThreatActor,BlackByte,"{""attck_id"": ""G1043"", ""first_seen"": 2021, ""motivations"": [""financial""], ""attribution_details"": []}",74
+ATT&CK:S1180,Software,BlackByte Ransomware,"{""attck_id"": ""S1180""}",74
+ATT&CK:S1181,Software,BlackByte 2.0 Ransomware,"{""attck_id"": ""S1181""}",74
+ATT&CK:G0066,ThreatActor,Elderwood,"{""attck_id"": ""G0066"", ""first_seen"": null, ""motivations"": [""espionage""], ""attribution_details"": [""chinese""]}",75
+COUNTRY:china,Country,China,{},75 77 78 79 86 87 89 90 94 95 97 99 100 101 103 105 116 117 118 119 122 126 130 136 137 140
+SECTOR:defense,Sector,Defense,{},75 78 91 94 97 98 101 104 106 112 114 116 122 124 138 139
+SECTOR:government,Sector,Government,{},75 76 77 78 82 88 91 93 96 98 100 101 104 106 108 112 113 114 116 117 127 128 130 132
+SECTOR:manufacturing,Sector,Manufacturing,{},75 113 120 124 139
+SECTOR:ngo,Sector,NGO,{},75 82 88 97 104 113 117
+SECTOR:technology,Sector,Technology,{},75 78 83 87 89 97 100 110 113 115 120 122 123 139
+CAMPAIGN:operation aurora,Campaign,Operation Aurora,{},75
+ATT&CK:G1008,ThreatActor,SideCopy,"{""attck_id"": ""G1008"", ""first_seen"": 2019, ""motivations"": [], ""attribution_details"": [""pakistani""]}",76
+ATT&CK:G0121,ThreatActor,Sidewinder,"{""attck_id"": ""G0121""}",76 116
+COUNTRY:pakistan,Country,Pakistan,{},76 93 116
+COUNTRY:afghanistan,Country,Afghanistan,{},76 77 116
+COUNTRY:india,Country,India,{},76 88 103 116 126
+ATT&CK:G0093,ThreatActor,GALLIUM,"{""attck_id"": ""G0093"", ""first_seen"": 2012, ""motivations"": [""espionage""], ""attribution_details"": [""chinese""]}",77
+COUNTRY:australia,Country,Australia,{},77
+COUNTRY:belgium,Country,Belgium,{},77 99
+COUNTRY:cambodia,Country,Cambodia,{},77 96
+COUNTRY:malaysia,Country,Malaysia,{},77
+COUNTRY:mozambique,Country,Mozambique,{},77
+COUNTRY:philippines,Country,Philippines,{},77 96 132
+COUNTRY:vietnam,Country,Vietnam,{},77 96 126
+SECTOR:telecommunications,Sector,Telecommunications,{},77 89 90 98 112 120 121 122 128
+CAMPAIGN:operation soft cell,Campaign,Operation Soft Cell,{},77
+ATT&CK:G0025,ThreatActor,APT17,"{""attck_id"": ""G0025"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""china-based""]}",78
+COUNTRY:united states,Country,United States,{},78 79 87 88 90 93 97 100 110 112 117 118 122 133
+SECTOR:legal,Sector,Legal,{},78 97
+SECTOR:mining,Sector,Mining,{},78 119
+ATT&CK:G0022,ThreatActor,APT3,"{""attck_id"": ""G0022"", ""first_seen"": null, ""motivations"": [""political""], ""attribution_details"": [""china-based"", ""ministry of state security""]}",79
+COUNTRY:hong kong,Country,Hong Kong,{},79 132
+CAMPAIGN:operation clandestine fox,Campaign,Operation Clandestine Fox,{},79
+CAMPAIGN:operation clandestine wolf,Campaign,Operation Clandestine Wolf,{},79
+CAMPAIGN:operation double tap,Campaign,Operation Double Tap,{},79
+ATT&CK:G1020,ThreatActor,Mustard Tempest,"{""attck_id"": ""G1020"", ""first_seen"": 2017, ""motivations"": [""financial""], ""attribution_details"": []}",80
+ATT&CK:S1124,Software,SocGholish,"{""attck_id"": ""S1124""}",80
+ATT&CK:G0036,ThreatActor,GCMAN,"{""attck_id"": ""G0036"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",81
+ATT&CK:G0094,ThreatActor,Kimsuky,"{""attck_id"": ""G0094"", ""first_seen"": 2012, ""motivations"": [""espionage""], ""attribution_details"": [""democratic people's republic of korea"", ""dprk""]}",82
+COUNTRY:south korea,Country,South Korea,{},82 114 126 130
+SECTOR:diplomacy,Sector,Diplomacy,{},82 88 117
+ATT&CK:G1011,ThreatActor,EXOTIC LILY,"{""attck_id"": ""G1011"", ""first_seen"": 2021, ""motivations"": [""financial""], ""attribution_details"": []}",83
+ATT&CK:G0102,ThreatActor,Wizard Spider,"{""attck_id"": ""G0102""}",83
+ATT&CK:S0575,Software,Conti,"{""attck_id"": ""S0575""}",83
+ATT&CK:S0659,Software,Diavol,"{""attck_id"": ""S0659""}",83
+SECTOR:healthcare,Sector,Healthcare,{},83 89 94 97 100 110 113 132 133
+ATT&CK:G1037,ThreatActor,TA577,"{""attck_id"": ""G1037"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",84
+ATT&CK:S0650,Software,QakBot,"{""attck_id"": ""S0650""}",84
+ATT&CK:S1145,Software,Pikabot,"{""attck_id"": ""S1145""}",84
+ATT&CK:S1160,Software,Latrodectus,"{""attck_id"": ""S1160""}",84
+ATT&CK:G1049,ThreatActor,AppleJeus,"{""attck_id"": ""G1049"", ""first_seen"": 2018, ""motivations"": [], ""attribution_details"": [""north korean"", ""reconnaissance general bureau""]}",85
+ATT&CK:G0032,ThreatActor,Lazarus Group,"{""attck_id"": ""G0032""}",85 138
+ATT&CK:G0018,ThreatActor,admin@338,"{""attck_id"": ""G0018"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""china-based""]}",86
+ATT&CK:S0012,Software,PoisonIvy,"{""attck_id"": ""S0012""}",86
+SECTOR:media,Sector,Media,{},86 96 110 115
+ATT&CK:G1017,ThreatActor,Volt Typhoon,"{""attck_id"": ""G1017"", ""first_seen"": 2021, ""motivations"": [""destructive""], ""attribution_details"": [""people's republic of china"", ""prc""]}",87
+COUNTRY:guam,Country,Guam,{},87
+SECTOR:critical infrastructure,Sector,Critical Infrastructure,{},87 91 103
+ATT&CK:G0040,ThreatActor,Patchwork,"{""attck_id"": ""G0040"", ""first_seen"": null, ""motivations"": [""espionage""], ""attribution_details"": [""pro-indian"", ""indian entity""]}",88
+ATT&CK:G0096,ThreatActor,APT41,"{""attck_id"": ""G0096"", ""first_seen"": 2012, ""motivations"": [""espionage"", ""financial""], ""attribution_details"": [""chinese""]}",89 103
+SECTOR:education,Sector,Education,{},89 97 121
+SECTOR:gaming,Sector,Gaming,{},89 120
+SECTOR:retail,Sector,Retail,{},89 102 110 120
+ATT&CK:G1045,ThreatActor,Salt Typhoon,"{""attck_id"": ""G1045"", ""first_seen"": 2019, ""motivations"": [], ""attribution_details"": [""people's republic of china"", ""prc""]}",90
+ATT&CK:G0035,ThreatActor,Dragonfly,"{""attck_id"": ""G0035"", ""first_seen"": 2010, ""motivations"": [""espionage""], ""attribution_details"": [""fsb""]}",91
+SECTOR:aviation,Sector,Aviation,{},91 124
+ATT&CK:G0120,ThreatActor,Evilnum,"{""attck_id"": ""G0120"", ""first_seen"": 2018, ""motivations"": [""financial""], ""attribution_details"": []}",92
+ATT&CK:G0078,ThreatActor,Gorgon Group,"{""attck_id"": ""G0078"", ""first_seen"": null, ""motivations"": [""financial""], ""attribution_details"": [""pakistan-based""]}",93
+COUNTRY:spain,Country,Spain,{},93
+COUNTRY:united kingdom,Country,United Kingdom,{},93 100
+ATT&CK:G0045,ThreatActor,menuPass,"{""attck_id"": ""G0045"", ""first_seen"": 2006, ""motivations"": [], ""attribution_details"": [""chinese ministry of state security"", ""tianjin state security""]}",94
+SECTOR:aerospace,Sector,Aerospace,{},94 124
+SECTOR:transportation,Sector,Transportation,{},94 110 124 132
+ATT&CK:G0014,ThreatActor,Night Dragon,"{""attck_id"": ""G0014"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""originating primarily in china""]}",95
+ATT&CK:G0050,ThreatActor,APT32,"{""attck_id"": ""G0050"", ""first_seen"": 2014, ""motivations"": [], ""attribution_details"": [""vietnam-based""]}",96
+COUNTRY:laos,Country,Laos,{},96
+ATT&CK:G0125,ThreatActor,HAFNIUM,"{""attck_id"": ""G0125"", ""first_seen"": 2021, ""motivations"": [""espionage""], ""attribution_details"": [""operating out of china""]}",97
+SECTOR:cloud services,Sector,Cloud Services,{},97 109 110
+ATT&CK:G0069,ThreatActor,MuddyWater,"{""attck_id"": ""G0069"", ""first_seen"": null, ""motivations"": [""espionage""], ""attribution_details"": [""iran's ministry"", ""mois""]}",98
+COUNTRY:iran,Country,Iran,{},98 99 108 115 121 127 128 139
+COUNTRY:africa,Country,Africa,{},98 121
+COUNTRY:asia,Country,Asia,{},98 112 116 117 121 133 134
+COUNTRY:europe,Country,Europe,{},98 112 117 121 133 134
+COUNTRY:middle east,Country,Middle East,{},98 106 108 115 126
+COUNTRY:north america,Country,North America,{},98 121 134
+COUNTRY:saudi arabia,Country,Saudi Arabia,{},98
+COUNTRY:united arab emirates,Country,United Arab Emirates,{},98
+SECTOR:energy,Sector,Energy,{},98 100 110 112 127 128 138
+ATT&CK:G0041,ThreatActor,Strider,"{""attck_id"": ""G0041"", ""first_seen"": 2011, ""motivations"": [], ""attribution_details"": []}",99
+COUNTRY:rwanda,Country,Rwanda,{},99
+COUNTRY:sweden,Country,Sweden,{},99
+ATT&CK:G0116,ThreatActor,Operation Wocao,"{""attck_id"": ""G0116"", ""first_seen"": null, ""motivations"": [""espionage""], ""attribution_details"": [""china-based""]}",100
+COUNTRY:france,Country,France,{},100
+COUNTRY:germany,Country,Germany,{},100
+SECTOR:managed service providers,Sector,Managed Service Providers,{},100 120
+ATT&CK:G0019,ThreatActor,Naikon,"{""attck_id"": ""G0019"", ""first_seen"": 2010, ""motivations"": [""espionage""], ""attribution_details"": [""chinese"", ""people's liberation army"", ""pla""]}",101
+COUNTRY:southeast asia,Country,Southeast Asia,{},101
+ATT&CK:G0037,ThreatActor,FIN6,"{""attck_id"": ""G0037"", ""first_seen"": null, ""motivations"": [""financial""], ""attribution_details"": []}",102
+ATT&CK:G1042,ThreatActor,RedEcho,"{""attck_id"": ""G1042"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""people's republic of china""]}",103
+ATT&CK:S0596,Software,ShadowPad,"{""attck_id"": ""S0596""}",103
+ATT&CK:G0047,ThreatActor,Gamaredon Group,"{""attck_id"": ""G0047"", ""first_seen"": 2013, ""motivations"": [""espionage"", ""financial""], ""attribution_details"": [""russian""]}",104
+COUNTRY:ukraine,Country,Ukraine,{},104
+ATT&CK:G0002,ThreatActor,Moafee,"{""attck_id"": ""G0002"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""guandong province of china""]}",105
+ATT&CK:G0017,ThreatActor,DragonOK,"{""attck_id"": ""G0017""}",105
+ATT&CK:G0084,ThreatActor,Gallmaker,"{""attck_id"": ""G0084"", ""first_seen"": 2017, ""motivations"": [""espionage""], ""attribution_details"": []}",106
+ATT&CK:G1046,ThreatActor,Storm-1811,"{""attck_id"": ""G1046"", ""first_seen"": null, ""motivations"": [""financial""], ""attribution_details"": []}",107
+ATT&CK:S1070,Software,Black Basta,"{""attck_id"": ""S1070""}",107
+ATT&CK:G0077,ThreatActor,Leafminer,"{""attck_id"": ""G0077"", ""first_seen"": 2017, ""motivations"": [], ""attribution_details"": [""iranian""]}",108
+ATT&CK:G0139,ThreatActor,TeamTNT,"{""attck_id"": ""G0139"", ""first_seen"": 2019, ""motivations"": [], ""attribution_details"": []}",109
+ATT&CK:G0046,ThreatActor,FIN7,"{""attck_id"": ""G0046"", ""first_seen"": null, ""motivations"": [""financial""], ""attribution_details"": []}",110 131
+SECTOR:consulting,Sector,Consulting,{},110
+SECTOR:food and beverage,Sector,Food and Beverage,{},110
+SECTOR:pharmaceutical,Sector,Pharmaceutical,{},110
+ATT&CK:G0034,ThreatActor,Sandworm Team,"{""attck_id"": ""G0034"", ""first_seen"": 2009, ""motivations"": [""destructive""], ""attribution_details"": [""general staff main intelligence"", ""gru"", ""gru""]}",111
+ATT&CK:G0095,ThreatActor,Machete,"{""attck_id"": ""G0095"", ""first_seen"": 2010, ""motivations"": [""espionage""], ""attribution_details"": []}",112
+COUNTRY:latin america,Country,Latin America,{},112
+COUNTRY:venezuela,Country,Venezuela,{},112
+ATT&CK:G0026,ThreatActor,APT18,"{""attck_id"": ""G0026"", ""first_seen"": 2009, ""motivations"": [], ""attribution_details"": []}",113
+ATT&CK:G0138,ThreatActor,Andariel,"{""attck_id"": ""G0138"", ""first_seen"": 2009, ""motivations"": [""destructive""], ""attribution_details"": [""north korean""]}",114
+CAMPAIGN:operation black mine,Campaign,Operation Black Mine,{},114
+CAMPAIGN:operation goldenaxe,Campaign,Operation GoldenAxe,{},114
+ATT&CK:G1012,ThreatActor,CURIUM,"{""attck_id"": ""G1012"", ""first_seen"": 2018, ""motivations"": [], ""attribution_details"": [""iranian""]}",115
+COUNTRY:nepal,Country,Nepal,{},116 126
+ATT&CK:G0129,ThreatActor,Mustang Panda,"{""attck_id"": ""G0129"", ""first_seen"": 2012, ""motivations"": [""espionage""], ""attribution_details"": [""china-based""]}",117
+COUNTRY:mongolia,Country,Mongolia,{},117 140
+SECTOR:religious institutions,Sector,Religious Institutions,{},117
+SECTOR:research,Sector,Research,{},117
+ATT&CK:G0128,ThreatActor,ZIRCONIUM,"{""attck_id"": ""G0128"", ""first_seen"": 2017, ""motivations"": [], ""attribution_details"": [""operating out of china""]}",118
+ATT&CK:G0106,ThreatActor,Rocke,"{""attck_id"": ""G0106"", ""first_seen"": null, ""motivations"": [""financial""], ""attribution_details"": [""chinese""]}",119
+ATT&CK:G1015,ThreatActor,Scattered Spider,"{""attck_id"": ""G1015"", ""first_seen"": 2022, ""motivations"": [""financial""], ""attribution_details"": []}",120
+SECTOR:business process outsourcing,Sector,Business Process Outsourcing,{},120
+SECTOR:customer relationship management,Sector,Customer Relationship Management,{},120
+ATT&CK:G0087,ThreatActor,APT39,"{""attck_id"": ""G0087"", ""first_seen"": 2014, ""motivations"": [""espionage""], ""attribution_details"": [""iranian"", ""mois"", ""mois""]}",121
+SECTOR:travel,Sector,Travel,{},121 127
+ATT&CK:G1048,ThreatActor,UNC3886,"{""attck_id"": ""G1048"", ""first_seen"": 2022, ""motivations"": [""espionage""], ""attribution_details"": [""china-nexus""]}",122
+COUNTRY:asia-pacific,Country,Asia-Pacific,{},122
+COUNTRY:japan,Country,Japan,{},122 126 130
+ATT&CK:G1052,ThreatActor,Contagious Interview,"{""attck_id"": ""G1052"", ""first_seen"": null, ""motivations"": [""espionage"", ""financial""], ""attribution_details"": [""north korea-aligned""]}",123
+ATT&CK:G1018,ThreatActor,TA2541,"{""attck_id"": ""G1018"", ""first_seen"": 2017, ""motivations"": [""financial""], ""attribution_details"": []}",124
+CAMPAIGN:operation layover,Campaign,Operation Layover,{},124
+ATT&CK:G1024,ThreatActor,Akira,"{""attck_id"": ""G1024"", ""first_seen"": 2023, ""motivations"": [""financial""], ""attribution_details"": []}",125
+ATT&CK:G0067,ThreatActor,APT37,"{""attck_id"": ""G0067"", ""first_seen"": 2012, ""motivations"": [""espionage""], ""attribution_details"": [""north korean"", ""north korean""]}",126
+COUNTRY:kuwait,Country,Kuwait,{},126
+COUNTRY:romania,Country,Romania,{},126
+CAMPAIGN:operation daybreak,Campaign,Operation Daybreak,{},126
+CAMPAIGN:operation erebus,Campaign,Operation Erebus,{},126
+ATT&CK:G1009,ThreatActor,Moses Staff,"{""attck_id"": ""G1009"", ""first_seen"": 2021, ""motivations"": [""political""], ""attribution_details"": [""iranian""]}",127
+COUNTRY:israel,Country,Israel,{},127 139
+ATT&CK:G0049,ThreatActor,OilRig,"{""attck_id"": ""G0049"", ""first_seen"": 2014, ""motivations"": [], ""attribution_details"": [""iranian"", ""iranian"", ""iranian""]}",128
+ATT&CK:G0124,ThreatActor,Windigo,"{""attck_id"": ""G0124"", ""first_seen"": 2011, ""motivations"": [], ""attribution_details"": []}",129
+ATT&CK:S0377,Software,Ebury,"{""attck_id"": ""S0377""}",129
+ATT&CK:G0126,ThreatActor,Higaisa,"{""attck_id"": ""G0126"", ""first_seen"": 2009, ""motivations"": [], ""attribution_details"": [""south korean origins""]}",130
+COUNTRY:poland,Country,Poland,{},130
+ATT&CK:G0008,ThreatActor,Carbanak,"{""attck_id"": ""G0008"", ""first_seen"": 2013, ""motivations"": [""financial""], ""attribution_details"": []}",131
+ATT&CK:G0080,ThreatActor,Cobalt Group,"{""attck_id"": ""G0080""}",131
+ATT&CK:S0030,Software,Carbanak,"{""attck_id"": ""S0030""}",131
+ATT&CK:G0081,ThreatActor,Tropic Trooper,"{""attck_id"": ""G0081"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",132
+COUNTRY:taiwan,Country,Taiwan,{},132
+ATT&CK:G0071,ThreatActor,Orangeworm,"{""attck_id"": ""G0071"", ""first_seen"": 2015, ""motivations"": [""espionage""], ""attribution_details"": []}",133
+ATT&CK:S0236,Software,Kwampirs,"{""attck_id"": ""S0236""}",133
+ATT&CK:S0140,Software,Shamoon,"{""attck_id"": ""S0140""}",133
+ATT&CK:G1041,ThreatActor,Sea Turtle,"{""attck_id"": ""G1041"", ""first_seen"": 2017, ""motivations"": [""espionage""], ""attribution_details"": [""türkiye-linked""]}",134
+ATT&CK:G0015,ThreatActor,Taidoor,"{""attck_id"": ""G0015"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",135
+ATT&CK:G0039,ThreatActor,Suckfly,"{""attck_id"": ""G0039"", ""first_seen"": 2014, ""motivations"": [], ""attribution_details"": [""china-based""]}",136
+ATT&CK:G0024,ThreatActor,Putter Panda,"{""attck_id"": ""G0024"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""chinese"", ""pla""]}",137
+ATT&CK:G0104,ThreatActor,Sharpshooter,"{""attck_id"": ""G0104"", ""first_seen"": null, ""motivations"": [""espionage""], ""attribution_details"": []}",138
+CAMPAIGN:operation sharpshooter,Campaign,Operation Sharpshooter,{},138
+ATT&CK:G1005,ThreatActor,POLONIUM,"{""attck_id"": ""G1005"", ""first_seen"": 2022, ""motivations"": [], ""attribution_details"": [""iran's ministry"", ""mois"", ""lebanon-based""]}",139
+COUNTRY:lebanon,Country,Lebanon,{},139
+ATT&CK:G0062,ThreatActor,TA459,"{""attck_id"": ""G0062"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""operate out of china""]}",140
+COUNTRY:belarus,Country,Belarus,{},140
