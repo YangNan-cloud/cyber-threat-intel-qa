@@ -8,8 +8,9 @@
 |---|---|---|---|
 | CISA KEV Catalog | CVE | 70 | `Vulnerability CVE-... (名称) affects 厂商 产品. Short Description: ... Required Action: ...` |
 | MITRE ATT&CK | APT/Technique | 70 | `Entity/Technique Name: 组织名. Description: ...`(内含 `[实体](https://attack.mitre.org/groups/Gxxxx)` / `.../software/Sxxxx` 链接) |
+| ThreatFox API | IOC/Malware | 70 | `Threat Malware 恶意软件名 associated IOC detected: IOC值 (Type: 类型). Threat Type: 威胁类型. Confidence: 置信度%.` |
 
-> 文件名中的 "200" 为收集目标数;实际文件含 140 条(见 `climb.py`——ThreatFox IOC 抓取未成功,故无 `IOC/Malware` 类数据)。
+> 文件名中的 "200" 为收集目标数;实际文件含 210 条(70+70+70)。ThreatFox 采集需 `THREATFOX_API_KEY` 环境变量(免费申请 https://auth.abuse.ch/)。
 
 ## 2. 运行
 
@@ -21,9 +22,12 @@
 
 | 文件 | 内容 |
 |---|---|
-| `annotated_dataset.jsonl` | 每条记录追加 `entities` / `relations` / `label` / `required_action` / `directives` |
+| `annotated_dataset.jsonl` | 每条记录追加 `entities` / `relations` / `label` / `required_action` / `directives` / `url` / `ioc` |
 | `kg_nodes.csv` | 全局去重节点(395 个),列:`node_id, label, name, attrs(JSON), record_ids` |
 | `kg_edges.csv` | 全局去重边(571 条),列:`source, relation, target, method, record_ids` |
+
+- `url`:记录主来源链接(MITRE 记录取自首条 `attack.mitre.org` 链接;CVE 记录为空串)。当前数据集无外部链接时为空。
+- `ioc`:结构化 IOC `{"ips": [...], "domains": [...], "hashes": [...]}`。当前原始数据无 IOC,故基本为空;待 ThreatFox IOC 数据补齐后自然填充。
 
 ## 3. 实体类型(9 类)
 
@@ -76,7 +80,9 @@
   "relations": [
     {"head": "e1", "type": "has_class", "tail": "e2", "method": "template"},
     {"head": "e1", "type": "chained_with", "tail": "e5", "method": "explicit"}
-  ]
+  ],
+  "url": "",
+  "ioc": {"ips": [], "domains": [], "hashes": []}
 }
 ```
 
@@ -87,12 +93,12 @@
 
 | 指标 | 数量 |
 |---|---|
-| 记录总数 | 140(0 条告警) |
-| 实体总数 / 去重节点 | 714 / **395** |
+| 记录总数 | 210(0 条告警) |
+| 实体总数 / 去重节点 | 784 / **438** |
 | 关系总数 / 去重边 | 584 / **571** |
-| 实体 span 总数 | 1265(与原文全部精确对齐) |
+| 实体 span 总数 | 1335(与原文全部精确对齐) |
 
-主要实体分布:Sector 160、Country 157、ThreatActor 81、Vulnerability 76(70 主记录 + 6 链式提及)、VulnerabilityClass/Vendor/Product 各 70、Software 19、Campaign 11。
+主要实体分布:Sector 160、Country 157、Software 89(19 MITRE + 70 ThreatFox,70 条 ThreatFox 覆盖 44 个恶意软件家族)、ThreatActor 81、Vulnerability 76(70 主记录 + 6 链式提及)、VulnerabilityClass/Vendor/Product 各 70、Campaign 11。
 
 ## 7. 知识图谱导入(Neo4j 示例)
 
@@ -117,9 +123,9 @@ RETURN count(*);
 - MITRE 侧 `uses` / `related_to` 为同记录共现推断,非显式陈述;`targets` 依赖语境词(如 targeted/victims/against),少数段落无此语境时会漏抽目标行业。
 - 无 ATT&CK ID 的软件名(如 Hades、LockBit、远程工具)未建实体。
 - `targets` 关系中 Sector 与 Country 共用同一关系类型,可用目标节点 `label` 区分。
-- 未包含 ThreatFox IOC/Malware 数据(收集阶段未获取到)。
+- 未包含 ThreatFox IOC/Malware 数据(当前 140 条;ThreatFox 现要求免费 `Auth-Key`,见下方扩展方向)。
 
 ## 9. 扩展方向
 
 - 用 DeepSeek API 对规则结果做 LLM 复核/补漏(环境已有 `DEEPSEEK_API_KEY`),重点补:无 ID 软件名、TTP(technique)关系、更细的归因。
-- 重跑 `climb.py` 补齐 ThreatFox 的 70 条 IOC 数据后再标注,达 200 条目标规模。
+- 补齐 ThreatFox 的 70 条 IOC 数据以达 200 条目标:ThreatFox API 现已要求 `Auth-Key` 请求头,在 https://auth.abuse.ch/ 免费申请后,以 `THREATFOX_API_KEY=xxx python climb.py` 重跑采集(已改为 `days:7` 以获取足够 IOC);`annotate.py` 已支持 `IOC/Malware` 记录(恶意软件名建 `Software` 实体,IOC 值落入记录级 `ioc` 字段)。

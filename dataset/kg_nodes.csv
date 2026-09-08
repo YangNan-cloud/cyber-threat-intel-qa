@@ -272,7 +272,7 @@ SECTOR:healthcare,Sector,Healthcare,{},83 89 94 97 100 110 113 132 133
 ATT&CK:G1037,ThreatActor,TA577,"{""attck_id"": ""G1037"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": []}",84
 ATT&CK:S0650,Software,QakBot,"{""attck_id"": ""S0650""}",84
 ATT&CK:S1145,Software,Pikabot,"{""attck_id"": ""S1145""}",84
-ATT&CK:S1160,Software,Latrodectus,"{""attck_id"": ""S1160""}",84
+ATT&CK:S1160,Software,Latrodectus,"{""attck_id"": ""S1160""}",84 160 190
 ATT&CK:G1049,ThreatActor,AppleJeus,"{""attck_id"": ""G1049"", ""first_seen"": 2018, ""motivations"": [], ""attribution_details"": [""north korean"", ""reconnaissance general bureau""]}",85
 ATT&CK:G0032,ThreatActor,Lazarus Group,"{""attck_id"": ""G0032""}",85 138
 ATT&CK:G0018,ThreatActor,admin@338,"{""attck_id"": ""G0018"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""china-based""]}",86
@@ -394,3 +394,46 @@ ATT&CK:G1005,ThreatActor,POLONIUM,"{""attck_id"": ""G1005"", ""first_seen"": 202
 COUNTRY:lebanon,Country,Lebanon,{},139
 ATT&CK:G0062,ThreatActor,TA459,"{""attck_id"": ""G0062"", ""first_seen"": null, ""motivations"": [], ""attribution_details"": [""operate out of china""]}",140
 COUNTRY:belarus,Country,Belarus,{},140
+SOFTWARE:iclickfix,Software,IClickFix,"{""source"": ""ThreatFox""}",141 181
+SOFTWARE:clearfake,Software,ClearFake,"{""source"": ""ThreatFox""}",142 187
+SOFTWARE:vidar,Software,Vidar,"{""source"": ""ThreatFox""}",143 182 183 203
+SOFTWARE:smartapesg,Software,SmartApeSG,"{""source"": ""ThreatFox""}",144 184
+SOFTWARE:kongtuke,Software,KongTuke,"{""source"": ""ThreatFox""}",145 185
+SOFTWARE:fakeupdates,Software,FAKEUPDATES,"{""source"": ""ThreatFox""}",146
+SOFTWARE:mirai,Software,Mirai,"{""source"": ""ThreatFox""}",147
+SOFTWARE:unknown loader,Software,Unknown Loader,"{""source"": ""ThreatFox""}",148 201
+SOFTWARE:snappyclient,Software,SnappyClient,"{""source"": ""ThreatFox""}",149
+SOFTWARE:acr stealer,Software,ACR Stealer,"{""source"": ""ThreatFox""}",150
+SOFTWARE:unknown stealer,Software,Unknown Stealer,"{""source"": ""ThreatFox""}",151 173 189
+SOFTWARE:unknown rat,Software,Unknown RAT,"{""source"": ""ThreatFox""}",152 180 197
+SOFTWARE:axbanker,Software,AxBanker,"{""source"": ""ThreatFox""}",153 195
+SOFTWARE:remcos,Software,Remcos,"{""source"": ""ThreatFox""}",154 167
+SOFTWARE:ghostblade,Software,GHOSTBLADE,"{""source"": ""ThreatFox""}",155 198
+SOFTWARE:tonrat,Software,TonRAT,"{""source"": ""ThreatFox""}",156
+SOFTWARE:agent tesla,Software,Agent Tesla,"{""source"": ""ThreatFox""}",157
+SOFTWARE:magecart,Software,magecart,"{""source"": ""ThreatFox""}",158
+SOFTWARE:macsync,Software,MacSync,"{""source"": ""ThreatFox""}",159 169
+SOFTWARE:cobalt strike,Software,Cobalt Strike,"{""source"": ""ThreatFox""}",161 171 191
+SOFTWARE:asyncrat,Software,AsyncRAT,"{""source"": ""ThreatFox""}",162 175 208
+SOFTWARE:xworm,Software,XWorm,"{""source"": ""ThreatFox""}",163
+SOFTWARE:coper,Software,Coper,"{""source"": ""ThreatFox""}",164
+SOFTWARE:aisuru,Software,Aisuru,"{""source"": ""ThreatFox""}",165
+SOFTWARE:vshell,Software,VShell,"{""source"": ""ThreatFox""}",166
+SOFTWARE:njrat,Software,NjRAT,"{""source"": ""ThreatFox""}",168
+SOFTWARE:remus,Software,Remus,"{""source"": ""ThreatFox""}",170
+SOFTWARE:amos,Software,AMOS,"{""source"": ""ThreatFox""}",172
+SOFTWARE:quasar rat,Software,Quasar RAT,"{""source"": ""ThreatFox""}",174
+SOFTWARE:adaptixc2,Software,AdaptixC2,"{""source"": ""ThreatFox""}",176
+SOFTWARE:dcrat,Software,DCRat,"{""source"": ""ThreatFox""}",177 188 206
+SOFTWARE:ghost rat,Software,Ghost RAT,"{""source"": ""ThreatFox""}",178
+SOFTWARE:valleyrat,Software,ValleyRAT,"{""source"": ""ThreatFox""}",179 204
+SOFTWARE:purelogs stealer,Software,PureLogs Stealer,"{""source"": ""ThreatFox""}",186
+SOFTWARE:svcstealer,Software,SVCStealer,"{""source"": ""ThreatFox""}",192
+SOFTWARE:stealc,Software,Stealc,"{""source"": ""ThreatFox""}",193 209
+SOFTWARE:coruna,Software,Coruna,"{""source"": ""ThreatFox""}",194 196
+SOFTWARE:remoteadmin,Software,RemoteAdmin,"{""source"": ""ThreatFox""}",199
+SOFTWARE:sload,Software,sLoad,"{""source"": ""ThreatFox""}",200
+SOFTWARE:creal stealer,Software,Creal Stealer,"{""source"": ""ThreatFox""}",202
+SOFTWARE:lampion,Software,lampion,"{""source"": ""ThreatFox""}",205
+SOFTWARE:govrat,Software,GovRAT,"{""source"": ""ThreatFox""}",207
+SOFTWARE:coinminer,Software,Coinminer,"{""source"": ""ThreatFox""}",210
