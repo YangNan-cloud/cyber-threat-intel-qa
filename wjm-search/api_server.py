@@ -13,8 +13,7 @@ class RetrievalRequest(BaseModel):
     top_k: int = 6
 
 
-@app.post("/api/retrieval")
-def retrieval_api(req: RetrievalRequest):
+def _handle_retrieval(req: RetrievalRequest):
     """
     【对外接口，供兰书阳 RetrievalAgent调用】
     协议按照lan_shuyang_qa/README.txt定义
@@ -73,6 +72,16 @@ def retrieval_api(req: RetrievalRequest):
         results.append(item)
 
     return {"results": results}
+
+
+@app.post("/api/retrieval")
+def retrieval_api(req: RetrievalRequest):
+    return _handle_retrieval(req)
+
+
+@app.post("/search")
+def legacy_retrieval_api(req: RetrievalRequest):
+    return _handle_retrieval(req)
 
 
 @app.get("/health")

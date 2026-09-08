@@ -13,7 +13,9 @@ TOP_K_VECTOR = 5
 TOP_K_GRAPH = 3
 
 # ========== 真实CTI数据集路径（jsonl） ==========
-CTI_ANNOTATED_JSONL = r"D:\lab\dataset\annotated_dataset.jsonl"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, ".."))
+CTI_ANNOTATED_JSONL = os.path.join(PROJECT_ROOT, "dataset", "annotated_dataset.jsonl")
 
 # 图谱持久化
 KG_SAVE_PATH = os.path.join(BASE_DIR, "kg_data/kg_graph.json")
