@@ -1,6 +1,5 @@
 import streamlit as st
 from components.chat import render_chat_history
-from components.evaluation import render_evaluation
 from components.ioc_display import render_iocs
 from components.sidebar import render_sidebar
 from streamlit import query_params
@@ -177,9 +176,47 @@ if st.session_state.get("current_response"):
             # 问题不涉及归因，不显示任何内容
             pass
 
-# -------------------- 评测结果 --------------------
-with st.expander("📊 系统评测结果"):
-    render_evaluation()
+    evaluation = response.get("evaluation")
+    if isinstance(evaluation, dict):
+        st.markdown("### 🧪 当前问题评测")
+        if evaluation.get("matched"):
+            metrics = evaluation.get("metrics") or {}
+            st.caption(
+                f"样本：{evaluation.get('sample_id', '未知')} · "
+                f"类别：{evaluation.get('category', '未知')}"
+            )
+            col1, col2, col3, col4 = st.columns(4)
+            with col1:
+                st.metric("EM", f"{float(metrics.get('em', 0.0)):.0%}")
+            with col2:
+                st.metric("F1", f"{float(metrics.get('f1', 0.0)):.1%}")
+            with col3:
+                st.metric("Recall@5", f"{float(metrics.get('recall_at_5', 0.0)):.0%}")
+            with col4:
+                st.metric("MRR", f"{float(metrics.get('mrr', 0.0)):.2f}")
+
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.caption(f"拒答判断：{metrics.get('refusal_correct')}")
+            with col2:
+                st.caption(f"归因 Actor：{metrics.get('actor_correct')}")
+            with col3:
+                st.caption(f"归因 Verdict：{metrics.get('verdict_correct')}")
+
+            llm_judge = evaluation.get("llm_judge") or {}
+            if llm_judge.get("comment"):
+                st.markdown("**LLM 评价**")
+                st.info(llm_judge["comment"])
+            elif llm_judge.get("reason"):
+                st.caption(llm_judge["reason"])
+
+            with st.expander("查看标准答案与命中文档"):
+                st.markdown(f"**标准答案**：{evaluation.get('gold_answer', '')}")
+                st.markdown(f"**标准文档 ID**：{', '.join(evaluation.get('gold_doc_ids', [])) or '无'}")
+                st.markdown(f"**系统检索 ID**：{', '.join(evaluation.get('retrieved_ids', [])) or '无'}")
+        else:
+            with st.expander("当前问题未命中评测集"):
+                st.caption(evaluation.get("reason", "当前问题不在评测集中，无法计算离线指标。"))
 
 # -------------------- 多轮对话历史 --------------------
 st.divider()

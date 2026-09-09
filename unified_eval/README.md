@@ -1,12 +1,16 @@
 # 统一评测说明
 
-本目录存放独立于问答 Agent 代码的统一离线评测入口和人工评测样例。评测脚本会读取 `eval_dataset.jsonl`，逐条调用问答后端，再根据返回结果计算回答质量、检索命中、归因和拒答相关指标。
+本目录存放统一评测相关代码和人工评测样例，包含两类能力：
+
+1. `run_evaluation.py`：批量离线评测入口，读取 `eval_dataset.jsonl`，逐条调用问答后端，再根据返回结果计算回答质量、检索命中、归因和拒答相关指标。
+2. `evaluation_agent.py`：在线单题评测 Agent，被 QA 后端接在 AnswerAgent 之后调用；当用户问题命中评测集原题时，计算单题指标并调用 LLM 生成自然语言评价。
 
 ## 目录内容
 
 | 文件 | 作用 |
 |---|---|
 | `run_evaluation.py` | 一键评测脚本，调用 QA API 与检索 API，生成预测结果和汇总指标。 |
+| `evaluation_agent.py` | 单题 EvaluationAgent，供 QA 后端在线调用；命中评测集时计算指标并生成 LLM 评价。 |
 | `eval_dataset.jsonl` | 正式人工评测集，当前共 50 条，覆盖 CVE、APT、IOC、归因和拒答。 |
 | `evaluation_predictions.jsonl` | 评测运行后的逐题预测结果，会被重新运行覆盖。 |
 | `evaluation_summary.json` | 评测运行后的汇总指标，会被重新运行覆盖。 |
@@ -37,7 +41,7 @@ python3 run.py
 | 服务 | 默认地址 | 用途 |
 |---|---|---|
 | 检索服务 | `http://127.0.0.1:8001/api/retrieval` | 返回候选证据、来源 id、实体和图谱路径。 |
-| 问答服务 | `http://127.0.0.1:8000/api/chat` | 串联检索、归因、安全校验和答案生成。 |
+| 问答服务 | `http://127.0.0.1:8000/api/chat` | 串联检索、归因、安全校验、答案生成和单题评测。 |
 
 可以先检查健康状态：
 
@@ -62,6 +66,87 @@ python unified_eval/run_evaluation.py
 4. 计算 EM、F1、Recall@5、MRR、归因准确率、拒答准确率和置信度分析
 5. 写出 `unified_eval/evaluation_predictions.jsonl`
 6. 写出 `unified_eval/evaluation_summary.json`
+
+## 在线单题评测
+
+QA 后端在完整回答生成后，会调用 `EvaluationAgent` 对当前问题做一次在线单题评测。该能力不改变 `/api/chat` 的请求格式，只在响应中新增 `evaluation` 字段。
+
+问答 Agent 顺序如下：
+
+```text
+RetrievalAgent
+  ↓
+AttributionAgent
+  ↓
+SafetyAgent
+  ↓
+AnswerAgent
+  ↓
+EvaluationAgent
+  ↓
+返回前端
+```
+
+`EvaluationAgent` 只在当前问题与 `eval_dataset.jsonl` 中的 `question` 精确一致时工作。命中后会：
+
+1. 读取该样本的 `gold_answer`、`gold_doc_ids`、`gold_actor`、`gold_verdict`、`should_refuse`
+2. 从当前回答的 `citations` 中抽取 `retrieved_ids`
+3. 计算 EM、F1、Recall@5、MRR、归因正确性和拒答正确性
+4. 调用 DeepSeek 生成一段自然语言评测说明
+5. 将评测结果随 `/api/chat` 响应返回给前端
+
+未命中评测集时，不会调用 LLM，也不会计算需要 gold 标注的指标。
+
+命中评测集时，`/api/chat` 响应中的 `evaluation` 示例：
+
+```json
+{
+  "matched": true,
+  "sample_id": "eval-apt-002",
+  "category": "APT",
+  "matched_question": "Dragonfly 被归因到哪个国家？",
+  "gold_answer": "Dragonfly 被归因到 Russia。",
+  "gold_doc_ids": ["91"],
+  "gold_actor": "Dragonfly",
+  "gold_verdict": "not_applicable",
+  "should_refuse": false,
+  "is_answerable": true,
+  "prediction": "Dragonfly 被归因到 Russia。[1]",
+  "retrieved_ids": ["91", "92", "93"],
+  "confidence": 0.9,
+  "refusal": false,
+  "refusal_reason": null,
+  "metrics": {
+    "em": 0.0,
+    "f1": 0.8571,
+    "recall_at_5": 1.0,
+    "mrr": 1.0,
+    "actor_correct": true,
+    "verdict_correct": true,
+    "refusal_correct": true
+  },
+  "llm_judge": {
+    "available": true,
+    "comment": "系统答案与标准答案语义一致，检索证据命中并支持结论。",
+    "reason": null
+  }
+}
+```
+
+未命中评测集时：
+
+```json
+{
+  "matched": false,
+  "reason": "当前问题不在评测集中，无法计算需要 gold 标注的指标。",
+  "metrics": null,
+  "llm_judge": null
+}
+```
+
+注意：上传文件场景中，QA 后端会保留完整问题用于检索和回答，但传给 `EvaluationAgent` 匹配评测集时，只使用 `[上传文件内容]` 之前的问题文本，避免文件正文影响题目匹配。
+
+前端的“当前问题评测”模块展示的就是该 `evaluation` 字段。原有静态“系统评测结果”展示已移除，避免与当前问题的真实单题评测混淆。
 
 ## 常用参数
 
@@ -140,12 +225,20 @@ QA 服务 lan_shuyang_qa
   │    └─ 轻量知识图谱扩展
   ├─ AttributionAgent
   ├─ SafetyAgent
-  └─ AnswerAgent
+  ├─ AnswerAgent
+  └─ EvaluationAgent
   ↓
 逐题预测 evaluation_predictions.jsonl
   ↓
 汇总指标 evaluation_summary.json
 ```
+
+批量离线评测和在线单题评测的区别：
+
+| 能力 | 入口 | 数据来源 | 输出 |
+|---|---|---|---|
+| 批量离线评测 | `python unified_eval/run_evaluation.py` | 遍历全部 `eval_dataset.jsonl` | `evaluation_predictions.jsonl` 和 `evaluation_summary.json` |
+| 在线单题评测 | QA 后端自动调用 `EvaluationAgent` | 当前用户问题命中某条评测样本 | `/api/chat` 响应中的 `evaluation` 字段 |
 
 ## 输出文件怎么看
 
@@ -250,4 +343,3 @@ curl http://127.0.0.1:8001/health
 - `confidence_analysis.threshold_simulation`
 
 如果误拒率很高，说明当前拒答阈值可能过严；如果漏拒很多，说明阈值或证据判断可能过松。
-
