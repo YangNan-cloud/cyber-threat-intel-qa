@@ -20,11 +20,22 @@ class ThreatQAOrchestrator:
         self.retrieval, self.attribution = RetrievalAgent(), AttributionAgent()
         self.safety, self.answer = SafetyAgent(), AnswerAgent()
 
+    @staticmethod
+    def _agent_query(request: SearchRequest) -> str:
+        query = request.query.strip()
+        file_content = getattr(request, "file_content", None) or getattr(request, "context", None)
+        if isinstance(file_content, str):
+            file_content = file_content.strip()
+        if file_content and "[上传文件内容]" not in query:
+            query = f"{query}\n\n[上传文件内容]\n{str(file_content)[:200000]}"
+        return query
+
     async def chat(self, request: SearchRequest) -> ChatResponse:
-        evidence = await self.retrieval.search(request.query, request.top_k)
-        attribution = self.attribution.assess(request.query, evidence)
+        agent_query = self._agent_query(request)
+        evidence = await self.retrieval.search(agent_query, request.top_k)
+        attribution = self.attribution.assess(agent_query, evidence)
         confidence, refusal, reason = self.safety.evaluate(evidence, attribution)
-        answer = await self.answer.generate(request.query, evidence, attribution, refusal)
+        answer = await self.answer.generate(agent_query, evidence, attribution, refusal)
         entities: dict[str, list[str]] = defaultdict(list)
         for item in evidence:
             for kind, values in item.entities.items(): entities[kind].extend(values)

@@ -3,6 +3,7 @@ from components.chat import render_chat_history
 from components.evaluation import render_evaluation
 from components.ioc_display import render_iocs
 from components.sidebar import render_sidebar
+from streamlit import query_params
 from utils.api_client import query_backend
 from utils.file_parser import parse_file
 from utils.mock_response import get_mock_response
@@ -14,6 +15,34 @@ st.set_page_config(
     page_icon="🛡️",
     layout="wide"
 )
+
+# 添加自定义CSS
+st.markdown("""
+<style>
+    /* 确保滚动定位准确 */
+    #main-content {
+        scroll-behavior: smooth;
+    }
+
+    /* 聊天消息高亮动画 */
+    @keyframes highlightPulse {
+        0% { background-color: #ffff99; }
+        100% { background-color: transparent; }
+    }
+
+    .highlight-message {
+        animation: highlightPulse 2s ease;
+        border-left: 3px solid #ffa500;
+        padding-left: 10px;
+    }
+
+    /* 修复聊天容器滚动 */
+    .stChatMessage {
+        scroll-margin-top: 80px;
+        scroll-margin-bottom: 20px;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 # ===================== 初始会话 =====================
 init_session()
@@ -71,7 +100,7 @@ if submit_button:
             conversation_id = get_conversation_id()
             response = query_backend(
                 question=user_question if user_question else "请分析这份威胁报告",
-                context=uploaded_file,
+                context=file_content,
                 conversation_id=conversation_id
             )
 
@@ -96,12 +125,12 @@ if submit_button:
             if response and not response.get("refusal", False):
                 add_message("assistant", response.get("answer", "无法生成回答"))
             elif response and response.get("refusal", False):
-                add_message("assistant", response.get("answer", f"[系统拒答] {response.get('refusal_reason', '无法回答该问题')}"))
+                add_message("assistant",
+                            response.get("answer", f"[系统拒答] {response.get('refusal_reason', '无法回答该问题')}"))
 
         except Exception as e:
             st.error(f"❌ 请求失败: {str(e)}")
             st.stop()
-
 
 # -------------------- 显示当前回答 --------------------
 if st.session_state.get("current_response"):
@@ -176,12 +205,11 @@ if st.session_state.get("current_response"):
             # 问题不涉及归因，不显示任何内容
             pass
 
-# -------------------- 多轮对话历史 --------------------
-st.divider()
-st.markdown("### 💬 对话历史")
-render_chat_history()
-
 # -------------------- 评测结果 --------------------
 with st.expander("📊 系统评测结果"):
     render_evaluation()
 
+# -------------------- 多轮对话历史 --------------------
+st.divider()
+st.markdown("### 💬 对话历史")
+render_chat_history()

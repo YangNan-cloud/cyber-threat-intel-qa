@@ -34,7 +34,7 @@ streamlit run app.py
 ```
 
 ## 后端接口对接
-本模块通过 HTTP 调用角色3的问答服务：
+本模块通过 HTTP 调用兰书阳的问答服务：
 
 接口地址 POST http://127.0.0.1:8000/api/chat
 

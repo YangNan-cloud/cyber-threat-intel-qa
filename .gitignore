@@ -223,3 +223,5 @@ dataset/correct_pre_labeled.jsonl
 
 # opencode internal state
 .omo/
+
+.idea/
