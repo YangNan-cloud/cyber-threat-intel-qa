@@ -1,0 +1,482 @@
+{
+  "overall": {
+    "count": 50,
+    "EM": 0.0,
+    "F1": 0.0396,
+    "Recall@5_any_hit": 0.36,
+    "MRR": 0.36
+  },
+  "by_category": {
+    "CVE": {
+      "count": 15,
+      "EM": 0.0,
+      "F1": 0.0468,
+      "Recall@5_any_hit": 0.1333,
+      "MRR": 0.1333,
+      "average_confidence": 0.4633,
+      "refusal_rate": 0.1333
+    },
+    "APT": {
+      "count": 12,
+      "EM": 0.0,
+      "F1": 0.078,
+      "Recall@5_any_hit": 1.0,
+      "MRR": 1.0,
+      "average_confidence": 0.4867,
+      "refusal_rate": 0.0
+    },
+    "attribution": {
+      "count": 6,
+      "EM": 0.0,
+      "F1": 0.0358,
+      "Recall@5_any_hit": 0.6667,
+      "MRR": 0.6667,
+      "average_confidence": 0.5283,
+      "refusal_rate": 0.0
+    },
+    "unknown/refusal": {
+      "count": 7,
+      "EM": 0.0,
+      "F1": 0.0,
+      "Recall@5_any_hit": 0.0,
+      "MRR": 0.0,
+      "average_confidence": 0.3971,
+      "refusal_rate": 0.2857
+    }
+  },
+  "answerability": {
+    "is_answerable_true": {
+      "count": 41,
+      "EM": 0.0,
+      "F1": 0.0483,
+      "Recall@5_any_hit": 0.439,
+      "MRR": 0.439,
+      "average_confidence": 0.4451,
+      "refusal_rate": 0.1707
+    },
+    "is_answerable_false": {
+      "count": 9,
+      "refusal_rate": 0.2222,
+      "average_confidence": 0.4289
+    }
+  },
+  "attribution": {
+    "attribution_count": 6,
+    "actor_accuracy": 0.5,
+    "verdict_accuracy": 0.3333,
+    "both_correct_accuracy": 0.3333,
+    "pred_verdict_distribution": {
+      "supported": 3,
+      "inconclusive": 0,
+      "not_applicable": 3
+    },
+    "errors": [
+      {
+        "id": "eval-att-002",
+        "question": "当前知识库是否支持 SideCopy 与 Pakistan 相关？",
+        "gold_actor": "SideCopy",
+        "pred_actor": null,
+        "gold_verdict": "supported",
+        "pred_verdict": "not_applicable"
+      },
+      {
+        "id": "eval-att-003",
+        "question": "当前知识库是否支持 Dragonfly 与 Russia 相关？",
+        "gold_actor": "Dragonfly",
+        "pred_actor": null,
+        "gold_verdict": "supported",
+        "pred_verdict": "not_applicable"
+      },
+      {
+        "id": "eval-att-005",
+        "question": "当前知识库是否支持 GALLIUM 与 Russia 相关？",
+        "gold_actor": "GALLIUM",
+        "pred_actor": null,
+        "gold_verdict": "inconclusive",
+        "pred_verdict": "not_applicable"
+      },
+      {
+        "id": "eval-att-006",
+        "question": "当前知识库是否支持 APT39 与 North Korea 相关？",
+        "gold_actor": "APT39",
+        "pred_actor": "APT39",
+        "gold_verdict": "inconclusive",
+        "pred_verdict": "supported"
+      }
+    ]
+  },
+  "refusal": {
+    "total": 50,
+    "should_refuse_count": 9,
+    "should_answer_count": 41,
+    "correct_refusal_count": 2,
+    "missed_refusal_count": 7,
+    "false_refusal_count": 7,
+    "normal_answer_count": 34,
+    "refusal_accuracy": 0.72,
+    "false_refusal_rate": 0.1707,
+    "answer_coverage": 0.8293
+  },
+  "confidence": {
+    "average_confidence": 0.4422
+  },
+  "confidence_analysis": {
+    "threshold_used_by_current_predictions": 0.55,
+    "buckets": {
+      "0.0-0.3": {
+        "count": 4,
+        "should_answer_count": 3,
+        "should_refuse_count": 1,
+        "refusal_rate": 1.0,
+        "average_F1": 0.0,
+        "retrieval_hit_rate": 0.0,
+        "normal_answer_count": 0,
+        "false_refusal_count": 3,
+        "missed_refusal_count": 0
+      },
+      "0.3-0.4": {
+        "count": 11,
+        "should_answer_count": 9,
+        "should_refuse_count": 2,
+        "refusal_rate": 0.4545,
+        "average_F1": 0.0116,
+        "retrieval_hit_rate": 0.0,
+        "normal_answer_count": 5,
+        "false_refusal_count": 4,
+        "missed_refusal_count": 1
+      },
+      "0.4-0.5": {
+        "count": 9,
+        "should_answer_count": 7,
+        "should_refuse_count": 2,
+        "refusal_rate": 0.0,
+        "average_F1": 0.0619,
+        "retrieval_hit_rate": 0.7778,
+        "normal_answer_count": 7,
+        "false_refusal_count": 0,
+        "missed_refusal_count": 2
+      },
+      "0.5-0.55": {
+        "count": 19,
+        "should_answer_count": 16,
+        "should_refuse_count": 3,
+        "refusal_rate": 0.0,
+        "average_F1": 0.0399,
+        "retrieval_hit_rate": 0.3684,
+        "normal_answer_count": 16,
+        "false_refusal_count": 0,
+        "missed_refusal_count": 3
+      },
+      "0.55-0.6": {
+        "count": 6,
+        "should_answer_count": 5,
+        "should_refuse_count": 1,
+        "refusal_rate": 0.0,
+        "average_F1": 0.0801,
+        "retrieval_hit_rate": 0.6667,
+        "normal_answer_count": 5,
+        "false_refusal_count": 0,
+        "missed_refusal_count": 1
+      },
+      "0.6-0.7": {
+        "count": 1,
+        "should_answer_count": 1,
+        "should_refuse_count": 0,
+        "refusal_rate": 0.0,
+        "average_F1": 0.0571,
+        "retrieval_hit_rate": 0.0,
+        "normal_answer_count": 1,
+        "false_refusal_count": 0,
+        "missed_refusal_count": 0
+      },
+      "0.7-1.0": {
+        "count": 0,
+        "should_answer_count": 0,
+        "should_refuse_count": 0,
+        "refusal_rate": 0.0,
+        "average_F1": 0.0,
+        "retrieval_hit_rate": 0.0,
+        "normal_answer_count": 0,
+        "false_refusal_count": 0,
+        "missed_refusal_count": 0
+      }
+    },
+    "retrieval_quality": {
+      "retrieval_hit_true": {
+        "count": 18,
+        "average_confidence": 0.5022,
+        "average_F1": 0.0796,
+        "refusal_rate": 0.0
+      },
+      "retrieval_hit_false": {
+        "count": 32,
+        "average_confidence": 0.4084,
+        "average_F1": 0.0171,
+        "refusal_rate": 0.2812
+      }
+    },
+    "answerable_f1_groups": {
+      "F1=0": {
+        "count": 7,
+        "average_confidence": 0.2243
+      },
+      "0<F1<0.5": {
+        "count": 34,
+        "average_confidence": 0.4906
+      },
+      "F1>=0.5": {
+        "count": 0,
+        "average_confidence": 0.0
+      }
+    },
+    "threshold_simulation": {
+      "0.30": {
+        "correct_refusal_count": 1,
+        "false_refusal_count": 3,
+        "missed_refusal_count": 8,
+        "normal_answer_count": 38,
+        "refusal_accuracy": 0.78,
+        "false_refusal_rate": 0.0732,
+        "answer_coverage": 0.9268,
+        "allowed_answerable": {
+          "count": 38,
+          "average_F1": 0.0521,
+          "retrieval_hit_rate": 0.4737
+        }
+      },
+      "0.35": {
+        "correct_refusal_count": 2,
+        "false_refusal_count": 7,
+        "missed_refusal_count": 7,
+        "normal_answer_count": 34,
+        "refusal_accuracy": 0.72,
+        "false_refusal_rate": 0.1707,
+        "answer_coverage": 0.8293,
+        "allowed_answerable": {
+          "count": 34,
+          "average_F1": 0.0582,
+          "retrieval_hit_rate": 0.5294
+        }
+      },
+      "0.40": {
+        "correct_refusal_count": 3,
+        "false_refusal_count": 12,
+        "missed_refusal_count": 6,
+        "normal_answer_count": 29,
+        "refusal_accuracy": 0.64,
+        "false_refusal_rate": 0.2927,
+        "answer_coverage": 0.7073,
+        "allowed_answerable": {
+          "count": 29,
+          "average_F1": 0.0639,
+          "retrieval_hit_rate": 0.6207
+        }
+      },
+      "0.45": {
+        "correct_refusal_count": 4,
+        "false_refusal_count": 15,
+        "missed_refusal_count": 5,
+        "normal_answer_count": 26,
+        "refusal_accuracy": 0.6,
+        "false_refusal_rate": 0.3659,
+        "answer_coverage": 0.6341,
+        "allowed_answerable": {
+          "count": 26,
+          "average_F1": 0.0633,
+          "retrieval_hit_rate": 0.5769
+        }
+      },
+      "0.50": {
+        "correct_refusal_count": 5,
+        "false_refusal_count": 19,
+        "missed_refusal_count": 4,
+        "normal_answer_count": 22,
+        "refusal_accuracy": 0.54,
+        "false_refusal_rate": 0.4634,
+        "answer_coverage": 0.5366,
+        "allowed_answerable": {
+          "count": 22,
+          "average_F1": 0.0589,
+          "retrieval_hit_rate": 0.5
+        }
+      },
+      "0.55": {
+        "correct_refusal_count": 8,
+        "false_refusal_count": 35,
+        "missed_refusal_count": 1,
+        "normal_answer_count": 6,
+        "refusal_accuracy": 0.28,
+        "false_refusal_rate": 0.8537,
+        "answer_coverage": 0.1463,
+        "allowed_answerable": {
+          "count": 6,
+          "average_F1": 0.0896,
+          "retrieval_hit_rate": 0.6667
+        }
+      },
+      "0.60": {
+        "correct_refusal_count": 9,
+        "false_refusal_count": 40,
+        "missed_refusal_count": 0,
+        "normal_answer_count": 1,
+        "refusal_accuracy": 0.2,
+        "false_refusal_rate": 0.9756,
+        "answer_coverage": 0.0244,
+        "allowed_answerable": {
+          "count": 1,
+          "average_F1": 0.0571,
+          "retrieval_hit_rate": 0.0
+        }
+      },
+      "0.65": {
+        "correct_refusal_count": 9,
+        "false_refusal_count": 41,
+        "missed_refusal_count": 0,
+        "normal_answer_count": 0,
+        "refusal_accuracy": 0.18,
+        "false_refusal_rate": 1.0,
+        "answer_coverage": 0.0,
+        "allowed_answerable": {
+          "count": 0,
+          "average_F1": 0.0,
+          "retrieval_hit_rate": 0.0
+        }
+      }
+    },
+    "formula_notes": {
+      "source_file": "lan_shuyang_qa/app/agents/safety.py",
+      "formula": "confidence = clamp(0.55 * average_retrieval_score + source_bonus + graph_bonus - attribution_penalty, 0, 1), rounded to 2 decimals",
+      "average_retrieval_score_weight": 0.55,
+      "source_bonus": "min(0.18, 0.06 * unique_source_count)",
+      "graph_bonus": "0.10 if any evidence has graph_paths else 0.0",
+      "attribution_penalty": "0.18 if attribution.verdict == inconclusive else 0.0",
+      "has_generation_confidence": false,
+      "contains_answer_quality_signal": false
+    }
+  },
+  "error_analysis": {
+    "retrieval_miss": {
+      "count": 23,
+      "ids": [
+        "eval-cve-001",
+        "eval-cve-002",
+        "eval-cve-003",
+        "eval-cve-004",
+        "eval-cve-005",
+        "eval-cve-006",
+        "eval-cve-007",
+        "eval-cve-009",
+        "eval-cve-010",
+        "eval-cve-011",
+        "eval-cve-012",
+        "eval-cve-014",
+        "eval-cve-015",
+        "eval-ioc-001",
+        "eval-ioc-002",
+        "eval-ioc-003",
+        "eval-ioc-004",
+        "eval-ioc-005",
+        "eval-ioc-006",
+        "eval-ioc-007",
+        "eval-ioc-008",
+        "eval-ioc-009",
+        "eval-ioc-010"
+      ]
+    },
+    "false_refusal": {
+      "count": 7,
+      "ids": [
+        "eval-cve-001",
+        "eval-cve-002",
+        "eval-ioc-001",
+        "eval-ioc-003",
+        "eval-ioc-004",
+        "eval-ioc-005",
+        "eval-ioc-008"
+      ]
+    },
+    "missed_refusal": {
+      "count": 7,
+      "ids": [
+        "eval-att-005",
+        "eval-att-006",
+        "eval-ref-002",
+        "eval-ref-004",
+        "eval-ref-005",
+        "eval-ref-006",
+        "eval-ref-007"
+      ]
+    },
+    "attribution_error": {
+      "count": 4,
+      "ids": [
+        "eval-att-002",
+        "eval-att-003",
+        "eval-att-005",
+        "eval-att-006"
+      ]
+    },
+    "answered_but_low_f1": {
+      "count": 34,
+      "ids": [
+        "eval-cve-003",
+        "eval-cve-004",
+        "eval-cve-005",
+        "eval-cve-006",
+        "eval-cve-007",
+        "eval-cve-008",
+        "eval-cve-009",
+        "eval-cve-010",
+        "eval-cve-011",
+        "eval-cve-012",
+        "eval-cve-013",
+        "eval-cve-014",
+        "eval-cve-015",
+        "eval-apt-001",
+        "eval-apt-002",
+        "eval-apt-003",
+        "eval-apt-004",
+        "eval-apt-005",
+        "eval-apt-006",
+        "eval-apt-007",
+        "eval-apt-008",
+        "eval-apt-009",
+        "eval-apt-010",
+        "eval-apt-011",
+        "eval-apt-012",
+        "eval-ioc-002",
+        "eval-ioc-006",
+        "eval-ioc-007",
+        "eval-ioc-009",
+        "eval-ioc-010",
+        "eval-att-001",
+        "eval-att-002",
+        "eval-att-003",
+        "eval-att-004"
+      ]
+    }
+  },
+  "f1_diagnosis": {
+    "total_refused_count": 9,
+    "answerable_should_answer_count": 41,
+    "answerable_false_refusal_count": 7,
+    "answered_answerable_metrics": {
+      "count": 34,
+      "EM": 0.0,
+      "F1": 0.0582,
+      "Recall@5_any_hit": 0.5294,
+      "MRR": 0.5294
+    },
+    "retrieval_hit_answerable_metrics": {
+      "count": 18,
+      "EM": 0.0,
+      "F1": 0.0796,
+      "Recall@5_any_hit": 1.0,
+      "MRR": 1.0
+    }
+  },
+  "ioc_evaluation": {
+    "available": false,
+    "reason": "IOC positive evaluation unavailable because current dataset has no structured IOC positive samples."
+  }
+}

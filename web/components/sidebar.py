@@ -46,9 +46,15 @@ def render_sidebar():
                                 key=f"jump_{msg_key}",
                                 use_container_width=True,
                         ):
-                            st.session_state.scroll_to_message = idx
-                            st.session_state.scroll_trigger = True
-                            st.rerun()
+                            # 使用 JavaScript 锚点跳转
+                            st.html(f"""
+                            <script>
+                                var element = document.getElementById('msg-{idx}');
+                                if (element) {{
+                                    element.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+                                }}
+                            </script>
+                            """, unsafe_allow_javascript=True)
                     else:
                         display_text = msg["content"][:50] + "..." if len(msg["content"]) > 50 else msg["content"]
 
@@ -70,9 +76,14 @@ def render_sidebar():
                                 key=f"jump_{msg_key}",
                                 use_container_width=True,
                         ):
-                            st.session_state.scroll_to_message = idx
-                            st.session_state.scroll_trigger = True
-                            st.rerun()
+                            st.html(f"""
+                            <script>
+                                var element = document.getElementById('msg-{idx}');
+                                if (element) {{
+                                    element.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+                                }}
+                            </script>
+                            """, unsafe_allow_javascript=True)
             else:
                 st.caption("暂无对话记录")
 

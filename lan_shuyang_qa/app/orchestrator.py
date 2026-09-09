@@ -27,7 +27,7 @@ class ThreatQAOrchestrator:
         if isinstance(file_content, str):
             file_content = file_content.strip()
         if file_content and "[上传文件内容]" not in query:
-            query = f"{query}\n\n[上传文件内容]\n{str(file_content)[:200000]}"
+            query = f"{query}\n\n[上传文件内容]\n{str(file_content)[:200000000]}"
         return query
 
     async def chat(self, request: SearchRequest) -> ChatResponse:

@@ -13,7 +13,7 @@ def query_backend(question: str, context: str = None, conversation_id: str = Non
     # 如果有上传文件内容，拼接到问题中
     full_query = question
     if context:
-        full_query = f"{question}\n\n[上传文件内容]\n{context[:200000]}"
+        full_query = f"{question}\n\n[上传文件内容]\n{context[:200000000]}"
 
     payload = {
         "query": full_query,

@@ -16,34 +16,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# 添加自定义CSS
-st.markdown("""
-<style>
-    /* 确保滚动定位准确 */
-    #main-content {
-        scroll-behavior: smooth;
-    }
-
-    /* 聊天消息高亮动画 */
-    @keyframes highlightPulse {
-        0% { background-color: #ffff99; }
-        100% { background-color: transparent; }
-    }
-
-    .highlight-message {
-        animation: highlightPulse 2s ease;
-        border-left: 3px solid #ffa500;
-        padding-left: 10px;
-    }
-
-    /* 修复聊天容器滚动 */
-    .stChatMessage {
-        scroll-margin-top: 80px;
-        scroll-margin-bottom: 20px;
-    }
-</style>
-""", unsafe_allow_html=True)
-
 # ===================== 初始会话 =====================
 init_session()
 
