@@ -36,3 +36,4 @@ class ChatResponse(BaseModel):
     refusal: bool
     refusal_reason: str | None = None
     conversation_id: str
+    evaluation: dict | None = None
