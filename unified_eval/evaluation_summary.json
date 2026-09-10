@@ -2,7 +2,7 @@
   "overall": {
     "count": 50,
     "EM": 0.0,
-    "F1": 0.0396,
+    "F1": 0.0382,
     "Recall@5_any_hit": 0.36,
     "MRR": 0.36
   },
@@ -10,16 +10,16 @@
     "CVE": {
       "count": 15,
       "EM": 0.0,
-      "F1": 0.0468,
+      "F1": 0.0459,
       "Recall@5_any_hit": 0.1333,
       "MRR": 0.1333,
-      "average_confidence": 0.4633,
-      "refusal_rate": 0.1333
+      "average_confidence": 0.4287,
+      "refusal_rate": 0.2
     },
     "APT": {
       "count": 12,
       "EM": 0.0,
-      "F1": 0.078,
+      "F1": 0.0737,
       "Recall@5_any_hit": 1.0,
       "MRR": 1.0,
       "average_confidence": 0.4867,
@@ -28,7 +28,7 @@
     "attribution": {
       "count": 6,
       "EM": 0.0,
-      "F1": 0.0358,
+      "F1": 0.0357,
       "Recall@5_any_hit": 0.6667,
       "MRR": 0.6667,
       "average_confidence": 0.5283,
@@ -48,11 +48,11 @@
     "is_answerable_true": {
       "count": 41,
       "EM": 0.0,
-      "F1": 0.0483,
+      "F1": 0.0466,
       "Recall@5_any_hit": 0.439,
       "MRR": 0.439,
-      "average_confidence": 0.4451,
-      "refusal_rate": 0.1707
+      "average_confidence": 0.4324,
+      "refusal_rate": 0.1951
     },
     "is_answerable_false": {
       "count": 9,
@@ -111,27 +111,27 @@
     "should_answer_count": 41,
     "correct_refusal_count": 2,
     "missed_refusal_count": 7,
-    "false_refusal_count": 7,
-    "normal_answer_count": 34,
-    "refusal_accuracy": 0.72,
-    "false_refusal_rate": 0.1707,
-    "answer_coverage": 0.8293
+    "false_refusal_count": 8,
+    "normal_answer_count": 33,
+    "refusal_accuracy": 0.7,
+    "false_refusal_rate": 0.1951,
+    "answer_coverage": 0.8049
   },
   "confidence": {
-    "average_confidence": 0.4422
+    "average_confidence": 0.4318
   },
   "confidence_analysis": {
     "threshold_used_by_current_predictions": 0.55,
     "buckets": {
       "0.0-0.3": {
-        "count": 4,
-        "should_answer_count": 3,
+        "count": 5,
+        "should_answer_count": 4,
         "should_refuse_count": 1,
         "refusal_rate": 1.0,
         "average_F1": 0.0,
         "retrieval_hit_rate": 0.0,
         "normal_answer_count": 0,
-        "false_refusal_count": 3,
+        "false_refusal_count": 4,
         "missed_refusal_count": 0
       },
       "0.3-0.4": {
@@ -139,7 +139,7 @@
         "should_answer_count": 9,
         "should_refuse_count": 2,
         "refusal_rate": 0.4545,
-        "average_F1": 0.0116,
+        "average_F1": 0.0111,
         "retrieval_hit_rate": 0.0,
         "normal_answer_count": 5,
         "false_refusal_count": 4,
@@ -150,20 +150,20 @@
         "should_answer_count": 7,
         "should_refuse_count": 2,
         "refusal_rate": 0.0,
-        "average_F1": 0.0619,
+        "average_F1": 0.057,
         "retrieval_hit_rate": 0.7778,
         "normal_answer_count": 7,
         "false_refusal_count": 0,
         "missed_refusal_count": 2
       },
       "0.5-0.55": {
-        "count": 19,
-        "should_answer_count": 16,
+        "count": 18,
+        "should_answer_count": 15,
         "should_refuse_count": 3,
         "refusal_rate": 0.0,
-        "average_F1": 0.0399,
-        "retrieval_hit_rate": 0.3684,
-        "normal_answer_count": 16,
+        "average_F1": 0.0415,
+        "retrieval_hit_rate": 0.3889,
+        "normal_answer_count": 15,
         "false_refusal_count": 0,
         "missed_refusal_count": 3
       },
@@ -172,7 +172,7 @@
         "should_answer_count": 5,
         "should_refuse_count": 1,
         "refusal_rate": 0.0,
-        "average_F1": 0.0801,
+        "average_F1": 0.0773,
         "retrieval_hit_rate": 0.6667,
         "normal_answer_count": 5,
         "false_refusal_count": 0,
@@ -183,7 +183,7 @@
         "should_answer_count": 1,
         "should_refuse_count": 0,
         "refusal_rate": 0.0,
-        "average_F1": 0.0571,
+        "average_F1": 0.0625,
         "retrieval_hit_rate": 0.0,
         "normal_answer_count": 1,
         "false_refusal_count": 0,
@@ -205,24 +205,24 @@
       "retrieval_hit_true": {
         "count": 18,
         "average_confidence": 0.5022,
-        "average_F1": 0.0796,
+        "average_F1": 0.0768,
         "refusal_rate": 0.0
       },
       "retrieval_hit_false": {
         "count": 32,
-        "average_confidence": 0.4084,
-        "average_F1": 0.0171,
-        "refusal_rate": 0.2812
+        "average_confidence": 0.3922,
+        "average_F1": 0.0164,
+        "refusal_rate": 0.3125
       }
     },
     "answerable_f1_groups": {
       "F1=0": {
-        "count": 7,
-        "average_confidence": 0.2243
+        "count": 8,
+        "average_confidence": 0.1963
       },
       "0<F1<0.5": {
-        "count": 34,
-        "average_confidence": 0.4906
+        "count": 33,
+        "average_confidence": 0.4897
       },
       "F1>=0.5": {
         "count": 0,
@@ -232,72 +232,72 @@
     "threshold_simulation": {
       "0.30": {
         "correct_refusal_count": 1,
-        "false_refusal_count": 3,
+        "false_refusal_count": 4,
         "missed_refusal_count": 8,
-        "normal_answer_count": 38,
-        "refusal_accuracy": 0.78,
-        "false_refusal_rate": 0.0732,
-        "answer_coverage": 0.9268,
+        "normal_answer_count": 37,
+        "refusal_accuracy": 0.76,
+        "false_refusal_rate": 0.0976,
+        "answer_coverage": 0.9024,
         "allowed_answerable": {
-          "count": 38,
-          "average_F1": 0.0521,
-          "retrieval_hit_rate": 0.4737
+          "count": 37,
+          "average_F1": 0.0516,
+          "retrieval_hit_rate": 0.4865
         }
       },
       "0.35": {
         "correct_refusal_count": 2,
-        "false_refusal_count": 7,
+        "false_refusal_count": 8,
         "missed_refusal_count": 7,
-        "normal_answer_count": 34,
-        "refusal_accuracy": 0.72,
-        "false_refusal_rate": 0.1707,
-        "answer_coverage": 0.8293,
+        "normal_answer_count": 33,
+        "refusal_accuracy": 0.7,
+        "false_refusal_rate": 0.1951,
+        "answer_coverage": 0.8049,
         "allowed_answerable": {
-          "count": 34,
-          "average_F1": 0.0582,
-          "retrieval_hit_rate": 0.5294
+          "count": 33,
+          "average_F1": 0.0579,
+          "retrieval_hit_rate": 0.5455
         }
       },
       "0.40": {
         "correct_refusal_count": 3,
-        "false_refusal_count": 12,
+        "false_refusal_count": 13,
         "missed_refusal_count": 6,
-        "normal_answer_count": 29,
-        "refusal_accuracy": 0.64,
-        "false_refusal_rate": 0.2927,
-        "answer_coverage": 0.7073,
+        "normal_answer_count": 28,
+        "refusal_accuracy": 0.62,
+        "false_refusal_rate": 0.3171,
+        "answer_coverage": 0.6829,
         "allowed_answerable": {
-          "count": 29,
-          "average_F1": 0.0639,
-          "retrieval_hit_rate": 0.6207
+          "count": 28,
+          "average_F1": 0.0638,
+          "retrieval_hit_rate": 0.6429
         }
       },
       "0.45": {
         "correct_refusal_count": 4,
-        "false_refusal_count": 15,
+        "false_refusal_count": 16,
         "missed_refusal_count": 5,
-        "normal_answer_count": 26,
-        "refusal_accuracy": 0.6,
-        "false_refusal_rate": 0.3659,
-        "answer_coverage": 0.6341,
+        "normal_answer_count": 25,
+        "refusal_accuracy": 0.58,
+        "false_refusal_rate": 0.3902,
+        "answer_coverage": 0.6098,
         "allowed_answerable": {
-          "count": 26,
-          "average_F1": 0.0633,
-          "retrieval_hit_rate": 0.5769
+          "count": 25,
+          "average_F1": 0.0661,
+          "retrieval_hit_rate": 0.6
         }
       },
       "0.50": {
         "correct_refusal_count": 5,
-        "false_refusal_count": 19,
+        "false_refusal_count": 20,
         "missed_refusal_count": 4,
-        "normal_answer_count": 22,
-        "refusal_accuracy": 0.54,
-        "false_refusal_rate": 0.4634,
-        "answer_coverage": 0.5366,
+        "normal_answer_count": 21,
+        "refusal_accuracy": 0.52,
+        "false_refusal_rate": 0.4878,
+        "answer_coverage": 0.5122,
         "allowed_answerable": {
-          "count": 22,
-          "average_F1": 0.0589,
-          "retrieval_hit_rate": 0.5
+          "count": 21,
+          "average_F1": 0.0607,
+          "retrieval_hit_rate": 0.5238
         }
       },
       "0.55": {
@@ -310,7 +310,7 @@
         "answer_coverage": 0.1463,
         "allowed_answerable": {
           "count": 6,
-          "average_F1": 0.0896,
+          "average_F1": 0.0878,
           "retrieval_hit_rate": 0.6667
         }
       },
@@ -324,7 +324,7 @@
         "answer_coverage": 0.0244,
         "allowed_answerable": {
           "count": 1,
-          "average_F1": 0.0571,
+          "average_F1": 0.0625,
           "retrieval_hit_rate": 0.0
         }
       },
@@ -384,10 +384,11 @@
       ]
     },
     "false_refusal": {
-      "count": 7,
+      "count": 8,
       "ids": [
         "eval-cve-001",
         "eval-cve-002",
+        "eval-cve-003",
         "eval-ioc-001",
         "eval-ioc-003",
         "eval-ioc-004",
@@ -417,9 +418,8 @@
       ]
     },
     "answered_but_low_f1": {
-      "count": 34,
+      "count": 33,
       "ids": [
-        "eval-cve-003",
         "eval-cve-004",
         "eval-cve-005",
         "eval-cve-006",
@@ -457,20 +457,20 @@
     }
   },
   "f1_diagnosis": {
-    "total_refused_count": 9,
+    "total_refused_count": 10,
     "answerable_should_answer_count": 41,
-    "answerable_false_refusal_count": 7,
+    "answerable_false_refusal_count": 8,
     "answered_answerable_metrics": {
-      "count": 34,
+      "count": 33,
       "EM": 0.0,
-      "F1": 0.0582,
-      "Recall@5_any_hit": 0.5294,
-      "MRR": 0.5294
+      "F1": 0.0579,
+      "Recall@5_any_hit": 0.5455,
+      "MRR": 0.5455
     },
     "retrieval_hit_answerable_metrics": {
       "count": 18,
       "EM": 0.0,
-      "F1": 0.0796,
+      "F1": 0.0768,
       "Recall@5_any_hit": 1.0,
       "MRR": 1.0
     }
